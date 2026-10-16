@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 4DX, kaizen, pact, reverse plan and milestones. -->
+<resources>
+    <!-- Shared number pieces -->
+    <string name="simple_from">Start</string>
+    <string name="simple_to">Target</string>
+    <string name="simple_unit">Unit</string>
+    <string name="simple_deadline">By</string>
+    <string name="simple_no_deadline">No date</string>
+    <string name="simple_update">Update</string>
+
+    <!-- 4DX -->
+    <string name="fdx_setup_title">Your wildly important goal</string>
+    <string name="fdx_setup_text">Say it as “from X to Y by when”. For example: from 0 to 10 clients by 1 March.</string>
+    <string name="fdx_wig">From %1$s to %2$s</string>
+    <string name="fdx_wig_by">From %1$s to %2$s by %3$s</string>
+    <string name="fdx_lag">Lag measure: the result</string>
+    <string name="fdx_lag_update">Where are you now?</string>
+    <string name="fdx_scoreboard">Scoreboard · this week</string>
+    <string name="fdx_leads_empty">Lead measures are actions you control that move the result. Pick one or two, like “3 sales calls a week”.</string>
+    <string name="fdx_add_lead">Add a lead measure</string>
+    <string name="fdx_too_many">More than two lead measures split your focus. 4DX works best with one or two.</string>
+    <string name="fdx_winning">Winning this week</string>
+    <string name="fdx_behind">Not there yet</string>
+    <plurals name="fdx_days_left_week">
+        <item quantity="one">%d day left this week</item>
+        <item quantity="other">%d days left this week</item>
+    </plurals>
+    <string name="fdx_today_n">Today: %d</string>
+    <string name="fdx_tap_edit">Tap to edit</string>
+    <string name="fdx_count_of">%1$d / %2$d</string>
+    <string name="fdx_plus_one">Add one</string>
+    <string name="fdx_history">Last 8 weeks</string>
+    <string name="fdx_this_week">This week</string>
+    <string name="fdx_commit_title">My commitment this week</string>
+    <string name="fdx_commit_empty">What one thing will you do this week to move a lead measure? Tap to write it.</string>
+    <string name="fdx_commit_text">One concrete promise for the week. Next week, start by checking whether you kept it.</string>
+    <string name="fdx_commit_hint">e.g. Book two meetings by Wednesday</string>
+    <string name="fdx_commit_last">Last week: %s</string>
+    <string name="fdx_new_lead">New lead measure</string>
+    <string name="fdx_edit_lead">Lead measure</string>
+    <string name="fdx_lead_label">What you’ll do</string>
+    <string name="fdx_lead_hint">e.g. Sales calls</string>
+
+    <!-- Kaizen -->
+    <string name="kz_today">Today’s number</string>
+    <string name="kz_day_rate">Day %1$d · +%2$s%% a day</string>
+    <string name="kz_done_today">Done today: %s</string>
+    <string name="kz_log">I did it</string>
+    <string name="kz_change">Change today’s result</string>
+    <string name="kz_log_yesterday">Log yesterday</string>
+    <string name="kz_log_title">How much did you do today?</string>
+    <string name="kz_log_title_yesterday">How much did you do yesterday?</string>
+    <string name="kz_log_text">The target was %s. Less still counts.</string>
+    <plurals name="kz_compound">
+        <item quantity="one">At %1$s%% a day you double in about %2$d day. Small steps add up.</item>
+        <item quantity="other">At %1$s%% a day you double in about %2$d days. Small steps add up.</item>
+    </plurals>
+    <string name="kz_curve">The curve</string>
+    <string name="kz_stats">So far</string>
+    <string name="kz_stat_days">Days practised</string>
+    <string name="kz_stat_best">Best</string>
+    <string name="kz_stat_streak">Days in a row</string>
+    <string name="kz_projection">In a month you’ll be at %s.</string>
+    <string name="kz_projection_far">In three months: %s.</string>
+    <string name="kz_step">Daily step</string>
+    <string name="kz_rate_chip">+%1$s%%</string>
+    <string name="kz_base">Starting number: %s</string>
+    <string name="kz_base_title">Starting number</string>
+    <string name="kz_base_text">Every day’s target grows from this number.</string>
+    <string name="kz_setup_title">Where do you start?</string>
+    <string name="kz_setup_text">Pick a number that feels easy today: 10 push-ups, 5 pages, 10 minutes. Starting small is the whole point.</string>
+    <string name="kz_setup_base">Today</string>
+    <string name="kz_setup_unit">Unit</string>
+    <string name="kz_setup_unit_hint">push-ups</string>
+    <string name="kz_setup_go">Start growing</string>
+
+    <!-- Pact -->
+    <string name="pact_eyebrow">The pact</string>
+    <string name="pact_sentence">I will %1$s for %2$s.</string>
+    <plurals name="pact_days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <string name="pact_starts">Starts on %s.</string>
+    <string name="pact_day_of">Day %1$d of %2$d · kept %3$d</string>
+    <plurals name="pact_over_kept">
+        <item quantity="one">Over. Kept %1$d of %2$d day.</item>
+        <item quantity="other">Over. Kept %1$d of %2$d days.</item>
+    </plurals>
+    <string name="pact_days_title">Day by day</string>
+    <string name="pact_days_hint">Tap a day to light it or dim it.</string>
+    <string name="pact_note_today">Today’s note</string>
+    <string name="pact_note_hint">What did you notice? Easy, hard, surprising?</string>
+    <string name="pact_notes">Along the way</string>
+    <string name="pact_note_day">Day %1$d · %2$s</string>
+    <string name="pact_edit_title">The pact</string>
+    <string name="pact_edit_text">What exactly will you do every day?</string>
+    <string name="pact_action_hint">e.g. write 200 words</string>
+    <string name="pact_end_title">The experiment is over</string>
+    <plurals name="pact_end_text">
+        <item quantity="one">You kept the pact on %1$d of %2$d day. What did you learn, and what’s next?</item>
+        <item quantity="other">You kept the pact on %1$d of %2$d days. What did you learn, and what’s next?</item>
+    </plurals>
+    <string name="pact_persist">Persist: %s more</string>
+    <string name="pact_pause">Pause</string>
+    <string name="pact_pivot">Pivot</string>
+    <string name="pact_end_hint">Persist if it’s working. Pause if it isn’t the right time. Pivot to try a different version.</string>
+    <string name="pact_pivot_title">Pivot the pact</string>
+    <string name="pact_pivot_text">Change what you do. A fresh period starts today.</string>
+    <plurals name="pact_paused_note">
+        <item quantity="one">Paused after the pact. Kept %1$d of %2$d day.</item>
+        <item quantity="other">Paused after the pact. Kept %1$d of %2$d days.</item>
+    </plurals>
+
+    <!-- Reverse plan -->
+    <string name="ladder_intro">Start at the top and step down. Each step is what has to be done before the one above it.</string>
+    <string name="ladder_summit">The goal</string>
+    <string name="ladder_set_date">Set the date</string>
+    <string name="ladder_next">Next step</string>
+    <string name="ladder_no_date">No date</string>
+    <string name="ladder_overdue">Was due %s</string>
+    <string name="ladder_today">Today, %s</string>
+    <string name="ladder_question">What has to be done just before “%s”?</string>
+    <string name="ladder_reached">You’re down to this week. Time to start climbing.</string>
+    <string name="ladder_add">Add the step before</string>
+    <string name="ladder_new">The step before</string>
+    <string name="ladder_edit">Step</string>
+    <string name="ladder_step_label">Step</string>
+    <string name="ladder_step_hint">e.g. Book the venue</string>
+
+    <!-- Milestones -->
+    <string name="simple_number">Your number</string>
+    <string name="simple_number_title">Measure it with a number</string>
+    <string name="simple_number_text">Optional. If progress can be counted, the goal fills up as the number moves.</string>
+    <string name="simple_add_number">Add a number to track</string>
+    <string name="simple_update_title">Where are you now?</string>
+    <string name="simple_milestones">Milestones</string>
+    <string name="simple_milestones_empty">Break the way into a few checkpoints. Each one lights a star.</string>
+    <string name="simple_reached">Reached</string>
+    <string name="simple_reached_on">Reached %s</string>
+    <string name="simple_overdue">Was due %s</string>
+    <string name="simple_habits">Habits</string>
+    <string name="simple_habits_empty">Regular actions that move you forward. They show up on Today.</string>
+    <string name="simple_streak">%1$s · %2$d in a row</string>
+    <string name="simple_new_milestone">New milestone</string>
+    <string name="simple_edit_milestone">Milestone</string>
+    <string name="simple_milestone_label">Milestone</string>
+    <string name="simple_milestone_hint">e.g. First chapter written</string>
+    <string name="simple_new_habit">New habit</string>
+    <string name="simple_edit_habit">Habit</string>
+    <string name="simple_habit_label">Habit</string>
+    <string name="simple_habit_hint">e.g. Write for 30 minutes</string>
+</resources>
