@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Goal-choosing tools (wheel, Odyssey, 5/25, Dreamline) and the method quiz. -->
+<resources>
+    <string name="tool_about">About the method</string>
+    <string name="tool_is_goal">Goal</string>
+    <string name="tool_make_goal">Make a goal</string>
+
+    <!-- Wheel of life -->
+    <string name="wheel_intro">Rate each area of your life from 1 to 10 as it is today, not as it should be. There are no wrong answers.</string>
+    <string name="wheel_average">Average %s</string>
+    <string name="wheel_comparing">Outline: check of %1$s, average %2$s</string>
+    <string name="wheel_rate">How is it now?</string>
+    <string name="wheel_save">Save this check</string>
+    <string name="wheel_saved">Saved for today</string>
+    <string name="wheel_lowest">Where a goal will help most</string>
+    <string name="wheel_lowest_text">The lowest areas. Even one small goal here can lift the whole wheel.</string>
+    <string name="wheel_score">%d of 10</string>
+    <string name="wheel_goal_here">Set a goal</string>
+    <string name="wheel_history">Past checks</string>
+    <string name="wheel_history_hint">Tap a check to compare it with the wheel above.</string>
+
+    <!-- Odyssey plans -->
+    <string name="ody_intro">Imagine three different versions of your next five years. Don’t look for the right one: each is a real possibility.</string>
+    <string name="ody_life_n">Life %d</string>
+    <string name="ody_life1">The path you’re on</string>
+    <string name="ody_life2">If that path vanished</string>
+    <string name="ody_life3">If money didn’t matter</string>
+    <string name="ody_life1_text">Where does what you’re doing now lead in five years? Picture it in detail.</string>
+    <string name="ody_life2_text">Your current path is suddenly closed. What would you do instead?</string>
+    <string name="ody_life3_text">Money, status and other people’s opinions don’t matter. How would you live?</string>
+    <string name="ody_sketch">Sketch this life</string>
+    <string name="ody_headline">Headline</string>
+    <string name="ody_headline_hint">Six words about this life</string>
+    <string name="ody_story">What happens over five years</string>
+    <string name="ody_story_hint">Work, home, people, what you learn</string>
+    <string name="ody_resources">Resources</string>
+    <string name="ody_like">I like it</string>
+    <string name="ody_confidence">Confidence</string>
+    <string name="ody_coherence">Coherence</string>
+    <string name="ody_compare">Side by side</string>
+    <string name="ody_total">%d avg</string>
+    <string name="ody_compare_hint">Life %d scores highest. Scores aren’t a verdict, though: notice which life you keep thinking about.</string>
+    <string name="ody_delete">Delete this life?</string>
+    <string name="ody_delete_text">The sketch and its ratings will be deleted.</string>
+
+    <!-- 5/25 -->
+    <string name="buf_intro">Write down 25 things you want, big and small. Then pick the five that matter most.</string>
+    <string name="buf_written">%1$d of %2$d written</string>
+    <string name="buf_chosen">%1$d of %2$d chosen</string>
+    <string name="buf_add">Add a goal</string>
+    <string name="buf_empty">Start the list. Anything you want counts: in work, in life, for yourself.</string>
+    <string name="buf_top">The five</string>
+    <string name="buf_top_empty">Tap the star next to a goal to pick it for the five.</string>
+    <string name="buf_top_full">The five are full. Remove a star first.</string>
+    <string name="buf_list">Everything else</string>
+    <string name="buf_list_text">Tap the star to pick a goal for the five.</string>
+    <string name="buf_avoid">Avoid at all costs</string>
+    <string name="buf_avoid_text">These aren’t a backup list. They matter just enough to steal time from the five, so leave them alone for now.</string>
+    <string name="buf_new">New goal</string>
+    <string name="buf_edit">Edit goal</string>
+    <string name="buf_hint">What do you want?</string>
+    <string name="buf_choose">Pick for the five</string>
+    <string name="buf_unchoose">Remove from the five</string>
+    <string name="buf_delete">Delete this goal?</string>
+    <string name="buf_delete_text">It will be removed from the list.</string>
+
+    <!-- Dreamline -->
+    <string name="dream_intro">Write down what you dream of and put a price on it. Many dreams turn out to cost less than they seem.</string>
+    <string name="dream_having">Have</string>
+    <string name="dream_being">Be</string>
+    <string name="dream_doing">Do</string>
+    <string name="dream_having_hint">Things: a guitar, a flat by the sea, a good bike</string>
+    <string name="dream_being_hint">Who you want to be: fluent in Spanish, a great cook</string>
+    <string name="dream_doing_hint">Experiences: see the northern lights, run a marathon</string>
+    <string name="dream_tmi">Target monthly income</string>
+    <string name="dream_tmi_text">One-off costs spread over %d months, plus monthly ones, plus 30%% for the unexpected.</string>
+    <string name="dream_tdi">Per day</string>
+    <string name="dream_tdi_text">The same amount divided by 30: what each day needs to bring in.</string>
+    <string name="dream_timeline">Timeline</string>
+    <string name="dream_months">%d months</string>
+    <string name="dream_currency">Currency</string>
+    <string name="dream_currency_hint">€, $, ₽…</string>
+    <string name="dream_empty">No dreams here yet. Add the first one, even if it seems out of reach.</string>
+    <string name="dream_once_value">%s once</string>
+    <string name="dream_monthly_value">%s a month</string>
+    <string name="dream_free">Costs nothing</string>
+    <string name="dream_add">Add a dream</string>
+    <string name="dream_totals">In total</string>
+    <string name="dream_total_once">One-off</string>
+    <string name="dream_total_monthly">Monthly</string>
+    <string name="dream_new">New dream</string>
+    <string name="dream_edit">Edit dream</string>
+    <string name="dream_once">Once</string>
+    <string name="dream_monthly">Per month</string>
+    <string name="dream_delete">Delete this dream?</string>
+    <string name="dream_delete_text">It will be removed from the list.</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title">Which method fits?</string>
+    <string name="quiz_step">Question %1$d of %2$d</string>
+    <string name="quiz_q1">What is your goal like?</string>
+    <string name="quiz_q1_dream">A big dream with many sides</string>
+    <string name="quiz_q1_number">A result I can measure</string>
+    <string name="quiz_q1_habit">A new habit or practice</string>
+    <string name="quiz_q1_project">A project with a deadline</string>
+    <string name="quiz_q1_unsure">I’m not sure yet what I want</string>
+    <string name="quiz_q2">Can you measure it with a number?</string>
+    <string name="quiz_q2_yes">Yes: kilos, money, pages, minutes</string>
+    <string name="quiz_q2_no">Not really</string>
+    <string name="quiz_q3">How far away is it?</string>
+    <string name="quiz_q3_weeks">A few weeks</string>
+    <string name="quiz_q3_quarter">About three months</string>
+    <string name="quiz_q3_year">A year or more</string>
+    <string name="quiz_q4">What usually stops you?</string>
+    <string name="quiz_q4_focus">I lose focus on other things</string>
+    <string name="quiz_q4_delay">I put things off</string>
+    <string name="quiz_q4_give_up">I give up when it gets hard</string>
+    <string name="quiz_q4_overwhelm">It all feels like too much</string>
+    <string name="quiz_q4_start">I don’t know where to start</string>
+    <string name="quiz_q5">How much structure do you like?</string>
+    <string name="quiz_q5_lot">A lot: plans, numbers, check-ins</string>
+    <string name="quiz_q5_little">A little: the lighter, the better</string>
+
+    <string name="quiz_result_title">These two will suit you best</string>
+    <string name="quiz_best">Best match</string>
+    <string name="quiz_because">Why: %s.</string>
+    <string name="quiz_start_with">Start with %s</string>
+    <string name="quiz_about">About it</string>
+    <string name="quiz_again">Take the quiz again</string>
+    <string name="quiz_tools_title">First, choose the goal</string>
+    <string name="quiz_tools_text">While the goal itself isn’t clear, a method won’t help. These tools help you find what you really want.</string>
+    <string name="quiz_or_start">Or start right away</string>
+    <string name="quiz_lens_title">Add a lens</string>
+    <string name="quiz_lens_woop">If you tend to give up or put things off, WOOP prepares an if-then plan for exactly that moment.</string>
+    <string name="quiz_lens_smart">A clear wording comes first. SMART turns a vague wish into a goal you can check.</string>
+    <string name="quiz_lens_premortem">A long road has many places to stumble. A pre-mortem finds them in advance.</string>
+    <string name="quiz_lens_whys">On a long road it helps to remember why you set out. Five whys find the real reason.</string>
+
+    <string name="quiz_why_dream">a big goal is easier when the whole picture fits on one page</string>
+    <string name="quiz_why_number">your result is a number, and this method is built around numbers</string>
+    <string name="quiz_why_habit">a practice grows best with small daily steps</string>
+    <string name="quiz_why_project">a project with a deadline is easiest to plan back from the finish</string>
+    <string name="quiz_why_unsure">it’s light enough to start while the goal is still taking shape</string>
+    <string name="quiz_why_measurable">you can measure it, so you’ll see progress in numbers</string>
+    <string name="quiz_why_not_measurable">it works well for goals that are hard to put in numbers</string>
+    <string name="quiz_why_weeks">it fits a short horizon of a few weeks</string>
+    <string name="quiz_why_quarter">it’s designed for about three months</string>
+    <string name="quiz_why_year">it holds up over a long road of a year or more</string>
+    <string name="quiz_why_focus">it keeps you on one thing when attention drifts</string>
+    <string name="quiz_why_delay">close deadlines leave no room to put things off</string>
+    <string name="quiz_why_give_up">small steps are hard to give up on</string>
+    <string name="quiz_why_overwhelm">it breaks a big goal into pieces that don’t overwhelm</string>
+    <string name="quiz_why_start">it shows exactly what to do first</string>
+    <string name="quiz_why_structured">it gives you the structure you like</string>
+    <string name="quiz_why_light">it keeps things light, the way you like it</string>
+</resources>
