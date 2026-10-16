@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Core strings. Each method screen keeps its own strings_<method>.xml next to this file. -->
+<resources>
+    <string name="app_name" translatable="false">Waypoint</string>
+
+    <!-- Tabs -->
+    <string name="tab_today">Today</string>
+    <string name="tab_goals">Goals</string>
+    <string name="tab_compass">Compass</string>
+    <string name="tab_journal">Journal</string>
+
+    <!-- Common -->
+    <string name="back">Back</string>
+    <string name="next">Next</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="remove">Remove</string>
+    <string name="add">Add</string>
+    <string name="done">Done</string>
+    <string name="close">Close</string>
+    <string name="share">Share</string>
+    <string name="settings">Settings</string>
+    <string name="more">More</string>
+    <string name="skip">Skip</string>
+    <string name="open">Open</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+
+    <string name="greet_morning">Good morning</string>
+    <string name="greet_day">Good afternoon</string>
+    <string name="greet_evening">Good evening</string>
+    <string name="greet_night">Clear skies, night owl</string>
+
+    <string name="sched_every_day">Every day</string>
+    <string name="sched_weekdays">Weekdays</string>
+    <string name="sched_weekends">Weekends</string>
+    <string name="sched_per_week">%d× a week</string>
+    <string name="sched_once">Once</string>
+    <string name="due_today">Due today</string>
+    <plurals name="days_left">
+        <item quantity="one">%d day left</item>
+        <item quantity="other">%d days left</item>
+    </plurals>
+    <plurals name="days_overdue">
+        <item quantity="one">%d day overdue</item>
+        <item quantity="other">%d days overdue</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d day</item>
+        <item quantity="other">%d days</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d week</item>
+        <item quantity="other">%d weeks</item>
+    </plurals>
+    <plurals name="stars">
+        <item quantity="one">%d star</item>
+        <item quantity="other">%d stars</item>
+    </plurals>
+    <plurals name="goals">
+        <item quantity="one">%d goal</item>
+        <item quantity="other">%d goals</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="one">%d step</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+
+    <!-- Step editor -->
+    <string name="node_from">From</string>
+    <string name="node_to">To</string>
+    <string name="node_unit">Unit</string>
+    <string name="node_how_often">How often</string>
+    <string name="node_once">Once</string>
+    <string name="node_days">On days</string>
+    <string name="node_weekly">Times a week</string>
+    <string name="node_times_week">Times a week</string>
+    <string name="node_due">Date</string>
+    <string name="node_no_date">No date</string>
+    <string name="node_every_week">Every week</string>
+    <string name="node_week_n">Week %d</string>
+    <string name="node_remind">Reminder</string>
+    <string name="node_no_remind">Off</string>
+    <string name="delete_step">Delete this step?</string>
+    <string name="delete_step_text">Its history will be deleted too.</string>
+    <string name="take_today">Take on today</string>
+
+    <!-- Method groups -->
+    <string name="group_choose">Choose a goal</string>
+    <string name="group_choose_text">When you don’t know yet what you want, or want too much at once.</string>
+    <string name="group_shape">Sharpen it</string>
+    <string name="group_shape_text">Lenses for any goal: clear wording, real motivation, a plan for obstacles.</string>
+    <string name="group_drive">Drive it</string>
+    <string name="group_drive_text">The engine of a goal: how it is broken down and what you do each day. One per goal.</string>
+    <string name="group_protect">Protect it</string>
+    <string name="group_protect_text">Find out how a goal could fail, before it does.</string>
+
+    <!-- Areas of life -->
+    <string name="area_health">Health</string>
+    <string name="area_career">Career</string>
+    <string name="area_money">Money</string>
+    <string name="area_love">Love</string>
+    <string name="area_family">Family &amp; friends</string>
+    <string name="area_growth">Growth</string>
+    <string name="area_fun">Fun &amp; rest</string>
+    <string name="area_home">Home &amp; place</string>
+    <string name="area_none">No area</string>
+
+    <!-- Methods: name, short badge, one-line tagline, what it is, steps (one per line), where it comes from -->
+    <string name="m_mandala">Mandala 64</string>
+    <string name="m_mandala_short">Mandala 64</string>
+    <string name="m_mandala_tag">A goal, 8 pillars and 64 actions on one sheet</string>
+    <string name="m_mandala_about">A 9×9 chart. Your goal sits in the centre, eight pillars surround it, and each pillar gets eight concrete actions: 64 in all. The whole road fits on one page, and the grid pushes you past the obvious. Ohtani’s chart had “luck” and “being liked” next to pitch speed.</string>
+    <string name="m_mandala_how">Write the goal in the centre.\nName eight pillars: what has to be true to get there.\nGive every pillar eight concrete actions.\nMake some of them habits, take others on as one-off steps.\nLight a star when an action has become part of you.</string>
+    <string name="m_mandala_origin">The Harada Method by Japanese coach Takashi Harada. Made famous by Shohei Ohtani, who filled one in at 16 with the goal of being the first draft pick of eight teams.</string>
+
+    <string name="m_okr">OKR</string>
+    <string name="m_okr_short">OKR</string>
+    <string name="m_okr_tag">An inspiring objective and the numbers that prove it</string>
+    <string name="m_okr_about">An objective that excites you, plus three to five key results that are numbers. It runs for a quarter and is scored from 0 to 1. For an ambitious objective, 0.7 already counts as success.</string>
+    <string name="m_okr_how">Write the objective: in words, not numbers.\nAdd 3–5 key results, each with a start and a target.\nList initiatives: what you’ll do to move the numbers.\nCheck in weekly: update the numbers and your confidence.\nScore the quarter at the end.</string>
+    <string name="m_okr_origin">Andy Grove at Intel in the 1970s. John Doerr brought it to Google in 1999, and from there it spread everywhere.</string>
+
+    <string name="m_weeks12">12-week year</string>
+    <string name="m_weeks12_short">12 weeks</string>
+    <string name="m_weeks12_tag">A year squeezed into 12 weeks, scored every week</string>
+    <string name="m_weeks12_about">Treat 12 weeks as a whole year. The deadline is always close, so there’s no time to put things off. Each week you score the share of planned tactics you actually did. 85% is excellent: execution, not results, is what you control.</string>
+    <string name="m_weeks12_how">Pick what you’ll achieve in 12 weeks.\nBreak it into weekly tactics.\nDo them and tick them off every day.\nScore every week, aiming for 85%.\nWeek 13 is for looking back and resting.</string>
+    <string name="m_weeks12_origin">From the book “The 12 Week Year” by Brian Moran and Michael Lennington.</string>
+
+    <string name="m_fourdx">4DX</string>
+    <string name="m_fourdx_short">4DX</string>
+    <string name="m_fourdx_tag">One key goal, the actions that drive it, a scoreboard</string>
+    <string name="m_fourdx_about">One wildly important goal with a lag measure: from X to Y by when. And one or two lead measures: actions you fully control that move the result. A simple scoreboard tells you every week whether you’re winning.</string>
+    <string name="m_fourdx_how">Choose one wildly important goal: from X to Y by a date.\nPick 1–2 lead measures that predict the result and are up to you.\nKeep the scoreboard: are you winning this week?\nEvery week: look back, then commit to next week.</string>
+    <string name="m_fourdx_origin">“The 4 Disciplines of Execution” by Chris McChesney, Sean Covey and Jim Huling, from FranklinCovey.</string>
+
+    <string name="m_kaizen">1% a day</string>
+    <string name="m_kaizen_short">Kaizen</string>
+    <string name="m_kaizen_tag">A little more every day, and it compounds</string>
+    <string name="m_kaizen_about">Start small and add a little every day. One percent a day feels like nothing, but it compounds: after 70 days you’re at double. Works for anything you can count: push-ups, pages, minutes, words.</string>
+    <string name="m_kaizen_how">Choose what to grow and an easy starting number.\nSet the daily step: 1% or your own.\nEvery day, do today’s number and log it.\nWatch the curve climb.</string>
+    <string name="m_kaizen_origin">Kaizen is the Japanese practice of continuous improvement. James Clear’s “Atomic Habits” made the idea of getting 1% better every day popular.</string>
+
+    <string name="m_pact">30-day pact</string>
+    <string name="m_pact_short">Pact</string>
+    <string name="m_pact_tag">An experiment, not a goal: try it for 30 days</string>
+    <string name="m_pact_about">Not a goal but an experiment: “I will do X for 30 days.” There’s no result to hit. You keep the pact and watch what happens. At the end you decide: persist, pause or pivot.</string>
+    <string name="m_pact_how">Phrase the pact: I will … for … days.\nTick every day you keep it.\nNote what you notice along the way.\nAt the end, decide: persist, pause or pivot.</string>
+    <string name="m_pact_origin">From “Tiny Experiments” by neuroscientist Anne-Laure Le Cunff. PACT stands for purposeful, actionable, continuous, trackable.</string>
+
+    <string name="m_ladder">Reverse plan</string>
+    <string name="m_ladder_short">Reverse plan</string>
+    <string name="m_ladder_tag">Start at the finish line and walk back to today</string>
+    <string name="m_ladder_about">Start from the finish and walk backwards: what has to be done a month before? And before that? Keep going until you reach a step you can take this week. You end up with a dated plan that lands exactly on your goal.</string>
+    <string name="m_ladder_how">Write the goal and its date.\nAsk: what has to be done just before that?\nKeep stepping back until you reach today.\nGive each step a date.\nClimb the ladder one rung at a time.</string>
+    <string name="m_ladder_origin">Backcasting, used in strategy and long-term planning since the 1970s.</string>
+
+    <string name="m_simple">Milestones</string>
+    <string name="m_simple_short">Milestones</string>
+    <string name="m_simple_tag">A goal, a few checkpoints and habits, nothing more</string>
+    <string name="m_simple_about">A goal with a few milestones, and habits if you need them. For when a full method would be too much.</string>
+    <string name="m_simple_how">Name the goal and, if you like, a number to reach.\nAdd milestones along the way.\nAdd habits that move you forward.</string>
+    <string name="m_simple_origin">The oldest method there is.</string>
+
+    <string name="m_smart">SMART</string>
+    <string name="m_smart_short">SMART</string>
+    <string name="m_smart_tag">Turn a wish into a clear, checkable goal</string>
+    <string name="m_smart_about">Five questions that turn a vague wish into a goal: is it specific, measurable, achievable, relevant and time-bound? A goal that passes all five is hard to misunderstand, even for you a month from now.</string>
+    <string name="m_smart_how">Specific: what exactly?\nMeasurable: how will you know you’re there?\nAchievable: is it realistic with what you have?\nRelevant: why this, why now?\nTime-bound: by when?</string>
+    <string name="m_smart_origin">George T. Doran, in a 1981 management article.</string>
+
+    <string name="m_woop">WOOP</string>
+    <string name="m_woop_short">WOOP</string>
+    <string name="m_woop_tag">Wish, outcome, obstacle, plan: dreaming with a safety net</string>
+    <string name="m_woop_about">Positive thinking alone can make you less likely to act. WOOP adds the honest part: name the obstacle inside you and prepare an if-then plan for it. It’s one of the best-researched techniques for following through.</string>
+    <string name="m_woop_how">Wish: what do you want?\nOutcome: picture the best result, vividly.\nObstacle: what inside you could get in the way?\nPlan: if the obstacle shows up, then I will…</string>
+    <string name="m_woop_origin">Psychologist Gabriele Oettingen, from two decades of research on mental contrasting and implementation intentions.</string>
+
+    <string name="m_grow">GROW</string>
+    <string name="m_grow_short">GROW</string>
+    <string name="m_grow_tag">A coaching session with yourself</string>
+    <string name="m_grow_about">The coaching conversation you can have alone. Instead of jumping straight to a plan, look honestly at where you are and list options before choosing one.</string>
+    <string name="m_grow_how">Goal: what do you want?\nReality: where are you now? What have you tried?\nOptions: what could you do? List many.\nWill: what will you do, and when?</string>
+    <string name="m_grow_origin">Coaches Graham Alexander and John Whitmore, in the 1980s.</string>
+
+    <string name="m_whys">5 whys</string>
+    <string name="m_whys_short">5 whys</string>
+    <string name="m_whys_tag">Dig down to the reason that will keep you going</string>
+    <string name="m_whys_about">Ask “why does this matter?” five times. Each answer goes deeper, and the last one is your real motivation. Read it on the days you want to give up.</string>
+    <string name="m_whys_how">Write why the goal matters.\nAsk “and why does that matter?”\nRepeat five times.\nKeep the deepest answer close.</string>
+    <string name="m_whys_origin">Sakichi Toyoda at Toyota, as a way to find the root cause of problems.</string>
+
+    <string name="m_premortem">Pre-mortem</string>
+    <string name="m_premortem_short">Pre-mortem</string>
+    <string name="m_premortem_tag">Imagine it failed, then make sure it won’t</string>
+    <string name="m_premortem_about">Imagine it’s the deadline and the goal has failed. Why? Telling the story of failure in advance brings up risks that optimism hides. For every risk you write how to prevent it.</string>
+    <string name="m_premortem_how">Imagine the deadline has passed and it didn’t work out.\nWrite down every reason why.\nFor each one, decide how to prevent it.\nKeep the plans close and check them in reviews.</string>
+    <string name="m_premortem_origin">Psychologist Gary Klein, in Harvard Business Review, 2007.</string>
+
+    <string name="m_wheel">Wheel of life</string>
+    <string name="m_wheel_short">Wheel</string>
+    <string name="m_wheel_tag">See which areas of life need you most</string>
+    <string name="m_wheel_about">Rate eight areas of life from 1 to 10. The wheel shows at a glance which areas are running low, and a goal there will change the most. Repeat every few months and compare.</string>
+    <string name="m_wheel_how">Rate every area from 1 to 10, honestly.\nLook for the dents in the wheel.\nPick one area to work on.\nCheck again in a few months.</string>
+    <string name="m_wheel_origin">Usually credited to Paul J. Meyer, founder of the Success Motivation Institute, in the 1960s.</string>
+
+    <string name="m_odyssey">Odyssey plans</string>
+    <string name="m_odyssey_short">Odyssey</string>
+    <string name="m_odyssey_tag">Three different versions of your next five years</string>
+    <string name="m_odyssey_about">Sketch three different versions of your next five years: the life you’re on, the life if that path disappeared, and the life if money and other people’s opinions didn’t matter. Rate each one. Goals often appear by themselves.</string>
+    <string name="m_odyssey_how">Life 1: the path you’re already on.\nLife 2: if that path vanished tomorrow.\nLife 3: if money and opinions didn’t matter.\nRate each: resources, how much you like it, confidence, coherence.\nTurn what pulls you into a goal.</string>
+    <string name="m_odyssey_origin">Bill Burnett and Dave Evans, “Designing Your Life”, a Stanford course and book.</string>
+
+    <string name="m_buffett">5 / 25</string>
+    <string name="m_buffett_short">5/25</string>
+    <string name="m_buffett_tag">Write 25 goals, keep 5, avoid the other 20</string>
+    <string name="m_buffett_about">Write down 25 things you want. Choose the five that matter most. The other 20 are not a backup list. They’re the “avoid at all costs” list, because they quietly steal time from the five.</string>
+    <string name="m_buffett_how">Write 25 goals.\nChoose the five most important.\nThe rest go on the avoid list.\nTurn the five into goals.</string>
+    <string name="m_buffett_origin">Attributed to Warren Buffett through a story told by his pilot. Buffett said it isn’t his, but the idea works anyway.</string>
+
+    <string name="m_dreamline">Dreamline</string>
+    <string name="m_dreamline_short">Dreamline</string>
+    <string name="m_dreamline_tag">Put a price on your dreams and they become a plan</string>
+    <string name="m_dreamline_about">List your dreams in three columns: having, being, doing. Put a price on each, one-off or monthly. Add them up into a target monthly income, and “someday” turns into a number you can plan for.</string>
+    <string name="m_dreamline_how">List what you’d like to have, to be and to do.\nPrice each dream: once, or per month.\nSee your target monthly income.\nTurn the dream you can reach first into a goal.</string>
+    <string name="m_dreamline_origin">Tim Ferriss, “The 4-Hour Workweek”.</string>
+</resources>

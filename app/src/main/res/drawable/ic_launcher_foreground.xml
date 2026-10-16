@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- A navigator's four-point star with a short constellation trail, inside the 66 dp safe zone. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:strokeColor="#66E8CD82"
+        android:strokeLineCap="round"
+        android:strokeWidth="1.4"
+        android:pathData="M35,74L44,64M64,44L73,35" />
+    <path
+        android:fillColor="#FFE8CD82"
+        android:pathData="M58,32C59.6,46 62,48.4 76,50C62,51.6 59.6,54 58,68C56.4,54 54,51.6 40,50C54,48.4 56.4,46 58,32Z" />
+    <path
+        android:fillColor="#FFFFF6DC"
+        android:pathData="M58,45a5,5 0,1 1,0 10a5,5 0,1 1,0 -10" />
+    <path
+        android:fillColor="#FFE8CD82"
+        android:pathData="M35,71.5a2.5,2.5 0,1 1,0 5a2.5,2.5 0,1 1,0 -5" />
+    <path
+        android:fillColor="#B3E8CD82"
+        android:pathData="M44,62a2,2 0,1 1,0 4a2,2 0,1 1,0 -4" />
+    <path
+        android:fillColor="#B3E8CD82"
+        android:pathData="M73,33a2,2 0,1 1,0 4a2,2 0,1 1,0 -4" />
+</vector>

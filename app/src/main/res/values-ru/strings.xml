@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tabs -->
+    <string name="tab_today">Сегодня</string>
+    <string name="tab_goals">Цели</string>
+    <string name="tab_compass">Компас</string>
+    <string name="tab_journal">Журнал</string>
+
+    <!-- Common -->
+    <string name="back">Назад</string>
+    <string name="next">Далее</string>
+    <string name="save">Сохранить</string>
+    <string name="cancel">Отмена</string>
+    <string name="delete">Удалить</string>
+    <string name="edit">Изменить</string>
+    <string name="remove">Убрать</string>
+    <string name="add">Добавить</string>
+    <string name="done">Готово</string>
+    <string name="close">Закрыть</string>
+    <string name="share">Поделиться</string>
+    <string name="settings">Настройки</string>
+    <string name="more">Ещё</string>
+    <string name="skip">Пропустить</string>
+    <string name="open">Открыть</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+
+    <string name="greet_morning">Доброе утро</string>
+    <string name="greet_day">Добрый день</string>
+    <string name="greet_evening">Добрый вечер</string>
+    <string name="greet_night">Ясного неба, полуночник</string>
+
+    <string name="sched_every_day">Каждый день</string>
+    <string name="sched_weekdays">По будням</string>
+    <string name="sched_weekends">По выходным</string>
+    <string name="sched_per_week">%d раз в неделю</string>
+    <string name="sched_once">Один раз</string>
+    <string name="due_today">Срок сегодня</string>
+    <plurals name="days_left">
+        <item quantity="one">Остался %d день</item>
+        <item quantity="few">Осталось %d дня</item>
+        <item quantity="many">Осталось %d дней</item>
+        <item quantity="other">Осталось %d дня</item>
+    </plurals>
+    <plurals name="days_overdue">
+        <item quantity="one">Просрочено на %d день</item>
+        <item quantity="few">Просрочено на %d дня</item>
+        <item quantity="many">Просрочено на %d дней</item>
+        <item quantity="other">Просрочено на %d дня</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d неделя</item>
+        <item quantity="few">%d недели</item>
+        <item quantity="many">%d недель</item>
+        <item quantity="other">%d недели</item>
+    </plurals>
+    <plurals name="stars">
+        <item quantity="one">%d звезда</item>
+        <item quantity="few">%d звезды</item>
+        <item quantity="many">%d звёзд</item>
+        <item quantity="other">%d звезды</item>
+    </plurals>
+    <plurals name="goals">
+        <item quantity="one">%d цель</item>
+        <item quantity="few">%d цели</item>
+        <item quantity="many">%d целей</item>
+        <item quantity="other">%d цели</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="one">%d шаг</item>
+        <item quantity="few">%d шага</item>
+        <item quantity="many">%d шагов</item>
+        <item quantity="other">%d шага</item>
+    </plurals>
+
+    <!-- Step editor -->
+    <string name="node_from">Старт</string>
+    <string name="node_to">Цель</string>
+    <string name="node_unit">Единица</string>
+    <string name="node_how_often">Как часто</string>
+    <string name="node_once">Один раз</string>
+    <string name="node_days">По дням</string>
+    <string name="node_weekly">Раз в неделю</string>
+    <string name="node_times_week">Сколько раз в неделю</string>
+    <string name="node_due">Дата</string>
+    <string name="node_no_date">Без даты</string>
+    <string name="node_every_week">Каждую неделю</string>
+    <string name="node_week_n">Неделя %d</string>
+    <string name="node_remind">Напоминание</string>
+    <string name="node_no_remind">Нет</string>
+    <string name="delete_step">Удалить этот шаг?</string>
+    <string name="delete_step_text">Его история тоже удалится.</string>
+    <string name="take_today">Взять на сегодня</string>
+
+    <!-- Method groups -->
+    <string name="group_choose">Выбрать цель</string>
+    <string name="group_choose_text">Когда ещё не ясно, чего хочется, или хочется всего сразу.</string>
+    <string name="group_shape">Заточить</string>
+    <string name="group_shape_text">Линзы для любой цели: чёткая формулировка, настоящая мотивация, план на случай препятствий.</string>
+    <string name="group_drive">Вести</string>
+    <string name="group_drive_text">Двигатель цели: как она раскладывается на шаги и что делать каждый день. У цели он один.</string>
+    <string name="group_protect">Защитить</string>
+    <string name="group_protect_text">Понять, как цель может провалиться, пока этого не случилось.</string>
+
+    <!-- Areas of life -->
+    <string name="area_health">Здоровье</string>
+    <string name="area_career">Карьера</string>
+    <string name="area_money">Деньги</string>
+    <string name="area_love">Любовь</string>
+    <string name="area_family">Семья и друзья</string>
+    <string name="area_growth">Развитие</string>
+    <string name="area_fun">Отдых</string>
+    <string name="area_home">Дом и окружение</string>
+    <string name="area_none">Без сферы</string>
+
+    <!-- Methods -->
+    <string name="m_mandala">Мандала 64</string>
+    <string name="m_mandala_short">Мандала 64</string>
+    <string name="m_mandala_tag">Цель, 8 опор и 64 действия на одном листе</string>
+    <string name="m_mandala_about">Таблица 9×9. В центре цель, вокруг восемь опор, и у каждой опоры восемь конкретных действий: всего 64. Весь путь помещается на одной странице, а сетка заставляет думать шире очевидного. У Отани рядом со скоростью подачи стояли «удача» и «нравиться людям».</string>
+    <string name="m_mandala_how">Впиши цель в центр.\nНазови восемь опор: что должно быть правдой, чтобы дойти.\nДля каждой опоры придумай восемь конкретных действий.\nОдни сделай привычками, другие возьми разовыми шагами.\nЗажигай звезду, когда действие стало частью тебя.</string>
+    <string name="m_mandala_origin">Метод Харады, японского тренера Такаси Харады. Прославился благодаря Сёхэю Отани: он заполнил такую таблицу в 16 лет с целью стать первым номером драфта у восьми команд.</string>
+
+    <string name="m_okr">OKR</string>
+    <string name="m_okr_short">OKR</string>
+    <string name="m_okr_tag">Вдохновляющая цель и цифры, которые её подтвердят</string>
+    <string name="m_okr_about">Цель, которая зажигает, и три-пять ключевых результатов в цифрах. Срок — квартал, оценка — от 0 до 1. Для амбициозной цели 0,7 — уже успех.</string>
+    <string name="m_okr_how">Сформулируй цель словами, без цифр.\nДобавь 3–5 ключевых результатов: откуда и докуда.\nЗапиши инициативы: что сделаешь, чтобы цифры сдвинулись.\nРаз в неделю обновляй цифры и свою уверенность.\nВ конце квартала подведи итог.</string>
+    <string name="m_okr_origin">Энди Гроув в Intel в 1970-х. В 1999 году Джон Дорр принёс OKR в Google, а оттуда они разошлись по всему миру.</string>
+
+    <string name="m_weeks12">12-недельный год</string>
+    <string name="m_weeks12_short">12 недель</string>
+    <string name="m_weeks12_tag">Год, сжатый до 12 недель, с оценкой каждую неделю</string>
+    <string name="m_weeks12_about">Считай 12 недель целым годом. Дедлайн всегда близко, поэтому откладывать некогда. Каждую неделю считается доля выполненных тактик. 85% — отлично: от тебя зависит исполнение, а не результат.</string>
+    <string name="m_weeks12_how">Реши, чего достигнешь за 12 недель.\nРазложи это на тактики по неделям.\nВыполняй и отмечай каждый день.\nОценивай каждую неделю, целься в 85%.\n13-я неделя — на разбор и отдых.</string>
+    <string name="m_weeks12_origin">Книга «12 недель в году» Брайана Морана и Майкла Леннингтона.</string>
+
+    <string name="m_fourdx">4DX</string>
+    <string name="m_fourdx_short">4DX</string>
+    <string name="m_fourdx_tag">Одна главная цель, действия-рычаги и табло</string>
+    <string name="m_fourdx_about">Одна самая важная цель и итоговый показатель: из X в Y к такой-то дате. И один-два опережающих показателя — действия, которые полностью в твоих руках и двигают результат. Простое табло каждую неделю показывает, выигрываешь ли ты.</string>
+    <string name="m_fourdx_how">Выбери одну самую важную цель: из X в Y к дате.\nВыбери 1–2 опережающих показателя: они предсказывают результат и зависят от тебя.\nВеди табло: выигрываешь ли ты на этой неделе?\nКаждую неделю: оглянись и возьми обязательства на следующую.</string>
+    <string name="m_fourdx_origin">«4 дисциплины исполнения» Криса Макчесни, Шона Кови и Джима Хьюлинга, FranklinCovey.</string>
+
+    <string name="m_kaizen">1% в день</string>
+    <string name="m_kaizen_short">Кайдзен</string>
+    <string name="m_kaizen_tag">Чуть больше каждый день, и это складывается</string>
+    <string name="m_kaizen_about">Начни с малого и каждый день добавляй чуть-чуть. Один процент в день кажется ерундой, но проценты складываются: через 70 дней выходит вдвое больше. Подходит для всего, что можно посчитать: отжимания, страницы, минуты, слова.</string>
+    <string name="m_kaizen_how">Выбери, что растить, и лёгкое начальное число.\nЗадай шаг: 1% в день или свой.\nКаждый день делай сегодняшнее число и записывай.\nСмотри, как растёт кривая.</string>
+    <string name="m_kaizen_origin">Кайдзен — японская практика постоянного улучшения. Идею «на 1% лучше каждый день» прославил Джеймс Клир в «Атомных привычках».</string>
+
+    <string name="m_pact">Пакт на 30 дней</string>
+    <string name="m_pact_short">Пакт</string>
+    <string name="m_pact_tag">Не цель, а эксперимент: попробуй 30 дней</string>
+    <string name="m_pact_about">Не цель, а эксперимент: «Я буду делать X 30 дней». Никакого результата, который надо выбить. Ты просто держишь пакт и смотришь, что происходит. В конце решаешь: продолжить, взять паузу или изменить.</string>
+    <string name="m_pact_how">Сформулируй пакт: я буду … в течение … дней.\nОтмечай каждый день, когда держишь слово.\nЗаписывай, что замечаешь по ходу.\nВ конце реши: продолжить, пауза или поворот.</string>
+    <string name="m_pact_origin">Книга «Маленькие эксперименты» нейробиолога Анны-Лор Ле Кунфф. PACT — осмысленный, выполнимый, регулярный, отслеживаемый.</string>
+
+    <string name="m_ladder">Обратный план</string>
+    <string name="m_ladder_short">Обратный план</string>
+    <string name="m_ladder_tag">Начни с финиша и пройди назад до сегодня</string>
+    <string name="m_ladder_about">Начни с финиша и иди назад: что должно быть сделано за месяц до него? А до этого? Продолжай, пока не дойдёшь до шага, который можно сделать на этой неделе. Получится план с датами, который приводит ровно к цели.</string>
+    <string name="m_ladder_how">Запиши цель и дату.\nСпроси: что должно быть сделано прямо перед этим?\nШагай назад, пока не дойдёшь до сегодня.\nДай каждому шагу дату.\nПоднимайся по лестнице ступенька за ступенькой.</string>
+    <string name="m_ladder_origin">Бэккастинг: так планируют стратегию и долгосрочные проекты с 1970-х годов.</string>
+
+    <string name="m_simple">Вехи</string>
+    <string name="m_simple_short">Вехи</string>
+    <string name="m_simple_tag">Цель, несколько вех и привычки, ничего лишнего</string>
+    <string name="m_simple_about">Цель с несколькими вехами и, если нужно, привычками. Для случаев, когда полноценный метод — это слишком.</string>
+    <string name="m_simple_how">Назови цель и, если хочешь, число, к которому идёшь.\nДобавь вехи по дороге.\nДобавь привычки, которые двигают вперёд.</string>
+    <string name="m_simple_origin">Самый древний метод на свете.</string>
+
+    <string name="m_smart">SMART</string>
+    <string name="m_smart_short">SMART</string>
+    <string name="m_smart_tag">Превратить желание в ясную и проверяемую цель</string>
+    <string name="m_smart_about">Пять вопросов, которые превращают расплывчатое желание в цель: конкретная ли она, измеримая, достижимая, значимая и ограничена ли сроком. Цель, прошедшую все пять, трудно понять неправильно, даже тебе самому через месяц.</string>
+    <string name="m_smart_how">Конкретная: что именно?\nИзмеримая: как ты поймёшь, что дошёл?\nДостижимая: реально ли это с тем, что у тебя есть?\nЗначимая: почему это и почему сейчас?\nСрок: к какому числу?</string>
+    <string name="m_smart_origin">Джордж Доран, статья о менеджменте 1981 года.</string>
+
+    <string name="m_woop">WOOP</string>
+    <string name="m_woop_short">WOOP</string>
+    <string name="m_woop_tag">Желание, результат, препятствие, план: мечтать со страховкой</string>
+    <string name="m_woop_about">Одно позитивное мышление может даже мешать действовать. WOOP добавляет честную часть: назови внутреннее препятствие и заранее приготовь план «если–то». Это одна из самых изученных техник, которые помогают довести дело до конца.</string>
+    <string name="m_woop_how">Желание: чего ты хочешь?\nРезультат: представь лучший исход, ярко.\nПрепятствие: что внутри тебя может помешать?\nПлан: если появится препятствие, то я…</string>
+    <string name="m_woop_origin">Психолог Габриэле Эттинген, по итогам двадцати лет исследований мысленного контраста и намерений «если–то».</string>
+
+    <string name="m_grow">GROW</string>
+    <string name="m_grow_short">GROW</string>
+    <string name="m_grow_tag">Коуч-сессия с самим собой</string>
+    <string name="m_grow_about">Коучинговый разговор, который можно провести с собой. Вместо того чтобы сразу бросаться в план, честно посмотри, где ты сейчас, и выпиши варианты, прежде чем выбрать.</string>
+    <string name="m_grow_how">Цель: чего ты хочешь?\nРеальность: где ты сейчас? Что уже пробовал?\nВарианты: что можно сделать? Выпиши побольше.\nВоля: что ты сделаешь и когда?</string>
+    <string name="m_grow_origin">Коучи Грэм Александер и Джон Уитмор, 1980-е.</string>
+
+    <string name="m_whys">5 почему</string>
+    <string name="m_whys_short">5 почему</string>
+    <string name="m_whys_tag">Докопаться до причины, которая не даст сдаться</string>
+    <string name="m_whys_about">Спроси себя «почему это важно?» пять раз. Каждый ответ уходит глубже, а последний — твоя настоящая мотивация. Перечитывай его в дни, когда хочется всё бросить.</string>
+    <string name="m_whys_how">Напиши, почему цель важна.\nСпроси: «а почему важно это?»\nПовтори пять раз.\nДержи самый глубокий ответ под рукой.</string>
+    <string name="m_whys_origin">Сакити Тоёда в Toyota: так искали корневую причину проблем.</string>
+
+    <string name="m_premortem">Пре-мортем</string>
+    <string name="m_premortem_short">Пре-мортем</string>
+    <string name="m_premortem_tag">Представь, что не вышло, и сделай так, чтобы вышло</string>
+    <string name="m_premortem_about">Представь, что срок настал, а цель провалилась. Почему? Если рассказать историю провала заранее, всплывают риски, которые скрывает оптимизм. Для каждого риска ты записываешь, как его предотвратить.</string>
+    <string name="m_premortem_how">Представь, что срок прошёл и ничего не вышло.\nЗапиши все причины.\nДля каждой реши, как её предотвратить.\nДержи планы под рукой и проверяй их на разборах.</string>
+    <string name="m_premortem_origin">Психолог Гэри Кляйн, Harvard Business Review, 2007.</string>
+
+    <string name="m_wheel">Колесо баланса</string>
+    <string name="m_wheel_short">Колесо</string>
+    <string name="m_wheel_tag">Увидеть, каким сферам жизни ты нужен больше всего</string>
+    <string name="m_wheel_about">Оцени восемь сфер жизни от 1 до 10. Колесо сразу показывает, где проседает, и цель именно там изменит больше всего. Повторяй раз в несколько месяцев и сравнивай.</string>
+    <string name="m_wheel_how">Честно оцени каждую сферу от 1 до 10.\nНайди вмятины на колесе.\nВыбери одну сферу для работы.\nПроверь снова через несколько месяцев.</string>
+    <string name="m_wheel_origin">Обычно его приписывают Полу Майеру, основателю Success Motivation Institute, 1960-е.</string>
+
+    <string name="m_odyssey">Планы «Одиссея»</string>
+    <string name="m_odyssey_short">Одиссея</string>
+    <string name="m_odyssey_tag">Три разные версии твоих следующих пяти лет</string>
+    <string name="m_odyssey_about">Набросай три разные версии следующих пяти лет: жизнь, по которой ты уже идёшь; жизнь, если этот путь исчезнет; и жизнь, если бы деньги и чужое мнение не имели значения. Оцени каждую. Цели часто появляются сами.</string>
+    <string name="m_odyssey_how">Жизнь 1: путь, по которому ты уже идёшь.\nЖизнь 2: если этот путь завтра исчезнет.\nЖизнь 3: если бы деньги и мнения не имели значения.\nОцени каждую: ресурсы, насколько нравится, уверенность, цельность.\nПревращай то, что манит, в цель.</string>
+    <string name="m_odyssey_origin">Билл Бёрнетт и Дейв Эванс, «Дизайн жизни» — курс и книга Стэнфорда.</string>
+
+    <string name="m_buffett">5 из 25</string>
+    <string name="m_buffett_short">5 из 25</string>
+    <string name="m_buffett_tag">Запиши 25 целей, оставь 5, остальных 20 избегай</string>
+    <string name="m_buffett_about">Запиши 25 вещей, которых хочешь. Выбери пять самых важных. Остальные 20 — не запасной список, а список «избегать любой ценой»: они тихо крадут время у главных пяти.</string>
+    <string name="m_buffett_how">Запиши 25 целей.\nВыбери пять самых важных.\nОстальные отправь в список избегания.\nПревращай пятёрку в цели.</string>
+    <string name="m_buffett_origin">Приписывается Уоррену Баффету по рассказу его пилота. Сам Баффет говорил, что это не его метод, но идея всё равно работает.</string>
+
+    <string name="m_dreamline">Цена мечты</string>
+    <string name="m_dreamline_short">Цена мечты</string>
+    <string name="m_dreamline_tag">Назначь мечтам цену, и они станут планом</string>
+    <string name="m_dreamline_about">Выпиши мечты в три столбца: иметь, быть, делать. Назначь каждой цену: разовую или в месяц. Сложи всё в целевой месячный доход, и «когда-нибудь» превращается в число, под которое можно строить план.</string>
+    <string name="m_dreamline_how">Выпиши, что хочешь иметь, кем быть и что делать.\nОцени каждую мечту: разово или в месяц.\nПосмотри на целевой месячный доход.\nПревращай самую близкую мечту в цель.</string>
+    <string name="m_dreamline_origin">Тим Феррис, «Как работать по 4 часа в неделю».</string>
+</resources>
