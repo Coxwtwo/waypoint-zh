@@ -199,7 +199,8 @@ private fun StepRow(item: TodayItem, data: WData, go: Go) {
                 Row(verticalAlignment = Alignment.CenterVertically) {
                     MethodBadge(m)
                     Spacer(Modifier.width(6.dp))
-                    Text(g.title, style = UType.Small, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false))
+                    // A pact or kaizen step is usually named like its goal; don't say it twice.
+                    if (g.title != n.title) Text(g.title, style = UType.Small, maxLines = 1, overflow = TextOverflow.Ellipsis, modifier = Modifier.weight(1f, fill = false))
                 }
             }
             Spacer(Modifier.width(8.dp))

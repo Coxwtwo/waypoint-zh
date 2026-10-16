@@ -10,11 +10,9 @@ import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.Immutable
 import androidx.compose.runtime.staticCompositionLocalOf
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.text.ExperimentalTextApi
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
-import androidx.compose.ui.text.font.FontVariation
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.em
@@ -127,16 +125,22 @@ val DawnPalette = Palette(
 
 val LocalPalette = staticCompositionLocalOf { NightPalette }
 
-@OptIn(ExperimentalTextApi::class)
-private fun manrope(w: Int) = Font(R.font.manrope, FontWeight(w), variationSettings = FontVariation.Settings(FontVariation.weight(w)))
-@OptIn(ExperimentalTextApi::class)
-private fun unbounded(w: Int) = Font(R.font.unbounded, FontWeight(w), variationSettings = FontVariation.Settings(FontVariation.weight(w)))
-
-/** Body text: a clear, warm grotesque. */
-val Manrope = FontFamily(manrope(400), manrope(500), manrope(600), manrope(700), manrope(800))
+/** Body text: a clear, warm grotesque. Static cuts: variable-font weights aren't applied on every Android version. */
+val Manrope = FontFamily(
+    Font(R.font.manrope_regular, FontWeight(400)),
+    Font(R.font.manrope_medium, FontWeight(500)),
+    Font(R.font.manrope_semibold, FontWeight(600)),
+    Font(R.font.manrope_bold, FontWeight(700)),
+    Font(R.font.manrope_extrabold, FontWeight(800)),
+)
 
 /** Display: wide and round, for titles and big numbers. */
-val Unbounded = FontFamily(unbounded(300), unbounded(400), unbounded(500), unbounded(600))
+val Unbounded = FontFamily(
+    Font(R.font.unbounded_light, FontWeight(300)),
+    Font(R.font.unbounded_regular, FontWeight(400)),
+    Font(R.font.unbounded_medium, FontWeight(500)),
+    Font(R.font.unbounded_semibold, FontWeight(600)),
+)
 
 object U {
     val c: Palette @Composable get() = LocalPalette.current
