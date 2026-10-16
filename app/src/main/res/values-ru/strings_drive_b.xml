@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Shared number pieces -->
+    <string name="simple_from">Старт</string>
+    <string name="simple_to">Цель</string>
+    <string name="simple_unit">Единица</string>
+    <string name="simple_deadline">Срок</string>
+    <string name="simple_no_deadline">Без даты</string>
+    <string name="simple_update">Обновить</string>
+
+    <!-- 4DX -->
+    <string name="fdx_setup_title">Твоя самая важная цель</string>
+    <string name="fdx_setup_text">Сформулируй её как «из X в Y к такой-то дате». Например: с 0 до 10 клиентов к 1 марта.</string>
+    <string name="fdx_wig">С %1$s до %2$s</string>
+    <string name="fdx_wig_by">С %1$s до %2$s к %3$s</string>
+    <string name="fdx_lag">Итоговый показатель</string>
+    <string name="fdx_lag_update">Где ты сейчас?</string>
+    <string name="fdx_scoreboard">Табло · эта неделя</string>
+    <string name="fdx_leads_empty">Опережающие показатели — это действия, которые зависят только от тебя и двигают результат. Выбери одно-два, например «3 звонка клиентам в неделю».</string>
+    <string name="fdx_add_lead">Добавить показатель</string>
+    <string name="fdx_too_many">Больше двух показателей распыляют внимание. 4DX лучше всего работает с одним или двумя.</string>
+    <string name="fdx_winning">Неделя за тобой</string>
+    <string name="fdx_behind">Пока не дотягиваешь</string>
+    <plurals name="fdx_days_left_week">
+        <item quantity="one">До конца недели %d день</item>
+        <item quantity="few">До конца недели %d дня</item>
+        <item quantity="many">До конца недели %d дней</item>
+        <item quantity="other">До конца недели %d дня</item>
+    </plurals>
+    <string name="fdx_today_n">Сегодня: %d</string>
+    <string name="fdx_tap_edit">Нажми, чтобы изменить</string>
+    <string name="fdx_count_of">%1$d / %2$d</string>
+    <string name="fdx_plus_one">Плюс один</string>
+    <string name="fdx_history">Последние 8 недель</string>
+    <string name="fdx_this_week">Эта неделя</string>
+    <string name="fdx_commit_title">Моё обязательство на неделю</string>
+    <string name="fdx_commit_empty">Что одно ты сделаешь на этой неделе, чтобы сдвинуть показатель? Нажми, чтобы записать.</string>
+    <string name="fdx_commit_text">Одно конкретное обещание на неделю. Следующую неделю начни с проверки: выполнено ли обещание.</string>
+    <string name="fdx_commit_hint">Например: назначить две встречи до среды</string>
+    <string name="fdx_commit_last">На прошлой неделе: %s</string>
+    <string name="fdx_new_lead">Новый показатель</string>
+    <string name="fdx_edit_lead">Опережающий показатель</string>
+    <string name="fdx_lead_label">Что ты будешь делать</string>
+    <string name="fdx_lead_hint">Например: звонки клиентам</string>
+
+    <!-- Kaizen -->
+    <string name="kz_today">Число на сегодня</string>
+    <string name="kz_day_rate">День %1$d · +%2$s%% в день</string>
+    <string name="kz_done_today">Сегодня сделано: %s</string>
+    <string name="kz_log">Сделано</string>
+    <string name="kz_change">Изменить результат</string>
+    <string name="kz_log_yesterday">Записать за вчера</string>
+    <string name="kz_log_title">Сколько получилось сегодня?</string>
+    <string name="kz_log_title_yesterday">Сколько получилось вчера?</string>
+    <string name="kz_log_text">План был %s. Меньше — тоже считается.</string>
+    <plurals name="kz_compound">
+        <item quantity="one">При +%1$s%% в день ты удвоишься примерно за %2$d день. Маленькие шаги складываются.</item>
+        <item quantity="few">При +%1$s%% в день ты удвоишься примерно за %2$d дня. Маленькие шаги складываются.</item>
+        <item quantity="many">При +%1$s%% в день ты удвоишься примерно за %2$d дней. Маленькие шаги складываются.</item>
+        <item quantity="other">При +%1$s%% в день ты удвоишься примерно за %2$d дня. Маленькие шаги складываются.</item>
+    </plurals>
+    <string name="kz_curve">Кривая роста</string>
+    <string name="kz_stats">Пока что</string>
+    <string name="kz_stat_days">Дней практики</string>
+    <string name="kz_stat_best">Рекорд</string>
+    <string name="kz_stat_streak">Дней подряд</string>
+    <string name="kz_projection">Через месяц будет %s.</string>
+    <string name="kz_projection_far">Через три месяца: %s.</string>
+    <string name="kz_step">Шаг в день</string>
+    <string name="kz_rate_chip">+%1$s%%</string>
+    <string name="kz_base">Начальное число: %s</string>
+    <string name="kz_base_title">Начальное число</string>
+    <string name="kz_base_text">От него растёт число на каждый день.</string>
+    <string name="kz_setup_title">С чего начнёшь?</string>
+    <string name="kz_setup_text">Выбери число, которое сегодня кажется лёгким: 10 отжиманий, 5 страниц, 10 минут. Весь смысл в том, чтобы начать с малого.</string>
+    <string name="kz_setup_base">Сегодня</string>
+    <string name="kz_setup_unit">Единица</string>
+    <string name="kz_setup_unit_hint">отжиманий</string>
+    <string name="kz_setup_go">Начать расти</string>
+
+    <!-- Pact -->
+    <string name="pact_eyebrow">Пакт</string>
+    <string name="pact_sentence">Я буду %1$s %2$s подряд.</string>
+    <plurals name="pact_days">
+        <item quantity="one">%d день</item>
+        <item quantity="few">%d дня</item>
+        <item quantity="many">%d дней</item>
+        <item quantity="other">%d дня</item>
+    </plurals>
+    <string name="pact_starts">Начнётся %s.</string>
+    <string name="pact_day_of">День %1$d из %2$d · выполнено %3$d</string>
+    <plurals name="pact_over_kept">
+        <item quantity="one">Пакт завершён. Выполнено %1$d из %2$d дня.</item>
+        <item quantity="few">Пакт завершён. Выполнено %1$d из %2$d дней.</item>
+        <item quantity="many">Пакт завершён. Выполнено %1$d из %2$d дней.</item>
+        <item quantity="other">Пакт завершён. Выполнено %1$d из %2$d дня.</item>
+    </plurals>
+    <string name="pact_days_title">День за днём</string>
+    <string name="pact_days_hint">Нажми на день, чтобы зажечь или погасить его.</string>
+    <string name="pact_note_today">Заметка за сегодня</string>
+    <string name="pact_note_hint">Какие наблюдения? Было легко, трудно, неожиданно?</string>
+    <string name="pact_notes">По дороге</string>
+    <string name="pact_note_day">День %1$d · %2$s</string>
+    <string name="pact_edit_title">Пакт</string>
+    <string name="pact_edit_text">Что именно ты будешь делать каждый день?</string>
+    <string name="pact_action_hint">Например: писать по 200 слов</string>
+    <string name="pact_end_title">Эксперимент окончен</string>
+    <plurals name="pact_end_text">
+        <item quantity="one">Пакт выполнен %1$d из %2$d дня. Какие выводы и что дальше?</item>
+        <item quantity="few">Пакт выполнен %1$d из %2$d дней. Какие выводы и что дальше?</item>
+        <item quantity="many">Пакт выполнен %1$d из %2$d дней. Какие выводы и что дальше?</item>
+        <item quantity="other">Пакт выполнен %1$d из %2$d дня. Какие выводы и что дальше?</item>
+    </plurals>
+    <string name="pact_persist">Продолжить ещё %s</string>
+    <string name="pact_pause">Пауза</string>
+    <string name="pact_pivot">Изменить</string>
+    <string name="pact_end_hint">Продолжай, если работает. Ставь на паузу, если сейчас не время. Измени, чтобы попробовать другой вариант.</string>
+    <string name="pact_pivot_title">Изменить пакт</string>
+    <string name="pact_pivot_text">Поменяй, что делаешь. Новый срок начнётся сегодня.</string>
+    <plurals name="pact_paused_note">
+        <item quantity="one">Пауза после пакта. Выполнено %1$d из %2$d дня.</item>
+        <item quantity="few">Пауза после пакта. Выполнено %1$d из %2$d дней.</item>
+        <item quantity="many">Пауза после пакта. Выполнено %1$d из %2$d дней.</item>
+        <item quantity="other">Пауза после пакта. Выполнено %1$d из %2$d дня.</item>
+    </plurals>
+
+    <!-- Reverse plan -->
+    <string name="ladder_intro">Начни сверху и спускайся. Каждый шаг — это то, что нужно сделать до шага над ним.</string>
+    <string name="ladder_summit">Цель</string>
+    <string name="ladder_set_date">Указать дату</string>
+    <string name="ladder_next">Следующий шаг</string>
+    <string name="ladder_no_date">Без даты</string>
+    <string name="ladder_overdue">Срок был %s</string>
+    <string name="ladder_today">Сегодня, %s</string>
+    <string name="ladder_question">Что нужно сделать прямо перед «%s»?</string>
+    <string name="ladder_reached">Лестница дошла до этой недели. Пора подниматься.</string>
+    <string name="ladder_add">Добавить шаг перед ним</string>
+    <string name="ladder_new">Предыдущий шаг</string>
+    <string name="ladder_edit">Шаг</string>
+    <string name="ladder_step_label">Шаг</string>
+    <string name="ladder_step_hint">Например: забронировать зал</string>
+
+    <!-- Milestones -->
+    <string name="simple_number">Твоё число</string>
+    <string name="simple_number_title">Измерить числом</string>
+    <string name="simple_number_text">Необязательно. Если прогресс можно посчитать, цель будет заполняться вместе с числом.</string>
+    <string name="simple_add_number">Добавить число для отслеживания</string>
+    <string name="simple_update_title">Где ты сейчас?</string>
+    <string name="simple_milestones">Вехи</string>
+    <string name="simple_milestones_empty">Разбей путь на несколько контрольных точек. Каждая зажигает звезду.</string>
+    <string name="simple_reached">Пройдено</string>
+    <string name="simple_reached_on">Пройдено %s</string>
+    <string name="simple_overdue">Срок был %s</string>
+    <string name="simple_habits">Привычки</string>
+    <string name="simple_habits_empty">Регулярные действия, которые двигают вперёд. Они появляются в «Сегодня».</string>
+    <string name="simple_streak">%1$s · %2$d подряд</string>
+    <string name="simple_new_milestone">Новая веха</string>
+    <string name="simple_edit_milestone">Веха</string>
+    <string name="simple_milestone_label">Веха</string>
+    <string name="simple_milestone_hint">Например: написана первая глава</string>
+    <string name="simple_new_habit">Новая привычка</string>
+    <string name="simple_edit_habit">Привычка</string>
+    <string name="simple_habit_label">Привычка</string>
+    <string name="simple_habit_hint">Например: писать 30 минут</string>
+</resources>
