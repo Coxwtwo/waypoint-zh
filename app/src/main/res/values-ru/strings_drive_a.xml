@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Mandala -->
+    <string name="mandala_map">Звёздная карта</string>
+    <string name="mandala_lit_total">Зажжено звёзд: %d из 64</string>
+    <string name="mandala_hint_title">Цель уже стоит в центре</string>
+    <string name="mandala_hint">Нажми на клетку рядом с ней и назови первую опору: что должно быть правдой, чтобы дойти до цели. Потом дай каждой опоре восемь действий.</string>
+    <string name="mandala_how">Как устроен метод</string>
+    <string name="mandala_tap_hint">Нажми на блок, чтобы рассмотреть его. Зажигай звезду, когда действие стало частью тебя.</string>
+    <string name="mandala_pillar">Опора</string>
+    <string name="mandala_pillar_n">Опора %d</string>
+    <string name="mandala_pillar_hint">Например: Выносливость</string>
+    <string name="mandala_pillar_first">У этой опоры пока нет названия. Назови её, а потом добавь восемь действий.</string>
+    <string name="mandala_name_pillar">Назвать опору</string>
+    <string name="mandala_pillar_lit">Зажжено: %d из 8</string>
+    <string name="mandala_rename">Переименовать опору</string>
+    <string name="mandala_action">Действие</string>
+    <string name="mandala_action_hint">Например: Длинная пробежка по воскресеньям</string>
+    <string name="mandala_new_action">Новое действие</string>
+    <string name="mandala_add_action">Добавить действие</string>
+    <string name="mandala_light">Зажечь звезду</string>
+    <string name="mandala_dim">Погасить звезду</string>
+    <string name="mandala_streak">%d подряд</string>
+    <string name="mandala_part_of_you">Уже часть тебя</string>
+    <string name="mandala_today">Сегодня</string>
+    <string name="mandala_on_today">В плане на сегодня</string>
+    <string name="mandala_share">Поделиться картой</string>
+    <string name="mandala_poster_by">Сделано в Waypoint</string>
+
+    <!-- OKR -->
+    <string name="okr_quarter">Квартал</string>
+    <string name="okr_range">%1$s – %2$s</string>
+    <string name="okr_no_end">OKR живут квартал. Укажи, когда закончится этот.</string>
+    <string name="okr_set_end">Закончить через 90 дней</string>
+    <string name="okr_score">Оценка</string>
+    <string name="okr_score_none">Добавь ключевые результаты, и здесь появится оценка.</string>
+    <string name="okr_score_good">0,7 и выше — победа для амбициозной цели.</string>
+    <string name="okr_score_mid">Движется. Обновляй цифры каждую неделю.</string>
+    <string name="okr_score_low">Пока рано, или пора пересмотреть инициативы.</string>
+    <string name="okr_confidence">Уверенность</string>
+    <string name="okr_confidence_text">Насколько ты веришь, что выйдешь на ключевые результаты?</string>
+    <string name="okr_krs">Ключевые результаты</string>
+    <string name="okr_kr">Ключевой результат</string>
+    <string name="okr_new_kr">Новый ключевой результат</string>
+    <string name="okr_kr_hint">Например: Прочитать 12 книг</string>
+    <string name="okr_add_kr">Добавить результат</string>
+    <string name="okr_empty">Добавь от трёх до пяти ключевых результатов: цифры, которые докажут, что цель достигнута.</string>
+    <string name="okr_too_many">Больше пяти ключевых результатов распыляют внимание. Лучше всего от трёх до пяти.</string>
+    <string name="okr_numbers">%1$s → %2$s из %3$s</string>
+    <string name="okr_check_in">Обновить</string>
+    <string name="okr_check_in_title">Сколько сейчас?</string>
+    <string name="okr_now">Сейчас</string>
+    <string name="okr_target_is">Цель: %s</string>
+    <string name="okr_last_check">Обновлено %s</string>
+    <string name="okr_initiatives">Инициативы</string>
+    <string name="okr_initiative">Инициатива</string>
+    <string name="okr_new_initiative">Новая инициатива</string>
+    <string name="okr_initiative_hint">Например: 20 страниц перед сном</string>
+    <string name="okr_add_initiative">Добавить инициативу</string>
+    <string name="okr_review_hint">Обновляй цифры раз в неделю. Удобнее всего на еженедельном разборе.</string>
+
+    <!-- 12-week year -->
+    <string name="w12_week_of">Неделя %d из 12</string>
+    <string name="w12_review_week">Неделя разбора</string>
+    <string name="w12_starts">Начало %s</string>
+    <string name="w12_ends">До %s</string>
+    <string name="w12_goal85" formatted="false">Пунктир — это 85%: отличная неделя.</string>
+    <string name="w12_average">В среднем %s</string>
+    <string name="w12_this_week">Эта неделя</string>
+    <string name="w12_dates">%1$s – %2$s</string>
+    <string name="w12_score_none">На эту неделю пока ничего не запланировано.</string>
+    <string name="w12_score_good">Отличное исполнение.</string>
+    <string name="w12_score_mid">Хорошо. Ещё чуть-чуть, и будет отлично.</string>
+    <string name="w12_score_low">Сделанное лучше идеального. Выбери одну тактику и сделай её сегодня.</string>
+    <string name="w12_tactic">Тактика</string>
+    <string name="w12_new_tactic">Новая тактика</string>
+    <string name="w12_tactic_hint">Например: Отправить два отклика на вакансии</string>
+    <string name="w12_add_tactic">Добавить тактику</string>
+    <string name="w12_empty">Разложи 12 недель на тактики: небольшие действия на каждую неделю, которые можно отметить.</string>
+    <string name="w12_no_tactics">На эту неделю тактик пока нет.</string>
+    <string name="w12_vision">Видение</string>
+    <string name="w12_vision_text">Где ты хочешь оказаться через несколько лет? Эти 12 недель — шаг туда.</string>
+    <string name="w12_vision_hint">Какой станет жизнь, когда ты туда доберёшься?</string>
+    <string name="w12_over_title">12 недель позади</string>
+    <string name="w12_over_text">13-я неделя — чтобы оглянуться и отдохнуть. Посмотри, что сработало, и начни следующие 12 недель с этим опытом.</string>
+    <string name="w12_review">Разбор недели</string>
+    <string name="w12_new_year">Новый 12-недельный год</string>
+    <string name="w12_new_year_text">Сегодня начнётся новый 12-недельный год с теми же тактиками. Этот уйдёт в журнал как завершённый.</string>
+    <string name="w12_new_year_go">Начать</string>
+</resources>
