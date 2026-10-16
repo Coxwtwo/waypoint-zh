@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="lens_about">О методе</string>
+    <string name="lens_goal">Цель</string>
+    <string name="lens_example">Например: %s</string>
+    <string name="lens_answer_hint">Твой ответ</string>
+    <string name="lens_backup_course">Планы с частью «то» появятся и на экране «Сегодня» как запасной курс.</string>
+    <string name="lens_reminder_at">Напоминание в %s</string>
+
+    <!-- SMART -->
+    <string name="smart_s">Чего именно ты хочешь?</string>
+    <string name="smart_s_hint">Конкретность. Кто, что, где. Замени размытые слова точными.</string>
+    <string name="smart_s_example">пробежать марафон в своём городе, а не просто «прийти в форму»</string>
+    <string name="smart_m">Как понять, что цель достигнута?</string>
+    <string name="smart_m_hint">Измеримость. Число, факт, то, что можно проверить.</string>
+    <string name="smart_m_example">пробежать 42,2 км быстрее чем за 4 часа</string>
+    <string name="smart_a">Это реально с тем, что у тебя есть?</string>
+    <string name="smart_a_hint">Достижимость. Время, деньги, здоровье, навыки. Что сделает цель выполнимой?</string>
+    <string name="smart_a_example">я уже бегаю 10 км, у меня есть полгода и четыре утра в неделю</string>
+    <string name="smart_r">Почему это и почему сейчас?</string>
+    <string name="smart_r_hint">Значимость. Как цель связана с твоей жизнью и другими целями.</string>
+    <string name="smart_r_example">хочу доказать себе, что довожу начатое до конца</string>
+    <string name="smart_t">К какому сроку?</string>
+    <string name="smart_t_hint">Срок. С датой цель становится настоящей. Эту дату можно сразу поставить сроком цели.</string>
+    <string name="smart_t_example">городской марафон 20 апреля</string>
+    <string name="smart_meter">Отвечено %d из 5</string>
+    <string name="smart_deadline">Срок цели</string>
+    <string name="smart_no_deadline">Не задан</string>
+    <string name="smart_set_deadline">Поставить срок</string>
+    <string name="smart_change_deadline">Изменить срок</string>
+    <string name="smart_wording">Теперь одной фразой</string>
+    <string name="smart_wording_hint">Собери ответы в одно ясное предложение.</string>
+    <string name="smart_wording_placeholder">Цель, чётко</string>
+    <string name="smart_wording_example">Пробежать городской марафон 20 апреля быстрее чем за 4 часа</string>
+    <string name="smart_use_title">Сделать названием цели</string>
+    <string name="smart_is_title">Теперь цель называется так.</string>
+
+    <!-- WOOP -->
+    <string name="woop_wish">Чего ты хочешь?</string>
+    <string name="woop_wish_hint">Желание. Что-то непростое, но возможное. Хватит пары слов.</string>
+    <string name="woop_wish_example">пробежать первый марафон</string>
+    <string name="woop_outcome">Какой исход был бы лучшим?</string>
+    <string name="woop_outcome_hint">Результат. Что ты почувствуешь, что изменится?</string>
+    <string name="woop_outcome_pause">Удели этому минуту. Закрой глаза и представь лучший исход как можно ярче: где ты, что видишь, что чувствуешь. Потом запиши.</string>
+    <string name="woop_outcome_example">пересекаю финиш, родные кричат, и я чувствую, что трудное мне по силам</string>
+    <string name="woop_obstacle">Что внутри тебя может помешать?</string>
+    <string name="woop_obstacle_hint">Препятствие. Не погода и не другие люди, а твоя привычка, чувство или мысль.</string>
+    <string name="woop_obstacle_pause">Теперь представь момент, когда обычно всё срывается. Что ты в этот момент чувствуешь или думаешь? Назови главное препятствие.</string>
+    <string name="woop_obstacle_example">после работы я устаю и говорю себе, что побегу завтра</string>
+    <string name="woop_plan">Что ты сделаешь, когда оно появится?</string>
+    <string name="woop_plan_hint">План. Если появится препятствие, ты делаешь одно конкретное действие.</string>
+    <string name="woop_your_obstacle">Твоё препятствие</string>
+    <string name="woop_add_first_plan">Составить план «если–то»</string>
+    <string name="woop_add_plan">Добавить ещё план</string>
+    <string name="woop_plans">Планы «если–то»</string>
+    <string name="woop_new_plan">Новый план «если–то»</string>
+    <string name="woop_edit_plan">План «если–то»</string>
+    <string name="woop_if">Если…</string>
+    <string name="woop_if_hint">появится препятствие</string>
+    <string name="woop_then">То я…</string>
+    <string name="woop_then_hint">одно конкретное действие</string>
+    <string name="woop_if_short">Если</string>
+    <string name="woop_then_short">То я</string>
+    <string name="woop_then_missing">Допиши, что ты сделаешь</string>
+
+    <!-- GROW -->
+    <string name="grow_goal">Чего ты хочешь добиться?</string>
+    <string name="grow_goal_hint">Цель. И каким был бы хороший итог этого разговора?</string>
+    <string name="grow_goal_example">найти способ тренироваться регулярно при плотной работе</string>
+    <string name="grow_reality">Где ты сейчас?</string>
+    <string name="grow_reality_hint">Реальность. Факты, без оценок.</string>
+    <string name="grow_reality_prompts">Что происходит сейчас? Что уже сделано и что из этого вышло? Что мешает? Что у тебя есть такого, что может помочь?</string>
+    <string name="grow_options">Что можно сделать?</string>
+    <string name="grow_options_hint">Варианты. Выпиши побольше, даже странные. Пока не оценивай.</string>
+    <string name="grow_option_hint">Вариант</string>
+    <string name="grow_options_empty">Постарайся набрать хотя бы пять.</string>
+    <string name="grow_options_choose">Отметь звездой варианты, которые выбираешь.</string>
+    <string name="grow_will">Что ты сделаешь и когда?</string>
+    <string name="grow_will_hint">Воля. Преврати выбранные варианты в шаги с датой или расписанием.</string>
+    <string name="grow_will_empty">Сначала выбери вариант или сразу добавь шаг.</string>
+    <string name="grow_to_action">Превратить в шаг</string>
+    <string name="grow_another_action">Добавить шаг</string>
+    <string name="grow_new_action">Новый шаг</string>
+    <string name="grow_on_today">Шаги с датой или расписанием появятся на экране «Сегодня».</string>
+    <string name="grow_new_step">Новый шаг</string>
+    <string name="grow_edit_step">Шаг</string>
+    <string name="grow_step_label">Что ты сделаешь?</string>
+    <string name="grow_step_hint">Конкретное действие</string>
+    <string name="grow_choose">Выбрать этот вариант</string>
+
+    <!-- 5 whys -->
+    <string name="whys_depth">Глубина %d из 5</string>
+    <string name="whys_first">Почему для тебя важно «%s»?</string>
+    <string name="whys_first_hint">Отвечай честно, как близкому другу.</string>
+    <string name="whys_next">А почему важно это?</string>
+    <string name="whys_because">Потому что…</string>
+    <string name="whys_deep">Твоя глубинная причина</string>
+    <string name="whys_deep_text">Это причина под всеми причинами. Перечитывай её в дни, когда хочется сдаться.</string>
+    <string name="whys_on_card">Уже на карточке цели.</string>
+    <string name="whys_put_on_card">Вынести на карточку цели</string>
+    <string name="whys_keep_going">Копни ещё немного. Настоящая причина обычно прячется в третьем-четвёртом ответе.</string>
+
+    <!-- Pre-mortem -->
+    <string name="pm_intro_date">Уже %s. Цель не удалась. Почему?</string>
+    <string name="pm_intro">Срок прошёл. Цель не удалась. Почему?</string>
+    <string name="pm_intro_hint">Расскажи историю провала так, будто он уже случился. Потом реши, как предотвратить каждую причину.</string>
+    <string name="pm_reasons">Почему не вышло</string>
+    <string name="pm_empty">Причин пока нет. Начни с самой вероятной.</string>
+    <string name="pm_failed">Не вышло, потому что</string>
+    <string name="pm_prevent_short">Как не допустить</string>
+    <string name="pm_add">Добавить причину</string>
+    <string name="pm_common">Частые причины</string>
+    <string name="pm_new">Новая причина</string>
+    <string name="pm_edit">Причина</string>
+    <string name="pm_failed_label">Не вышло, потому что…</string>
+    <string name="pm_failed_hint">что пошло не так</string>
+    <string name="pm_prevent">Как это предотвратить</string>
+    <string name="pm_prevent_hint">что ты сделаешь, чтобы этого не случилось</string>
+    <string name="pm_p_motivation">Пропала мотивация</string>
+    <string name="pm_p_time">Не хватило времени</string>
+    <string name="pm_p_sick">Болезнь</string>
+    <string name="pm_p_perfect">Перфекционизм</string>
+    <string name="pm_p_life">Помешала жизнь</string>
+    <string name="pm_p_alone">Не было поддержки</string>
+    <string name="pm_p_big">Слишком много всего сразу</string>
+    <string name="pm_p_money">Кончились деньги</string>
+</resources>
