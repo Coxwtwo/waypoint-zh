@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lens screens: SMART, WOOP, GROW, 5 whys, pre-mortem. -->
+<resources>
+    <string name="lens_about">About the method</string>
+    <string name="lens_goal">Goal</string>
+    <string name="lens_example">For example: %s</string>
+    <string name="lens_answer_hint">Your answer</string>
+    <string name="lens_backup_course">Plans with a “then” part also show on Today as your backup course.</string>
+    <string name="lens_reminder_at">Reminder at %s</string>
+
+    <!-- SMART -->
+    <string name="smart_s_letter" translatable="false">S</string>
+    <string name="smart_m_letter" translatable="false">M</string>
+    <string name="smart_a_letter" translatable="false">A</string>
+    <string name="smart_r_letter" translatable="false">R</string>
+    <string name="smart_t_letter" translatable="false">T</string>
+    <string name="smart_s">What exactly do you want?</string>
+    <string name="smart_s_hint">Specific. Who, what, where. Swap vague words for concrete ones.</string>
+    <string name="smart_s_example">run a marathon in my city, not just “get fit”</string>
+    <string name="smart_m">How will you know you’re there?</string>
+    <string name="smart_m_hint">Measurable. A number, a fact, something you can check.</string>
+    <string name="smart_m_example">finish 42.2 km in under 4 hours</string>
+    <string name="smart_a">Is it realistic with what you have?</string>
+    <string name="smart_a_hint">Achievable. Time, money, health, skills. What would make it doable?</string>
+    <string name="smart_a_example">I already run 10 km, and I have 6 months and 4 mornings a week</string>
+    <string name="smart_r">Why this, and why now?</string>
+    <string name="smart_r_hint">Relevant. How it fits your life and your other goals.</string>
+    <string name="smart_r_example">I want to prove to myself that I can finish what I start</string>
+    <string name="smart_t">By when?</string>
+    <string name="smart_t_hint">Time-bound. A date makes it real, and you can set it as the goal’s deadline.</string>
+    <string name="smart_t_example">the city marathon on 20 April</string>
+    <string name="smart_meter">%d of 5 answered</string>
+    <string name="smart_deadline">Goal deadline</string>
+    <string name="smart_no_deadline">Not set</string>
+    <string name="smart_set_deadline">Set the deadline</string>
+    <string name="smart_change_deadline">Change the deadline</string>
+    <string name="smart_wording">Now in one sentence</string>
+    <string name="smart_wording_hint">Put the answers together into one clear sentence.</string>
+    <string name="smart_wording_placeholder">The goal, clearly</string>
+    <string name="smart_wording_example">Run the city marathon on 20 April in under 4 hours</string>
+    <string name="smart_use_title">Use as the goal title</string>
+    <string name="smart_is_title">This is the goal’s title now.</string>
+
+    <!-- WOOP -->
+    <string name="woop_w_letter" translatable="false">W</string>
+    <string name="woop_o_letter" translatable="false">O</string>
+    <string name="woop_p_letter" translatable="false">P</string>
+    <string name="woop_wish">What do you wish for?</string>
+    <string name="woop_wish_hint">Wish. Something challenging but possible. A few words are enough.</string>
+    <string name="woop_wish_example">run my first marathon</string>
+    <string name="woop_outcome">What would be the best result?</string>
+    <string name="woop_outcome_hint">Outcome. How will it feel, what will change?</string>
+    <string name="woop_outcome_pause">Take a minute. Close your eyes and picture the best outcome as vividly as you can: where you are, what you see, how you feel. Then write it down.</string>
+    <string name="woop_outcome_example">crossing the finish line, my family cheering, feeling I can do hard things</string>
+    <string name="woop_obstacle">What inside you could get in the way?</string>
+    <string name="woop_obstacle_hint">Obstacle. Not the weather or other people: a habit, a feeling, a thought of yours.</string>
+    <string name="woop_obstacle_pause">Now picture the moment it usually goes wrong. What do you feel or think right then? Name the main obstacle.</string>
+    <string name="woop_obstacle_example">after work I’m tired and tell myself I’ll run tomorrow</string>
+    <string name="woop_plan">What will you do when it shows up?</string>
+    <string name="woop_plan_hint">Plan. If the obstacle appears, then you do one concrete thing.</string>
+    <string name="woop_your_obstacle">Your obstacle</string>
+    <string name="woop_add_first_plan">Make an if-then plan</string>
+    <string name="woop_add_plan">Add another plan</string>
+    <string name="woop_plans">If-then plans</string>
+    <string name="woop_new_plan">New if-then plan</string>
+    <string name="woop_edit_plan">If-then plan</string>
+    <string name="woop_if">If…</string>
+    <string name="woop_if_hint">the obstacle shows up</string>
+    <string name="woop_then">Then I will…</string>
+    <string name="woop_then_hint">one concrete action</string>
+    <string name="woop_if_short">If</string>
+    <string name="woop_then_short">Then I will</string>
+    <string name="woop_then_missing">Add what you will do</string>
+
+    <!-- GROW -->
+    <string name="grow_g_letter" translatable="false">G</string>
+    <string name="grow_r_letter" translatable="false">R</string>
+    <string name="grow_o_letter" translatable="false">O</string>
+    <string name="grow_w_letter" translatable="false">W</string>
+    <string name="grow_goal">What do you want to achieve?</string>
+    <string name="grow_goal_hint">Goal. And what would a good result of this session be?</string>
+    <string name="grow_goal_example">find a way to train regularly despite a busy job</string>
+    <string name="grow_reality">Where are you now?</string>
+    <string name="grow_reality_hint">Reality. Facts, not judgements.</string>
+    <string name="grow_reality_prompts">What is happening now? What have you already tried, and what came of it? What is stopping you? What do you have that could help?</string>
+    <string name="grow_options">What could you do?</string>
+    <string name="grow_options_hint">Options. Write down many, even odd ones. Don’t judge yet.</string>
+    <string name="grow_option_hint">An option</string>
+    <string name="grow_options_empty">Aim for at least five.</string>
+    <string name="grow_options_choose">Tap the star next to the options you’ll go with.</string>
+    <string name="grow_will">What will you do, and when?</string>
+    <string name="grow_will_hint">Will. Turn the chosen options into steps with a day or a schedule.</string>
+    <string name="grow_will_empty">Choose an option first, or add a step right away.</string>
+    <string name="grow_to_action">Turn into a step</string>
+    <string name="grow_another_action">Add a step</string>
+    <string name="grow_new_action">New step</string>
+    <string name="grow_on_today">Steps with a day or a schedule show up on Today.</string>
+    <string name="grow_new_step">New step</string>
+    <string name="grow_edit_step">Step</string>
+    <string name="grow_step_label">What will you do?</string>
+    <string name="grow_step_hint">A concrete action</string>
+    <string name="grow_choose">Choose this option</string>
+
+    <!-- 5 whys -->
+    <string name="whys_depth">Depth %d of 5</string>
+    <string name="whys_first">Why does “%s” matter to you?</string>
+    <string name="whys_first_hint">Answer honestly, the way you would to a close friend.</string>
+    <string name="whys_next">And why does that matter?</string>
+    <string name="whys_because">Because…</string>
+    <string name="whys_deep">Your deep why</string>
+    <string name="whys_deep_text">This is the reason underneath. Read it on the days you want to give up.</string>
+    <string name="whys_on_card">It’s on the goal card.</string>
+    <string name="whys_put_on_card">Put it on the goal card</string>
+    <string name="whys_keep_going">Go a little deeper. The real reason is usually three or four answers down.</string>
+
+    <!-- Pre-mortem -->
+    <string name="pm_intro_date">It’s %s. The goal didn’t work out. Why?</string>
+    <string name="pm_intro">The deadline has passed. The goal didn’t work out. Why?</string>
+    <string name="pm_intro_hint">Tell the story of the failure as if it already happened. Then decide how to prevent each reason.</string>
+    <string name="pm_reasons">Why it failed</string>
+    <string name="pm_empty">No reasons yet. Start with the most likely one.</string>
+    <string name="pm_failed">It failed because</string>
+    <string name="pm_prevent_short">To prevent it</string>
+    <string name="pm_add">Add a reason</string>
+    <string name="pm_common">Common reasons</string>
+    <string name="pm_new">New reason</string>
+    <string name="pm_edit">Reason</string>
+    <string name="pm_failed_label">It failed because…</string>
+    <string name="pm_failed_hint">what went wrong</string>
+    <string name="pm_prevent">How to prevent it</string>
+    <string name="pm_prevent_hint">what you’ll do so it doesn’t happen</string>
+    <string name="pm_p_motivation">I lost motivation</string>
+    <string name="pm_p_time">No time</string>
+    <string name="pm_p_sick">I got ill</string>
+    <string name="pm_p_perfect">Perfectionism</string>
+    <string name="pm_p_life">Life got in the way</string>
+    <string name="pm_p_alone">No one supported me</string>
+    <string name="pm_p_big">I took on too much at once</string>
+    <string name="pm_p_money">Ran out of money</string>
+</resources>
