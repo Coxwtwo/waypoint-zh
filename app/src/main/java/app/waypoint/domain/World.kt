@@ -90,7 +90,7 @@ class World(
     // ---- Weeks ----
 
     /** Monday of the week [day] falls in. */
-    fun weekStart(day: Long): Long = LocalDate.ofEpochDay(day).with(DayOfWeek.MONDAY).toEpochDay()
+    fun weekStart(day: Long): Long = weekStartOf(day)
 
     val thisWeek: Long = weekStart(day)
 
@@ -297,6 +297,9 @@ class World(
     val lastWheel: WheelCheck? = wheel.maxByOrNull { it.day }
 
     companion object {
+
+        /** Monday of the week [day] falls in. */
+        fun weekStartOf(day: Long): Long = LocalDate.ofEpochDay(day).with(DayOfWeek.MONDAY).toEpochDay()
 
         fun epochDay(millis: Long, zone: java.time.ZoneId = java.time.ZoneId.systemDefault()): Long =
             java.time.Instant.ofEpochMilli(millis).atZone(zone).toLocalDate().toEpochDay()
