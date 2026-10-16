@@ -80,6 +80,8 @@ internal fun LensScaffold(lens: Method, goal: Goal, go: Go, content: @Composable
             Text(stringResource(R.string.lens_goal).uppercase(), style = UType.Eyebrow)
             Spacer(Modifier.height(4.dp))
             Text(goal.title, style = UType.Heading)
+            Spacer(Modifier.height(14.dp))
+            app.waypoint.ui.compass.MethodGuide(lens)
             Spacer(Modifier.height(18.dp))
             content()
         }

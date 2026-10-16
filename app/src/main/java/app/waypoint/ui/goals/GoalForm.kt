@@ -278,6 +278,7 @@ private fun MethodPicker(selected: Method?, onPick: (Method) -> Unit) {
                     Text(methodTagline(m), style = UType.Muted)
                 }
             }
+            if (on) app.waypoint.ui.compass.MethodGuide(m, open = true)
         }
     }
 }

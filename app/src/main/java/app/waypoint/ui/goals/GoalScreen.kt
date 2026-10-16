@@ -135,6 +135,10 @@ fun GoalScreen(id: Long, data: WData, go: Go) {
                 Goal.DONE, Goal.DROPPED -> ClosedBanner(goal)
                 else -> if (p.fraction >= 1f) ReachedBanner { closing = Goal.DONE }
             }
+            Spacer(Modifier.height(14.dp))
+            val fresh = w.nodesOf(goal.id).none { it.title.isNotBlank() && it.kind != app.waypoint.domain.NodeKind.PLAN.name && it.kind != app.waypoint.domain.NodeKind.RISK.name } ||
+                (m == Method.KAIZEN || m == Method.PACT) && data.day - goal.startDay < 2
+            app.waypoint.ui.compass.MethodGuide(m, open = fresh && goal.status == Goal.ACTIVE)
             Spacer(Modifier.height(8.dp))
             when (m) {
                 Method.MANDALA -> MandalaBody(goal, data, go)

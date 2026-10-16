@@ -49,7 +49,6 @@ import app.waypoint.ui.components.UCard
 import app.waypoint.ui.groupName
 import app.waypoint.ui.groupText
 import app.waypoint.ui.methodAbout
-import app.waypoint.ui.methodHow
 import app.waypoint.ui.methodIcon
 import app.waypoint.ui.methodName
 import app.waypoint.ui.methodOrigin
@@ -133,18 +132,7 @@ fun MethodScreen(m: Method, data: WData, go: Go) {
             Text(methodAbout(m), style = UType.Body)
 
             SectionTitle(stringResource(R.string.method_how))
-            Column(verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                methodHow(m).forEachIndexed { i, step ->
-                    Row(verticalAlignment = Alignment.Top) {
-                        Box(
-                            Modifier.size(26.dp).clip(CircleShape).border(1.dp, hue.copy(alpha = 0.6f), CircleShape),
-                            contentAlignment = Alignment.Center,
-                        ) { Text("${i + 1}", style = UType.Small.copy(color = hue)) }
-                        Spacer(Modifier.width(12.dp))
-                        Text(step, style = UType.Body, modifier = Modifier.weight(1f).padding(top = 2.dp))
-                    }
-                }
-            }
+            MethodSteps(m)
 
             SectionTitle(stringResource(R.string.method_origin))
             Text(methodOrigin(m), style = UType.Sub.copy(fontStyle = FontStyle.Italic))

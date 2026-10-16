@@ -429,4 +429,6 @@
     <string name="widget_no_goals">Open Waypoint to set your first goal.</string>
     <plurals name="notif_morning_title"><item quantity="one">Today’s course: %d step</item><item quantity="other">Today’s course: %d steps</item></plurals>
     <plurals name="notif_evening_title"><item quantity="one">%d step is still open</item><item quantity="other">%d steps are still open</item></plurals>
+    <string name="guide_title">How this method works</string>
+    <string name="guide_steps">Steps</string>
 </resources>

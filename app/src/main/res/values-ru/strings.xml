@@ -440,4 +440,6 @@
     <string name="widget_no_goals">Открой Waypoint и поставь первую цель.</string>
     <plurals name="notif_morning_title"><item quantity="one">Курс на сегодня: %d шаг</item><item quantity="few">Курс на сегодня: %d шага</item><item quantity="many">Курс на сегодня: %d шагов</item><item quantity="other">Курс на сегодня: %d шага</item></plurals>
     <plurals name="notif_evening_title"><item quantity="one">Остался %d шаг</item><item quantity="few">Осталось %d шага</item><item quantity="many">Осталось %d шагов</item><item quantity="other">Осталось %d шага</item></plurals>
+    <string name="guide_title">Как устроен метод</string>
+    <string name="guide_steps">Шаги</string>
 </resources>

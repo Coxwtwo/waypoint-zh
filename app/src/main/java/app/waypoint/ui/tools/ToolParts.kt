@@ -60,8 +60,14 @@ internal fun ToolScaffold(
                 .padding(horizontal = 18.dp)
                 .navigationBarsPadding()
                 .padding(bottom = 28.dp),
-            content = content,
-        )
+        ) {
+            if (tool != null) {
+                Spacer(Modifier.height(4.dp))
+                app.waypoint.ui.compass.MethodGuide(tool)
+                Spacer(Modifier.height(8.dp))
+            }
+            content()
+        }
     }
 }
 
