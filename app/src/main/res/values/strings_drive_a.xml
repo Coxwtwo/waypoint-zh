@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mandala 64, OKR and the 12-week year. -->
+<resources>
+    <!-- Mandala -->
+    <string name="mandala_map">Star map</string>
+    <string name="mandala_lit_total">Stars lit: %d of 64</string>
+    <string name="mandala_hint_title">Your goal is already in the centre</string>
+    <string name="mandala_hint">Tap a cell around it and name the first pillar: something that has to be true for you to get there. Then give each pillar eight actions.</string>
+    <string name="mandala_how">How the method works</string>
+    <string name="mandala_tap_hint">Tap a block to zoom in. Light a star when an action has become part of you.</string>
+    <string name="mandala_pillar">Pillar</string>
+    <string name="mandala_pillar_n">Pillar %d</string>
+    <string name="mandala_pillar_hint">For example: Endurance</string>
+    <string name="mandala_pillar_first">This pillar has no name yet. Name it, then add its eight actions.</string>
+    <string name="mandala_name_pillar">Name the pillar</string>
+    <string name="mandala_pillar_lit">Lit: %d of 8</string>
+    <string name="mandala_rename">Rename the pillar</string>
+    <string name="mandala_action">Action</string>
+    <string name="mandala_action_hint">For example: A long run on Sundays</string>
+    <string name="mandala_new_action">New action</string>
+    <string name="mandala_add_action">Add an action</string>
+    <string name="mandala_light">Light the star</string>
+    <string name="mandala_dim">Put the star out</string>
+    <string name="mandala_streak">%d in a row</string>
+    <string name="mandala_part_of_you">Part of you</string>
+    <string name="mandala_today">Today</string>
+    <string name="mandala_on_today">On today’s list</string>
+    <string name="mandala_share">Share the map</string>
+    <string name="mandala_poster_by">Made with Waypoint</string>
+
+    <!-- OKR -->
+    <string name="okr_quarter">Quarter</string>
+    <string name="okr_range">%1$s – %2$s</string>
+    <string name="okr_no_end">An OKR lives for a quarter. Set when this one ends.</string>
+    <string name="okr_set_end">End in 90 days</string>
+    <string name="okr_score">Score</string>
+    <string name="okr_score_none">Add key results and the score will appear here.</string>
+    <string name="okr_score_good">0.7 and up is a win for an ambitious objective.</string>
+    <string name="okr_score_mid">Moving. Keep checking in every week.</string>
+    <string name="okr_score_low">Early days, or time to rethink the initiatives.</string>
+    <string name="okr_confidence">Confidence</string>
+    <string name="okr_confidence_text">How much do you believe you’ll hit the key results?</string>
+    <string name="okr_krs">Key results</string>
+    <string name="okr_kr">Key result</string>
+    <string name="okr_new_kr">New key result</string>
+    <string name="okr_kr_hint">For example: Read 12 books</string>
+    <string name="okr_add_kr">Add a key result</string>
+    <string name="okr_empty">Add three to five key results: numbers that will prove the objective is reached.</string>
+    <string name="okr_too_many">More than five key results spreads your focus thin. Three to five works best.</string>
+    <string name="okr_numbers">%1$s → %2$s of %3$s</string>
+    <string name="okr_check_in">Check in</string>
+    <string name="okr_check_in_title">Where is it now?</string>
+    <string name="okr_now">Now</string>
+    <string name="okr_target_is">Target: %s</string>
+    <string name="okr_last_check">Updated %s</string>
+    <string name="okr_initiatives">Initiatives</string>
+    <string name="okr_initiative">Initiative</string>
+    <string name="okr_new_initiative">New initiative</string>
+    <string name="okr_initiative_hint">For example: Read 20 pages before bed</string>
+    <string name="okr_add_initiative">Add an initiative</string>
+    <string name="okr_review_hint">Update the numbers once a week. The weekly review is a good moment for it.</string>
+
+    <!-- 12-week year -->
+    <string name="w12_week_of">Week %d of 12</string>
+    <string name="w12_review_week">Review week</string>
+    <string name="w12_starts">Starts %s</string>
+    <string name="w12_ends">Ends %s</string>
+    <string name="w12_goal85" formatted="false">The dashed line is 85%: an excellent week.</string>
+    <string name="w12_average">Average %s</string>
+    <string name="w12_this_week">This week</string>
+    <string name="w12_dates">%1$s – %2$s</string>
+    <string name="w12_score_none">Nothing planned for this week yet.</string>
+    <string name="w12_score_good">Excellent execution.</string>
+    <string name="w12_score_mid">Good. A little more and it’s excellent.</string>
+    <string name="w12_score_low">Done beats perfect. Pick one tactic and do it today.</string>
+    <string name="w12_tactic">Tactic</string>
+    <string name="w12_new_tactic">New tactic</string>
+    <string name="w12_tactic_hint">For example: Send two job applications</string>
+    <string name="w12_add_tactic">Add a tactic</string>
+    <string name="w12_empty">Break the 12 weeks into tactics: small actions for each week that you can tick off.</string>
+    <string name="w12_no_tactics">No tactics for this week yet.</string>
+    <string name="w12_vision">Vision</string>
+    <string name="w12_vision_text">Where do you want to be in a few years? These 12 weeks are a step towards it.</string>
+    <string name="w12_vision_hint">What will life look like once you get there?</string>
+    <string name="w12_over_title">The 12 weeks are over</string>
+    <string name="w12_over_text">Week 13 is for looking back and resting. See what worked, then start the next 12 weeks with what you learned.</string>
+    <string name="w12_review">Weekly review</string>
+    <string name="w12_new_year">New 12-week year</string>
+    <string name="w12_new_year_text">A new 12-week year starts today with the same tactics. This one moves to the journal as finished.</string>
+    <string name="w12_new_year_go">Start</string>
+</resources>
