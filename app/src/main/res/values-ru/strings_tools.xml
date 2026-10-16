@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tool_about">О методе</string>
+    <string name="tool_is_goal">Цель</string>
+    <string name="tool_make_goal">Сделать целью</string>
+
+    <!-- Wheel of life -->
+    <string name="wheel_intro">Оцени каждую сферу жизни от 1 до 10 — как есть сейчас, а не как должно быть. Неправильных ответов нет.</string>
+    <string name="wheel_average">В среднем %s</string>
+    <string name="wheel_comparing">Контур: оценка от %1$s, в среднем %2$s</string>
+    <string name="wheel_rate">Как сейчас?</string>
+    <string name="wheel_save">Сохранить оценку</string>
+    <string name="wheel_saved">На сегодня сохранено</string>
+    <string name="wheel_lowest">Где цель поможет больше всего</string>
+    <string name="wheel_lowest_text">Самые низкие сферы. Даже одна небольшая цель здесь подтянет всё колесо.</string>
+    <string name="wheel_score">%d из 10</string>
+    <string name="wheel_goal_here">Поставить цель</string>
+    <string name="wheel_history">Прошлые оценки</string>
+    <string name="wheel_history_hint">Нажми на оценку, чтобы сравнить её с колесом сверху.</string>
+
+    <!-- Odyssey plans -->
+    <string name="ody_intro">Представь три разные версии своих следующих пяти лет. Не ищи правильную: каждая — настоящая возможность.</string>
+    <string name="ody_life_n">Жизнь %d</string>
+    <string name="ody_life1">Нынешний путь</string>
+    <string name="ody_life2">Если этот путь исчезнет</string>
+    <string name="ody_life3">Если деньги не важны</string>
+    <string name="ody_life1_text">Куда через пять лет приведёт то, чем ты занимаешься сейчас? Представь в подробностях.</string>
+    <string name="ody_life2_text">Нынешний путь вдруг закрылся. Чем тогда заняться?</string>
+    <string name="ody_life3_text">Деньги, статус и чужое мнение не имеют значения. Какой была бы твоя жизнь?</string>
+    <string name="ody_sketch">Набросать эту жизнь</string>
+    <string name="ody_headline">Заголовок</string>
+    <string name="ody_headline_hint">Шесть слов об этой жизни</string>
+    <string name="ody_story">Что происходит за пять лет</string>
+    <string name="ody_story_hint">Работа, дом, люди, чему учишься</string>
+    <string name="ody_resources">Ресурсы</string>
+    <string name="ody_like">Нравится</string>
+    <string name="ody_confidence">Уверенность</string>
+    <string name="ody_coherence">Цельность</string>
+    <string name="ody_compare">Рядом</string>
+    <string name="ody_total">в ср. %d</string>
+    <string name="ody_compare_hint">Выше всех оценена жизнь %d. Но оценки — не приговор: заметь, о какой жизни думаешь чаще.</string>
+    <string name="ody_delete">Удалить эту жизнь?</string>
+    <string name="ody_delete_text">Набросок и оценки удалятся.</string>
+
+    <!-- 5/25 -->
+    <string name="buf_intro">Запиши 25 вещей, которых хочешь, больших и маленьких. Потом выбери пять самых важных.</string>
+    <string name="buf_written">Записано %1$d из %2$d</string>
+    <string name="buf_chosen">Выбрано %1$d из %2$d</string>
+    <string name="buf_add">Добавить цель</string>
+    <string name="buf_empty">Начни список. Подходит всё, чего хочется: в работе, в жизни, для себя.</string>
+    <string name="buf_top">Пятёрка</string>
+    <string name="buf_top_empty">Нажми на звезду рядом с целью, чтобы взять её в пятёрку.</string>
+    <string name="buf_top_full">Пятёрка уже собрана. Сначала убери одну звезду.</string>
+    <string name="buf_list">Всё остальное</string>
+    <string name="buf_list_text">Нажми на звезду, чтобы взять цель в пятёрку.</string>
+    <string name="buf_avoid">Избегать любой ценой</string>
+    <string name="buf_avoid_text">Это не запасной список. Эти цели достаточно важны, чтобы красть время у пятёрки, поэтому пока не трогай их.</string>
+    <string name="buf_new">Новая цель</string>
+    <string name="buf_edit">Изменить цель</string>
+    <string name="buf_hint">Чего ты хочешь?</string>
+    <string name="buf_choose">Взять в пятёрку</string>
+    <string name="buf_unchoose">Убрать из пятёрки</string>
+    <string name="buf_delete">Удалить эту цель?</string>
+    <string name="buf_delete_text">Она исчезнет из списка.</string>
+
+    <!-- Dreamline -->
+    <string name="dream_intro">Запиши, о чём мечтаешь, и назначь каждой мечте цену. Многие мечты стоят меньше, чем кажется.</string>
+    <string name="dream_having">Иметь</string>
+    <string name="dream_being">Быть</string>
+    <string name="dream_doing">Делать</string>
+    <string name="dream_having_hint">Вещи: гитара, квартира у моря, хороший велосипед</string>
+    <string name="dream_being_hint">Кем хочется стать: свободно говорить по-испански, отлично готовить</string>
+    <string name="dream_doing_hint">Впечатления: увидеть северное сияние, пробежать марафон</string>
+    <string name="dream_tmi">Нужный доход в месяц</string>
+    <string name="dream_tmi_text">Разовые траты, разложенные на %d мес., плюс ежемесячные и ещё 30%% на непредвиденное.</string>
+    <string name="dream_tdi">В день</string>
+    <string name="dream_tdi_text">Та же сумма, делённая на 30: столько должен приносить каждый день.</string>
+    <string name="dream_timeline">Срок</string>
+    <string name="dream_months">%d мес.</string>
+    <string name="dream_currency">Валюта</string>
+    <string name="dream_currency_hint">₽, $, €…</string>
+    <string name="dream_empty">Здесь пока пусто. Добавь первую мечту, даже если она кажется недостижимой.</string>
+    <string name="dream_once_value">%s разово</string>
+    <string name="dream_monthly_value">%s в месяц</string>
+    <string name="dream_free">Ничего не стоит</string>
+    <string name="dream_add">Добавить мечту</string>
+    <string name="dream_totals">Всего</string>
+    <string name="dream_total_once">Разово</string>
+    <string name="dream_total_monthly">В месяц</string>
+    <string name="dream_new">Новая мечта</string>
+    <string name="dream_edit">Изменить мечту</string>
+    <string name="dream_once">Разово</string>
+    <string name="dream_monthly">В месяц</string>
+    <string name="dream_delete">Удалить эту мечту?</string>
+    <string name="dream_delete_text">Она исчезнет из списка.</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title">Какой метод подойдёт?</string>
+    <string name="quiz_step">Вопрос %1$d из %2$d</string>
+    <string name="quiz_q1">Какая у тебя цель?</string>
+    <string name="quiz_q1_dream">Большая мечта, у которой много сторон</string>
+    <string name="quiz_q1_number">Результат, который можно измерить</string>
+    <string name="quiz_q1_habit">Новая привычка или практика</string>
+    <string name="quiz_q1_project">Проект со сроком</string>
+    <string name="quiz_q1_unsure">Пока не знаю, чего хочу</string>
+    <string name="quiz_q2">Можно ли измерить её числом?</string>
+    <string name="quiz_q2_yes">Да: килограммы, деньги, страницы, минуты</string>
+    <string name="quiz_q2_no">Не очень</string>
+    <string name="quiz_q3">Как далеко до неё?</string>
+    <string name="quiz_q3_weeks">Несколько недель</string>
+    <string name="quiz_q3_quarter">Около трёх месяцев</string>
+    <string name="quiz_q3_year">Год или больше</string>
+    <string name="quiz_q4">Что обычно мешает?</string>
+    <string name="quiz_q4_focus">Отвлекаюсь на другое</string>
+    <string name="quiz_q4_delay">Откладываю на потом</string>
+    <string name="quiz_q4_give_up">Бросаю, когда становится трудно</string>
+    <string name="quiz_q4_overwhelm">Всего слишком много</string>
+    <string name="quiz_q4_start">Не знаю, с чего начать</string>
+    <string name="quiz_q5">Сколько нужно структуры?</string>
+    <string name="quiz_q5_lot">Много: планы, цифры, проверки</string>
+    <string name="quiz_q5_little">Немного: чем легче, тем лучше</string>
+
+    <string name="quiz_result_title">Тебе подойдут эти два</string>
+    <string name="quiz_best">Лучше всего</string>
+    <string name="quiz_because">Почему: %s.</string>
+    <string name="quiz_start_with">Начать: %s</string>
+    <string name="quiz_about">Подробнее</string>
+    <string name="quiz_again">Пройти заново</string>
+    <string name="quiz_tools_title">Сначала выбери цель</string>
+    <string name="quiz_tools_text">Пока сама цель не ясна, метод не поможет. Эти инструменты помогут понять, чего на самом деле хочется.</string>
+    <string name="quiz_or_start">Или начни сразу</string>
+    <string name="quiz_lens_title">Добавь линзу</string>
+    <string name="quiz_lens_woop">Если бросаешь или откладываешь, WOOP заранее готовит план «если–то» как раз на такой момент.</string>
+    <string name="quiz_lens_smart">Сначала нужна ясная формулировка. SMART превратит расплывчатое желание в цель, которую можно проверить.</string>
+    <string name="quiz_lens_premortem">На долгой дороге много мест, где можно споткнуться. Пре-мортем найдёт их заранее.</string>
+    <string name="quiz_lens_whys">В долгом пути важно помнить, ради чего всё началось. Пять «почему» найдут настоящую причину.</string>
+
+    <string name="quiz_why_dream">большую цель проще держать, когда вся картина на одном листе</string>
+    <string name="quiz_why_number">результат — число, а этот метод построен на числах</string>
+    <string name="quiz_why_habit">практика лучше всего растёт маленькими ежедневными шагами</string>
+    <string name="quiz_why_project">проект со сроком проще всего планировать от финиша</string>
+    <string name="quiz_why_unsure">он достаточно лёгкий, чтобы начать, пока цель ещё складывается</string>
+    <string name="quiz_why_measurable">цель можно измерить, и прогресс будет виден в цифрах</string>
+    <string name="quiz_why_not_measurable">он хорошо подходит для целей, которые трудно выразить числом</string>
+    <string name="quiz_why_weeks">он рассчитан на короткий срок в несколько недель</string>
+    <string name="quiz_why_quarter">он рассчитан примерно на три месяца</string>
+    <string name="quiz_why_year">он выдерживает долгую дорогу в год и больше</string>
+    <string name="quiz_why_focus">он держит на одном главном, когда внимание расползается</string>
+    <string name="quiz_why_delay">близкие сроки не оставляют места для «потом»</string>
+    <string name="quiz_why_give_up">от маленьких шагов трудно отказаться</string>
+    <string name="quiz_why_overwhelm">он разбивает большую цель на части, которые не пугают</string>
+    <string name="quiz_why_start">он показывает, что делать в первую очередь</string>
+    <string name="quiz_why_structured">он даёт ту структуру, которую ты любишь</string>
+    <string name="quiz_why_light">он лёгкий, как тебе и нравится</string>
+</resources>
