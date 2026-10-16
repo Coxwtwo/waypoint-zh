@@ -39,8 +39,6 @@ data class Settings(
     val haptics: Boolean = true,
     /** Ids of moments already celebrated (a goal reached, a pillar lit), so each is shown once. */
     val seen: Set<String> = emptySet(),
-    /** Starts the week on Sunday instead of Monday in calendars. */
-    val sundayFirst: Boolean = false,
 )
 
 class SettingsStore(context: Context) {
@@ -62,7 +60,6 @@ class SettingsStore(context: Context) {
         reviewAt = this[REVIEW_AT] ?: (19 * 60),
         haptics = this[HAPTICS] ?: true,
         seen = this[SEEN] ?: emptySet(),
-        sundayFirst = this[SUNDAY_FIRST] ?: false,
     )
 
     suspend fun now(): Settings = settings.first()
@@ -83,7 +80,6 @@ class SettingsStore(context: Context) {
             it[REVIEW_AT] = s.reviewAt
             it[HAPTICS] = s.haptics
             it[SEEN] = s.seen
-            it[SUNDAY_FIRST] = s.sundayFirst
         }
     }
 
@@ -101,6 +97,5 @@ class SettingsStore(context: Context) {
         val REVIEW_AT = intPreferencesKey("review_at")
         val HAPTICS = booleanPreferencesKey("haptics")
         val SEEN = stringSetPreferencesKey("seen")
-        val SUNDAY_FIRST = booleanPreferencesKey("sunday_first")
     }
 }

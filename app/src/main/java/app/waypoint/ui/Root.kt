@@ -78,6 +78,7 @@ import app.waypoint.ui.lenses.PremortemLens
 import app.waypoint.ui.lenses.SmartLens
 import app.waypoint.ui.lenses.WhysLens
 import app.waypoint.ui.lenses.WoopLens
+import app.waypoint.ui.onboarding.FirstStep
 import app.waypoint.ui.onboarding.OnboardingScreen
 import app.waypoint.ui.settings.SettingsScreen
 import app.waypoint.ui.theme.Manrope
@@ -180,7 +181,15 @@ fun WaypointRoot(openRoute: MutableStateFlow<String?>, settings: Settings) {
             popExitTransition = { fadeOut(tween(180)) },
         ) {
             composable("welcome") {
-                OnboardingScreen(data) { nav.navigate("main") { popUpTo("welcome") { inclusive = true } } }
+                OnboardingScreen(data) { step ->
+                    nav.navigate("main") { popUpTo("welcome") { inclusive = true } }
+                    when (step) {
+                        FirstStep.GOAL -> go.newGoal()
+                        FirstStep.QUIZ -> go.quiz()
+                        FirstStep.WHEEL -> go.tool(Method.WHEEL)
+                        FirstStep.LOOK -> Unit
+                    }
+                }
             }
             composable("main") { MainTabs(tab, { tab = it }, go, data) }
             composable("goal/{id}", arguments = listOf(navArgument("id") { type = NavType.LongType })) { e ->
