@@ -156,6 +156,13 @@
     <string name="m_simple_how">说出目标，如果愿意也可以写下一个要达到的数字。\n沿途添加里程碑。\n添加推动你前进的习惯。</string>
     <string name="m_simple_origin">世上最古老的方法。</string>
 
+    <string name="m_tracker">进度追踪</string>
+    <string name="m_tracker_short">追踪</string>
+    <string name="m_tracker_tag">可计数的任务，一次 + 一下</string>
+    <string name="m_tracker_about">把目标拆成可以计数的任务：课程、页数、题目、公里。每个任务有总量、单位和每次增加的量。在今天点 + 推进，点 - 撤销，看着进度条一点点填满。</string>
+    <string name="m_tracker_how">说出构成目标的任务。\n给每个任务设总量、单位和增量。\n可选地设定计划和日期范围。\n每完成一块就在今天点 +。\n点 - 撤销最近一次。</string>
+    <string name="m_tracker_origin">可衡量目标最简单的习惯：把所做的事一点点数清楚。</string>
+
     <string name="m_smart">SMART</string>
     <string name="m_smart_short">SMART</string>
     <string name="m_smart_tag">把愿望变成一个清晰、可检验的目标</string>

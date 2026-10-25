@@ -139,14 +139,15 @@ fun WaypointRoot(openRoute: MutableStateFlow<String?>, settings: Settings) {
     val goals by dao.observeGoals().collectAsStateWithLifecycle(initialValue = null)
     val nodes by dao.observeNodes().collectAsStateWithLifecycle(initialValue = emptyList())
     val logs by dao.observeLogs().collectAsStateWithLifecycle(initialValue = emptyList())
+    val entries by dao.observeEntries().collectAsStateWithLifecycle(initialValue = emptyList())
     val fields by dao.observeFields().collectAsStateWithLifecycle(initialValue = emptyList())
     val reviews by dao.observeReviews().collectAsStateWithLifecycle(initialValue = emptyList())
     val wheel by dao.observeWheel().collectAsStateWithLifecycle(initialValue = emptyList())
     val ideas by dao.observeIdeas().collectAsStateWithLifecycle(initialValue = emptyList())
     val minute = rememberNow(60_000)
     val day = remember(minute) { LocalDate.now(ZoneId.systemDefault()) }
-    val data = remember(goals, nodes, logs, fields, reviews, wheel, ideas, settings, day) {
-        WData(World(goals.orEmpty(), nodes, logs, fields, reviews, wheel, ideas, day), settings, System.currentTimeMillis())
+    val data = remember(goals, nodes, logs, entries, fields, reviews, wheel, ideas, settings, day) {
+        WData(World(goals.orEmpty(), nodes, logs, entries, fields, reviews, wheel, ideas, day), settings, System.currentTimeMillis())
     }
 
     val requested by openRoute.collectAsStateWithLifecycle()

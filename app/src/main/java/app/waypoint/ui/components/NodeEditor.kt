@@ -50,6 +50,10 @@ class NodeSpec(
     val due: Boolean = false,
     /** Start, target and unit, e.g. for a key result. */
     val metric: Boolean = false,
+    /** A per-tap increment (progress tracker). */
+    val increment: Boolean = false,
+    /** A start-and-end date window (progress tracker). */
+    val period: Boolean = false,
     val remind: Boolean = false,
     /** 12-week year: which week (0 = every week). */
     val weeks: Boolean = false,
@@ -91,9 +95,12 @@ fun NodeEditor(
     var start by remember { mutableStateOf(if (node.start != 0.0 || node.target != 0.0) formatNumber(node.start) else "") }
     var target by remember { mutableStateOf(if (node.target != 0.0) formatNumber(node.target) else "") }
     var unit by remember { mutableStateOf(node.unit) }
+    var increment by remember { mutableStateOf(if (node.increment != 0.0) formatNumber(node.increment) else "") }
+    var startDay by remember { mutableStateOf(node.startDay) }
     var remindAt by remember { mutableIntStateOf(node.remindAt) }
     var week by remember { mutableIntStateOf(node.week) }
     var pickDate by remember { mutableStateOf(false) }
+    var pickStart by remember { mutableStateOf(false) }
     var pickTime by remember { mutableStateOf(false) }
     var confirmDelete by remember { mutableStateOf(false) }
 
@@ -105,12 +112,14 @@ fun NodeEditor(
             note = note.trim(),
             days = if (spec.schedule && mode == Mode.DAYS) days.takeIf { it != 0 } ?: World.EVERY_DAY else if (spec.schedule) 0 else node.days,
             perWeek = if (spec.schedule && mode == Mode.WEEKLY) perWeek else if (spec.schedule) 0 else node.perWeek,
-            dueDay = if (spec.due && (!spec.schedule || mode == Mode.ONCE)) due else node.dueDay,
+            dueDay = if (spec.period) due else if (spec.due && (!spec.schedule || mode == Mode.ONCE)) due else node.dueDay,
             start = if (spec.metric) s else node.start,
             target = if (spec.metric) t else node.target,
             // A new key result starts where it starts; later the check-ins move it.
             current = if (spec.metric && node.id == 0L) s else node.current,
             unit = if (spec.metric) unit.trim() else node.unit,
+            increment = if (spec.increment) parseNumber(increment) ?: 0.0 else node.increment,
+            startDay = if (spec.period) startDay else node.startDay,
             remindAt = if (spec.remind) remindAt else node.remindAt,
             week = if (spec.weeks) week else node.week,
         )
@@ -142,6 +151,10 @@ fun NodeEditor(
                     UTextField(unit, { unit = it.take(16) }, Modifier.weight(1f), label = stringResource(R.string.node_unit))
                 }
             }
+            if (spec.increment) {
+                Spacer(Modifier.height(10.dp))
+                UTextField(increment, { increment = it.take(12) }, label = stringResource(R.string.tracker_increment), number = true)
+            }
             if (spec.schedule) {
                 SectionTitle(stringResource(R.string.node_how_often))
                 val modes = if (spec.allowOnce) Mode.entries else listOf(Mode.DAYS, Mode.WEEKLY)
@@ -167,6 +180,12 @@ fun NodeEditor(
             if (spec.due && (!spec.schedule || mode == Mode.ONCE)) {
                 Spacer(Modifier.height(6.dp))
                 PickRow(stringResource(R.string.node_due), due?.let { dateShort(it) } ?: stringResource(R.string.node_no_date)) { pickDate = true }
+            }
+            if (spec.period) {
+                Spacer(Modifier.height(6.dp))
+                PickRow(stringResource(R.string.tracker_start_date), startDay?.let { dateShort(it) } ?: stringResource(R.string.node_no_date)) { pickStart = true }
+                Spacer(Modifier.height(6.dp))
+                PickRow(stringResource(R.string.tracker_end_date), due?.let { dateShort(it) } ?: stringResource(R.string.node_no_date)) { pickDate = true }
             }
             if (spec.weeks) {
                 Spacer(Modifier.height(6.dp))
@@ -195,6 +214,7 @@ fun NodeEditor(
     }
 
     if (pickDate) DateDialog(due, { pickDate = false }, onClear = { due = null }) { due = it }
+    if (pickStart) DateDialog(startDay, { pickStart = false }, onClear = { startDay = null }) { startDay = it }
     if (pickTime) TimeDialog(remindAt, { pickTime = false }, onClear = { remindAt = -1 }) { remindAt = it }
     if (confirmDelete && onDelete != null) {
         ConfirmDialog(

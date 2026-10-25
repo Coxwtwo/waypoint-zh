@@ -26,6 +26,7 @@ enum class Method(val group: Group) {
     PACT(Group.DRIVE),
     LADDER(Group.DRIVE),
     SIMPLE(Group.DRIVE),
+    TRACKER(Group.DRIVE),
 
     // Lenses
     SMART(Group.SHAPE),
@@ -60,6 +61,8 @@ enum class NodeKind {
     ACTION,
     /** OKR key result: a number from start to target. */
     KR,
+    /** Progress-tracker task: a counted number from start to target, bumped with + / −. */
+    TASK,
     /** 12-week year tactic, tied to a week. */
     TACTIC,
     /** 4DX lead measure: counted per week against a target. */

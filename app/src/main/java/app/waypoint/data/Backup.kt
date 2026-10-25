@@ -21,10 +21,14 @@ object Backup {
             JSONObject().put("id", it.id).put("goalId", it.goalId).put("parentId", it.parentId).put("kind", it.kind).put("slot", it.slot)
                 .put("title", it.title).put("note", it.note).put("days", it.days).put("perWeek", it.perWeek).put("week", it.week)
                 .put("dueDay", it.dueDay ?: JSONObject.NULL).put("start", it.start).put("target", it.target).put("current", it.current)
-                .put("unit", it.unit).put("done", it.done).put("doneAt", it.doneAt ?: JSONObject.NULL).put("remindAt", it.remindAt)
+                .put("unit", it.unit).put("increment", it.increment).put("startDay", it.startDay ?: JSONObject.NULL)
+                .put("done", it.done).put("doneAt", it.doneAt ?: JSONObject.NULL).put("remindAt", it.remindAt)
         }))
         .put("logs", JSONArray(s.logs.map {
             JSONObject().put("nodeId", it.nodeId).put("goalId", it.goalId).put("day", it.day).put("value", it.value).put("at", it.at)
+        }))
+        .put("entries", JSONArray(s.entries.map {
+            JSONObject().put("id", it.id).put("nodeId", it.nodeId).put("goalId", it.goalId).put("at", it.at)
         }))
         .put("fields", JSONArray(s.fields.map { JSONObject().put("goalId", it.goalId).put("key", it.key).put("value", it.value) }))
         .put("reviews", JSONArray(s.reviews.map {
@@ -56,10 +60,12 @@ object Backup {
                     id = getLong("id"), goalId = getLong("goalId"), parentId = optLong("parentId"), kind = getString("kind"), slot = optInt("slot"),
                     title = optString("title"), note = optString("note"), days = optInt("days"), perWeek = optInt("perWeek"), week = optInt("week"),
                     dueDay = longOrNull("dueDay"), start = optDouble("start", 0.0), target = optDouble("target", 0.0), current = optDouble("current", 0.0),
-                    unit = optString("unit"), done = optBoolean("done"), doneAt = longOrNull("doneAt"), remindAt = optInt("remindAt", -1),
+                    unit = optString("unit"), increment = optDouble("increment", 0.0), startDay = longOrNull("startDay"),
+                    done = optBoolean("done"), doneAt = longOrNull("doneAt"), remindAt = optInt("remindAt", -1),
                 )
             },
             logs = root.list("logs") { Log(getLong("nodeId"), getLong("goalId"), getLong("day"), optDouble("value", 1.0), optLong("at")) },
+            entries = root.list("entries") { Entry(getLong("id"), getLong("nodeId"), getLong("goalId"), optLong("at")) },
             fields = root.list("fields") { Field(getLong("goalId"), getString("key"), optString("value")) },
             reviews = root.list("reviews") { Review(getLong("day"), optString("went"), optString("blocked"), optString("change"), optInt("mood"), optLong("at")) },
             wheel = root.list("wheel") { WheelCheck(getLong("day"), getString("scores"), optLong("at")) },

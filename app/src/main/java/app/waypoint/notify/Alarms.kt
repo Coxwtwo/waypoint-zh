@@ -83,7 +83,7 @@ object Alarms {
 
     private suspend fun world(context: Context, day: LocalDate): World {
         val dao = context.container.dao
-        return World(dao.goals(), dao.nodes(), dao.logs(), dao.fields(), dao.reviews(), dao.wheel(), dao.ideas(), day)
+        return World(dao.goals(), dao.nodes(), dao.logs(), dao.entries(), dao.fields(), dao.reviews(), dao.wheel(), dao.ideas(), day)
     }
 
     /** Steps and plans with a reminder that should ring on [day]: open steps due that day, and every if-then plan. */

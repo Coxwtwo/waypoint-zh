@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Progress tracker. -->
+<resources>
+    <string name="tracker_tasks">Задачи</string>
+    <string name="tracker_empty">Пока нет задач. Разбей цель на то, что можно посчитать.</string>
+    <string name="tracker_new_task">Новая задача</string>
+    <string name="tracker_edit_task">Изменить задачу</string>
+    <string name="tracker_task_label">Задача</string>
+    <string name="tracker_task_hint">Например: пройти курс А</string>
+    <string name="tracker_increment">Шаг</string>
+    <string name="tracker_start_date">Дата начала</string>
+    <string name="tracker_end_date">Дата конца</string>
+    <string name="tracker_days">Дней: %d</string>
+</resources>

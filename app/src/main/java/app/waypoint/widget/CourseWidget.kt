@@ -39,7 +39,7 @@ class CourseWidget : AppWidgetProvider() {
             val ids = manager.getAppWidgetIds(ComponentName(context, CourseWidget::class.java))
             if (ids.isEmpty()) return
             val dao = context.container.dao
-            val w = World(dao.goals(), dao.nodes(), dao.logs(), dao.fields(), dao.reviews(), dao.wheel(), dao.ideas(), LocalDate.now())
+            val w = World(dao.goals(), dao.nodes(), dao.logs(), dao.entries(), dao.fields(), dao.reviews(), dao.wheel(), dao.ideas(), LocalDate.now())
             val items = w.todayItems
             val done = items.count { it.done }
             val open = items.filter { !it.done }

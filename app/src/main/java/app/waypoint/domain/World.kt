@@ -1,5 +1,6 @@
 package app.waypoint.domain
 
+import app.waypoint.data.Entry
 import app.waypoint.data.Field
 import app.waypoint.data.Goal
 import app.waypoint.data.Idea
@@ -40,6 +41,7 @@ class World(
     val goals: List<Goal>,
     val nodes: List<Node>,
     val logs: List<Log>,
+    val entries: List<Entry>,
     val fields: List<Field>,
     val reviews: List<Review>,
     val wheel: List<WheelCheck>,
@@ -54,6 +56,7 @@ class World(
     private val childrenOf = nodes.groupBy { it.parentId }
     private val logsByNode = logs.groupBy { it.nodeId }
     private val logIndex = logs.associateBy { it.nodeId to it.day }
+    private val entriesByNode = entries.groupBy { it.nodeId }
     private val fieldIndex = fields.associate { (it.goalId to it.key) to it.value }
 
     val active: List<Goal> = goals.filter { it.status == Goal.ACTIVE }
@@ -107,7 +110,7 @@ class World(
     }
 
     /** Kinds that are steps to do, as opposed to structure (pillars, key results) or notes (plans, risks). */
-    private val doable = setOf(NodeKind.ACTION.name, NodeKind.TACTIC.name, NodeKind.LEAD.name, NodeKind.STEP.name, NodeKind.MILESTONE.name)
+    private val doable = setOf(NodeKind.ACTION.name, NodeKind.TACTIC.name, NodeKind.LEAD.name, NodeKind.STEP.name, NodeKind.MILESTONE.name, NodeKind.TASK.name)
 
     fun isDoable(n: Node): Boolean = n.kind in doable
 
@@ -116,6 +119,12 @@ class World(
         if (goal.status != Goal.ACTIVE || !isDoable(n) || goal.startDay > day) return false
         if (n.title.isBlank()) return false
         if (n.kind == NodeKind.TACTIC.name && n.week != 0 && n.week != week12(goal, day)) return false
+        if (n.kind == NodeKind.TASK.name) {
+            if (n.startDay != null && n.startDay > day) return false
+            if (n.dueDay != null && n.dueDay < day) return false
+            if (n.days != 0) return planned(n, day)
+            return true
+        }
         if (n.repeats) {
             if (log(n.id, day) != null) return true
             if (n.days != 0) return planned(n, day)
@@ -225,6 +234,9 @@ class World(
 
     fun kaizenTargetRounded(goal: Goal, day: Long = this.day): Int = ceil(kaizenTarget(goal, day) - 1e-9).toInt()
 
+    /** Progress tracker: the task's current value — its start plus one increment per logged entry. */
+    fun trackerCurrent(n: Node): Double = n.start + n.increment * entriesByNode[n.id].orEmpty().size
+
     /** Fraction from [start] to [target] that [current] has covered, 0..1. Works for goals that go down, too. */
     fun metricFraction(start: Double, target: Double, current: Double): Float {
         if (target == start) return if (current == target) 1f else 0f
@@ -272,6 +284,14 @@ class World(
             Method.LADDER -> {
                 val steps = nodesOf(id, NodeKind.STEP).filter { it.title.isNotBlank() }
                 Progress(if (steps.isEmpty()) 0f else steps.count { it.done }.toFloat() / steps.size, steps.count { it.done }, steps.size)
+            }
+            Method.TRACKER -> {
+                val tasks = nodesOf(id, NodeKind.TASK).filter { it.title.isNotBlank() }
+                if (tasks.isEmpty()) Progress(0f, 0, 0)
+                else {
+                    val f = tasks.map { metricFraction(it.start, it.target, trackerCurrent(it)) }
+                    Progress(f.average().toFloat(), f.count { it >= 1f }, tasks.size)
+                }
             }
             else -> {
                 if (goal.hasMetric) Progress(metricFraction(goal.startValue, goal.targetValue, goal.currentValue), 0, 0)

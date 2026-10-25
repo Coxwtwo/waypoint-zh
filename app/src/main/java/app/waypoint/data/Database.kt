@@ -14,6 +14,8 @@ import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.Transaction
 import androidx.room.Upsert
+import androidx.room.migration.Migration
+import androidx.sqlite.db.SupportSQLiteDatabase
 import kotlinx.coroutines.flow.Flow
 
 /**
@@ -86,6 +88,10 @@ data class Node(
     val target: Double = 0.0,
     val current: Double = 0.0,
     val unit: String = "",
+    /** Progress tracker: how much each tap adds. */
+    val increment: Double = 0.0,
+    /** Progress tracker: epoch day the task's window opens, if any. */
+    val startDay: Long? = null,
     /** A one-off is finished, a mandala cell is lit, a GROW option is chosen. */
     val done: Boolean = false,
     val doneAt: Long? = null,
@@ -102,6 +108,15 @@ data class Log(
     val goalId: Long,
     val day: Long,
     val value: Double = 1.0,
+    val at: Long,
+)
+
+/** One completion of a progress-tracker task, kept individually so − can undo the latest one. */
+@Entity(tableName = "entries", indices = [Index("nodeId"), Index("goalId")])
+data class Entry(
+    @PrimaryKey(autoGenerate = true) val id: Long = 0,
+    val nodeId: Long,
+    val goalId: Long,
     val at: Long,
 )
 
@@ -172,6 +187,7 @@ class Snapshot(
     val goals: List<Goal>,
     val nodes: List<Node>,
     val logs: List<Log>,
+    val entries: List<Entry>,
     val fields: List<Field>,
     val reviews: List<Review>,
     val wheel: List<WheelCheck>,
@@ -198,12 +214,13 @@ abstract class WaypointDao {
 
     @Transaction
     open suspend fun deleteGoal(id: Long) {
-        clearGoal(id); clearGoalNodes(id); clearGoalLogs(id); clearGoalFields(id); unlinkIdeas(id)
+        clearGoal(id); clearGoalNodes(id); clearGoalLogs(id); clearGoalEntries(id); clearGoalFields(id); unlinkIdeas(id)
     }
 
     @Query("DELETE FROM goals WHERE id = :id") protected abstract suspend fun clearGoal(id: Long)
     @Query("DELETE FROM nodes WHERE goalId = :id") protected abstract suspend fun clearGoalNodes(id: Long)
     @Query("DELETE FROM logs WHERE goalId = :id") protected abstract suspend fun clearGoalLogs(id: Long)
+    @Query("DELETE FROM entries WHERE goalId = :id") protected abstract suspend fun clearGoalEntries(id: Long)
     @Query("DELETE FROM fields WHERE goalId = :id") protected abstract suspend fun clearGoalFields(id: Long)
     @Query("UPDATE ideas SET goalId = 0 WHERE goalId = :id") protected abstract suspend fun unlinkIdeas(id: Long)
 
@@ -234,12 +251,14 @@ abstract class WaypointDao {
     open suspend fun deleteNode(id: Long) {
         childIds(id).forEach { deleteNode(it) }
         clearNodeLogs(id)
+        clearNodeEntries(id)
         clearNode(id)
     }
 
     @Query("SELECT id FROM nodes WHERE parentId = :id") protected abstract suspend fun childIds(id: Long): List<Long>
     @Query("DELETE FROM nodes WHERE id = :id") protected abstract suspend fun clearNode(id: Long)
     @Query("DELETE FROM logs WHERE nodeId = :id") protected abstract suspend fun clearNodeLogs(id: Long)
+    @Query("DELETE FROM entries WHERE nodeId = :id") protected abstract suspend fun clearNodeEntries(id: Long)
 
     // Logs
     @Query("SELECT * FROM logs ORDER BY day")
@@ -256,6 +275,22 @@ abstract class WaypointDao {
 
     @Query("DELETE FROM logs WHERE nodeId = :nodeId AND day = :day")
     abstract suspend fun deleteLog(nodeId: Long, day: Long)
+
+    // Entries
+    @Query("SELECT * FROM entries ORDER BY id")
+    abstract fun observeEntries(): Flow<List<Entry>>
+
+    @Query("SELECT * FROM entries ORDER BY id")
+    abstract suspend fun entries(): List<Entry>
+
+    @Query("SELECT * FROM entries WHERE nodeId = :nodeId ORDER BY id")
+    abstract suspend fun entriesOf(nodeId: Long): List<Entry>
+
+    @Insert
+    abstract suspend fun insertEntry(e: Entry): Long
+
+    @Query("DELETE FROM entries WHERE id = (SELECT MAX(id) FROM entries WHERE nodeId = :nodeId)")
+    abstract suspend fun deleteLatestEntry(nodeId: Long): Int
 
     // Fields
     @Query("SELECT * FROM fields")
@@ -308,11 +343,12 @@ abstract class WaypointDao {
 
     // Backup
     @Transaction
-    open suspend fun snapshot() = Snapshot(goals(), nodes(), logs(), fields(), reviews(), wheel(), ideas())
+    open suspend fun snapshot() = Snapshot(goals(), nodes(), logs(), entries(), fields(), reviews(), wheel(), ideas())
 
     @Query("DELETE FROM goals") protected abstract suspend fun clearGoals()
     @Query("DELETE FROM nodes") protected abstract suspend fun clearNodes()
     @Query("DELETE FROM logs") protected abstract suspend fun clearLogs()
+    @Query("DELETE FROM entries") protected abstract suspend fun clearEntries()
     @Query("DELETE FROM fields") protected abstract suspend fun clearFields()
     @Query("DELETE FROM reviews") protected abstract suspend fun clearReviews()
     @Query("DELETE FROM wheel") protected abstract suspend fun clearWheel()
@@ -321,6 +357,7 @@ abstract class WaypointDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertGoals(l: List<Goal>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertAllNodes(l: List<Node>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertLogs(l: List<Log>)
+    @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertEntries(l: List<Entry>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertFields(l: List<Field>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertReviews(l: List<Review>)
     @Insert(onConflict = OnConflictStrategy.REPLACE) protected abstract suspend fun insertWheel(l: List<WheelCheck>)
@@ -328,22 +365,34 @@ abstract class WaypointDao {
 
     @Transaction
     open suspend fun replaceAll(s: Snapshot) {
-        clearGoals(); clearNodes(); clearLogs(); clearFields(); clearReviews(); clearWheel(); clearIdeas()
-        insertGoals(s.goals); insertAllNodes(s.nodes); insertLogs(s.logs); insertFields(s.fields)
+        clearGoals(); clearNodes(); clearLogs(); clearEntries(); clearFields(); clearReviews(); clearWheel(); clearIdeas()
+        insertGoals(s.goals); insertAllNodes(s.nodes); insertLogs(s.logs); insertEntries(s.entries); insertFields(s.fields)
         insertReviews(s.reviews); insertWheel(s.wheel); insertIdeas(s.ideas)
     }
 }
 
 @Database(
-    entities = [Goal::class, Node::class, Log::class, Field::class, Review::class, WheelCheck::class, Idea::class],
-    version = 1,
+    entities = [Goal::class, Node::class, Log::class, Entry::class, Field::class, Review::class, WheelCheck::class, Idea::class],
+    version = 2,
     exportSchema = true,
 )
 abstract class WaypointDatabase : RoomDatabase() {
     abstract fun dao(): WaypointDao
 
     companion object {
+        private val MIGRATION_1_2 = object : Migration(1, 2) {
+            override fun migrate(db: SupportSQLiteDatabase) {
+                db.execSQL("ALTER TABLE nodes ADD COLUMN increment REAL NOT NULL DEFAULT 0.0")
+                db.execSQL("ALTER TABLE nodes ADD COLUMN startDay INTEGER")
+                db.execSQL("CREATE TABLE IF NOT EXISTS `entries` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `nodeId` INTEGER NOT NULL, `goalId` INTEGER NOT NULL, `at` INTEGER NOT NULL)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_entries_nodeId` ON `entries` (`nodeId`)")
+                db.execSQL("CREATE INDEX IF NOT EXISTS `index_entries_goalId` ON `entries` (`goalId`)")
+            }
+        }
+
         fun create(context: Context): WaypointDatabase =
-            Room.databaseBuilder(context.applicationContext, WaypointDatabase::class.java, "waypoint.db").build()
+            Room.databaseBuilder(context.applicationContext, WaypointDatabase::class.java, "waypoint.db")
+                .addMigrations(MIGRATION_1_2)
+                .build()
     }
 }

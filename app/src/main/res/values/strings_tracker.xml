@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Progress tracker. -->
+<resources>
+    <string name="tracker_tasks">Tasks</string>
+    <string name="tracker_empty">No tasks yet. Split the goal into things you can count.</string>
+    <string name="tracker_new_task">New task</string>
+    <string name="tracker_edit_task">Edit task</string>
+    <string name="tracker_task_label">Task</string>
+    <string name="tracker_task_hint">For example: Finish course A</string>
+    <string name="tracker_increment">Increment</string>
+    <string name="tracker_start_date">Start date</string>
+    <string name="tracker_end_date">End date</string>
+    <string name="tracker_days">Days: %d</string>
+</resources>

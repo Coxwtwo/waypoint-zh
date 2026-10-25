@@ -165,6 +165,13 @@
     <string name="m_simple_how">Name the goal and, if you like, a number to reach.\nAdd milestones along the way.\nAdd habits that move you forward.</string>
     <string name="m_simple_origin">The oldest method there is.</string>
 
+    <string name="m_tracker">Progress tracker</string>
+    <string name="m_tracker_short">Tracker</string>
+    <string name="m_tracker_tag">Counted tasks, one + at a time</string>
+    <string name="m_tracker_about">Split the goal into tasks you can count: courses, pages, problems, kilometres. Each task has a total, a unit and how much one tap adds. Bump it up from Today, undo with -, and watch the bar fill.</string>
+    <string name="m_tracker_how">Name the tasks that make up the goal.\nGive each a total, a unit and an increment.\nOptionally set a plan and a date window.\nTap + on Today for every chunk you finish.\nTap - to undo the latest one.</string>
+    <string name="m_tracker_origin">The simplest habit of measurable goals: count what you do, a little at a time.</string>
+
     <string name="m_smart">SMART</string>
     <string name="m_smart_short">SMART</string>
     <string name="m_smart_tag">Turn a wish into a clear, checkable goal</string>

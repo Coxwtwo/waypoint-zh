@@ -9,6 +9,7 @@ import androidx.annotation.StringRes
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.FormatListBulleted
 import androidx.compose.material.icons.automirrored.rounded.TrendingUp
+import androidx.compose.material.icons.rounded.AddTask
 import androidx.compose.material.icons.rounded.AutoAwesome
 import androidx.compose.material.icons.rounded.CalendarViewWeek
 import androidx.compose.material.icons.rounded.Celebration
@@ -63,6 +64,7 @@ private fun texts(m: Method): MethodTexts = when (m) {
     Method.PACT -> MethodTexts(R.string.m_pact, R.string.m_pact_short, R.string.m_pact_tag, R.string.m_pact_about, R.string.m_pact_how, R.string.m_pact_origin)
     Method.LADDER -> MethodTexts(R.string.m_ladder, R.string.m_ladder_short, R.string.m_ladder_tag, R.string.m_ladder_about, R.string.m_ladder_how, R.string.m_ladder_origin)
     Method.SIMPLE -> MethodTexts(R.string.m_simple, R.string.m_simple_short, R.string.m_simple_tag, R.string.m_simple_about, R.string.m_simple_how, R.string.m_simple_origin)
+    Method.TRACKER -> MethodTexts(R.string.m_tracker, R.string.m_tracker_short, R.string.m_tracker_tag, R.string.m_tracker_about, R.string.m_tracker_how, R.string.m_tracker_origin)
     Method.SMART -> MethodTexts(R.string.m_smart, R.string.m_smart_short, R.string.m_smart_tag, R.string.m_smart_about, R.string.m_smart_how, R.string.m_smart_origin)
     Method.WOOP -> MethodTexts(R.string.m_woop, R.string.m_woop_short, R.string.m_woop_tag, R.string.m_woop_about, R.string.m_woop_how, R.string.m_woop_origin)
     Method.GROW -> MethodTexts(R.string.m_grow, R.string.m_grow_short, R.string.m_grow_tag, R.string.m_grow_about, R.string.m_grow_how, R.string.m_grow_origin)
@@ -91,6 +93,7 @@ fun methodIcon(m: Method): ImageVector = when (m) {
     Method.PACT -> Icons.Rounded.Science
     Method.LADDER -> Icons.Rounded.Stairs
     Method.SIMPLE -> Icons.Rounded.Flag
+    Method.TRACKER -> Icons.Rounded.AddTask
     Method.SMART -> Icons.Rounded.CenterFocusStrong
     Method.WOOP -> Icons.Rounded.Lightbulb
     Method.GROW -> Icons.Rounded.Spa

@@ -33,3 +33,13 @@ suspend fun WaypointDao.setField(goalId: Long, key: String, value: String) {
 suspend fun WaypointDao.setDone(n: Node, done: Boolean, now: Long = System.currentTimeMillis()) {
     upsertNode(n.copy(done = done, doneAt = if (done) now else null))
 }
+
+/** Bumps a progress-tracker task by one increment, remembering the moment. */
+suspend fun WaypointDao.addEntry(n: Node, now: Long = System.currentTimeMillis()) {
+    insertEntry(Entry(nodeId = n.id, goalId = n.goalId, at = now))
+}
+
+/** Undoes the latest bump of a progress-tracker task. */
+suspend fun WaypointDao.removeLatestEntry(n: Node) {
+    deleteLatestEntry(n.id)
+}

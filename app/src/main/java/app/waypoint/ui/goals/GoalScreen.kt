@@ -76,6 +76,7 @@ import app.waypoint.ui.methods.MandalaBody
 import app.waypoint.ui.methods.OkrBody
 import app.waypoint.ui.methods.PactBody
 import app.waypoint.ui.methods.SimpleBody
+import app.waypoint.ui.methods.TrackerBody
 import app.waypoint.ui.methods.Weeks12Body
 import app.waypoint.ui.theme.U
 import app.waypoint.ui.theme.UType
@@ -148,6 +149,7 @@ fun GoalScreen(id: Long, data: WData, go: Go) {
                 Method.KAIZEN -> KaizenBody(goal, data, go)
                 Method.PACT -> PactBody(goal, data, go)
                 Method.LADDER -> LadderBody(goal, data, go)
+                Method.TRACKER -> TrackerBody(goal, data, go)
                 else -> SimpleBody(goal, data, go)
             }
 

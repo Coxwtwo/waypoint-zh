@@ -17,6 +17,7 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.KeyboardArrowRight
 import androidx.compose.material.icons.rounded.Add
+import androidx.compose.material.icons.rounded.Remove
 import androidx.compose.material.icons.rounded.LocalFireDepartment
 import androidx.compose.material.icons.rounded.Refresh
 import androidx.compose.material.icons.rounded.Settings
@@ -41,8 +42,10 @@ import androidx.compose.ui.unit.dp
 import app.waypoint.R
 import app.waypoint.container
 import app.waypoint.data.Goal
+import app.waypoint.data.addEntry
 import app.waypoint.data.count
 import app.waypoint.data.record
+import app.waypoint.data.removeLatestEntry
 import app.waypoint.data.tick
 import app.waypoint.domain.Method
 import app.waypoint.domain.NodeKind
@@ -169,11 +172,24 @@ private fun StepRow(item: TodayItem, data: WData, go: Go) {
     val w = data.world
     val isKaizen = m == Method.KAIZEN && n.kind == NodeKind.ACTION.name
     val isLead = n.kind == NodeKind.LEAD.name
+    val isTask = n.kind == NodeKind.TASK.name
     var askValue by remember { mutableStateOf(false) }
 
     UCard(onClick = { go.goal(g.id) }, padding = androidx.compose.foundation.layout.PaddingValues(start = 6.dp, end = 12.dp, top = 8.dp, bottom = 8.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically) {
-            if (isLead) {
+            if (isTask) {
+                Spacer(Modifier.width(2.dp))
+                RoundIcon(Icons.Rounded.Remove, color = hue, size = 30.dp) {
+                    if (data.settings.haptics) Haptics.tick(context)
+                    container.write { removeLatestEntry(n) }
+                }
+                Spacer(Modifier.width(4.dp))
+                RoundIcon(Icons.Rounded.Add, color = hue, size = 34.dp) {
+                    if (data.settings.haptics) Haptics.tick(context)
+                    container.write { addEntry(n) }
+                }
+                Spacer(Modifier.width(6.dp))
+            } else if (isLead) {
                 Spacer(Modifier.width(6.dp))
                 RoundIcon(Icons.Rounded.Add, color = hue, size = 34.dp) {
                     if (data.settings.haptics) Haptics.tick(context)
@@ -206,6 +222,7 @@ private fun StepRow(item: TodayItem, data: WData, go: Go) {
             Spacer(Modifier.width(8.dp))
             Column(horizontalAlignment = Alignment.End) {
                 when {
+                    isTask -> Text("${formatNumber(w.trackerCurrent(n))}/${formatNumber(n.target)}", style = UType.Strong.copy(color = hue))
                     isLead -> Text("${item.weekCount}/${item.weekTarget}", style = UType.Strong.copy(color = if (item.weekCount >= item.weekTarget) hue else U.c.muted))
                     isKaizen -> Text(
                         if (item.done) formatNumber(item.value) else w.kaizenTargetRounded(g).toString(),

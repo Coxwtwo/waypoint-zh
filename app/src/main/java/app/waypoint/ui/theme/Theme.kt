@@ -73,6 +73,7 @@ val NightPalette = Palette(
         Color(0xFFF5A0C6), // pact
         Color(0xFF8FB6FF), // ladder
         Color(0xFFD9DCF0), // simple
+        Color(0xFF8ED5BE), // tracker
         Color(0xFFA9C4FF), // smart
         Color(0xFFFFC27A), // woop
         Color(0xFF9BE39B), // grow
@@ -110,6 +111,7 @@ val DawnPalette = Palette(
         Color(0xFFC94F86),
         Color(0xFF3D6FD1),
         Color(0xFF5D6290),
+        Color(0xFF2E9E8F),
         Color(0xFF4D6FC4),
         Color(0xFFC77A1E),
         Color(0xFF3E9A3E),
