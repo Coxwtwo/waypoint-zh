@@ -174,6 +174,7 @@ fun SettingsScreen(settings: Settings, onBack: () -> Unit) {
                 Chip(stringResource(R.string.lang_system), current == Language.SYSTEM, { Language.set(Language.SYSTEM) })
                 Chip("English", current == Language.EN, { Language.set(Language.EN) })
                 Chip("Русский", current == Language.RU, { Language.set(Language.RU) })
+                Chip("中文", current == Language.ZH, { Language.set(Language.ZH) })
             }
 
             SectionTitle(stringResource(R.string.backup))

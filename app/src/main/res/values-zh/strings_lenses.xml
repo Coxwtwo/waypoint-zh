@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lens screens: SMART, WOOP, GROW, 5 whys, pre-mortem. -->
+<resources>
+    <string name="lens_about">关于这个方法</string>
+    <string name="lens_goal">目标</string>
+    <string name="lens_example">例如：%s</string>
+    <string name="lens_answer_hint">你的回答</string>
+    <string name="lens_backup_course">带「那么」部分的计划也会出现在「今天」里，作为你的备用航线。</string>
+    <string name="lens_reminder_at">提醒于 %s</string>
+
+    <!-- SMART -->
+    <string name="smart_s">你究竟想要什么？</string>
+    <string name="smart_s_hint">具体。谁、什么、哪里。把模糊的词换成具体的词。</string>
+    <string name="smart_s_example">在我所在的城市跑一场马拉松，而不只是「健身」</string>
+    <string name="smart_m">你如何知道自己做到了？</string>
+    <string name="smart_m_hint">可衡量。一个数字、一个事实、一个你能核验的东西。</string>
+    <string name="smart_m_example">4 小时内跑完 42.2 公里</string>
+    <string name="smart_a">以你现有的条件，现实吗？</string>
+    <string name="smart_a_hint">可实现。时间、金钱、健康、技能。什么能让它可行？</string>
+    <string name="smart_a_example">我已经能跑 10 公里，还有 6 个月和每周 4 个早晨</string>
+    <string name="smart_r">为什么是它，为什么是现在？</string>
+    <string name="smart_r_hint">相关。它如何融入你的生活和其他目标。</string>
+    <string name="smart_r_example">我想向自己证明，我能把开始的事做完</string>
+    <string name="smart_t">什么时候之前？</string>
+    <string name="smart_t_hint">有时限。一个日期让它变得真实，你可以把它设为目标的截止日期。</string>
+    <string name="smart_t_example">4 月 20 日的城市马拉松</string>
+    <string name="smart_meter">已回答 %d / 5</string>
+    <string name="smart_deadline">目标截止日期</string>
+    <string name="smart_no_deadline">未设置</string>
+    <string name="smart_set_deadline">设定截止日期</string>
+    <string name="smart_change_deadline">修改截止日期</string>
+    <string name="smart_wording">现在用一句话概括</string>
+    <string name="smart_wording_hint">把答案整合成一句清晰的话。</string>
+    <string name="smart_wording_placeholder">目标，清楚地写下</string>
+    <string name="smart_wording_example">4 小时内跑完 4 月 20 日的城市马拉松</string>
+    <string name="smart_use_title">用作目标标题</string>
+    <string name="smart_is_title">现在这就是目标的标题了。</string>
+
+    <!-- WOOP -->
+    <string name="woop_wish">你想要什么？</string>
+    <string name="woop_wish_hint">愿望。有挑战但有可能的事。几个字就够了。</string>
+    <string name="woop_wish_example">跑我的第一场马拉松</string>
+    <string name="woop_outcome">最好的结果会是什么？</string>
+    <string name="woop_outcome_hint">结果。它会带来什么感受，什么会改变？</string>
+    <string name="woop_outcome_pause">花一分钟。闭上眼睛，尽可能生动地想象最好的结果：你在哪里、看到什么、感受如何。然后写下来。</string>
+    <string name="woop_outcome_example">冲过终点线，家人在欢呼，我感到自己能做成难事</string>
+    <string name="woop_obstacle">你内心的什么可能挡路？</string>
+    <string name="woop_obstacle_hint">障碍。不是天气或别人，而是你的一个习惯、一种情绪、一个念头。</string>
+    <string name="woop_obstacle_pause">现在想象通常出问题的那个时刻。那一刻你感觉到或想到什么？说出主要障碍。</string>
+    <string name="woop_obstacle_example">下班后我很累，告诉自己明天再跑</string>
+    <string name="woop_plan">它出现时你会怎么做？</string>
+    <string name="woop_plan_hint">计划。如果障碍出现，那么你就做一件具体的事。</string>
+    <string name="woop_your_obstacle">你的障碍</string>
+    <string name="woop_add_first_plan">制定一个「如果—那么」计划</string>
+    <string name="woop_add_plan">再添加一个计划</string>
+    <string name="woop_plans">「如果—那么」计划</string>
+    <string name="woop_new_plan">新「如果—那么」计划</string>
+    <string name="woop_edit_plan">「如果—那么」计划</string>
+    <string name="woop_if">如果……</string>
+    <string name="woop_if_hint">障碍出现</string>
+    <string name="woop_then">那么我就……</string>
+    <string name="woop_then_hint">一件具体的行动</string>
+    <string name="woop_if_short">如果</string>
+    <string name="woop_then_short">那么我就</string>
+    <string name="woop_then_missing">添加你要做的事</string>
+
+    <!-- GROW -->
+    <string name="grow_goal">你想达成什么？</string>
+    <string name="grow_goal_hint">目标。这场对话的好结果会是什么？</string>
+    <string name="grow_goal_example">在忙碌的工作之余找到规律训练的办法</string>
+    <string name="grow_reality">你现在在哪里？</string>
+    <string name="grow_reality_hint">现状。事实，而非评判。</string>
+    <string name="grow_reality_prompts">现在正在发生什么？你已经试过什么，结果如何？什么在阻碍你？你有什么可以借助的？</string>
+    <string name="grow_options">你能做什么？</string>
+    <string name="grow_options_hint">选项。多写几个，哪怕奇怪的也行。先别评判。</string>
+    <string name="grow_option_hint">一个选项</string>
+    <string name="grow_options_empty">至少写五个。</string>
+    <string name="grow_options_choose">点按你选定选项旁边的星星。</string>
+    <string name="grow_will">你会做什么，什么时候做？</string>
+    <string name="grow_will_hint">意愿。把选定的选项变成带日期或计划的步骤。</string>
+    <string name="grow_will_empty">先选一个选项，或直接添加一个步骤。</string>
+    <string name="grow_to_action">变成步骤</string>
+    <string name="grow_another_action">添加步骤</string>
+    <string name="grow_new_action">新步骤</string>
+    <string name="grow_on_today">带日期或计划的步骤会出现在「今天」里。</string>
+    <string name="grow_new_step">新步骤</string>
+    <string name="grow_edit_step">步骤</string>
+    <string name="grow_step_label">你会做什么？</string>
+    <string name="grow_step_hint">一件具体的行动</string>
+    <string name="grow_choose">选择这个选项</string>
+
+    <!-- 5 whys -->
+    <string name="whys_depth">深度 %d / 5</string>
+    <string name="whys_first">「%s」为什么对你重要？</string>
+    <string name="whys_first_hint">诚实地回答，就像对一位密友那样。</string>
+    <string name="whys_next">那这又为什么重要？</string>
+    <string name="whys_because">因为……</string>
+    <string name="whys_deep">你深层的「为什么」</string>
+    <string name="whys_deep_text">这就是藏在下方的理由。在你想放弃的日子里读它。</string>
+    <string name="whys_on_card">它已经在目标卡片上了。</string>
+    <string name="whys_put_on_card">放到目标卡片上</string>
+    <string name="whys_keep_going">再深入一点。真正的理由通常在第三或第四个答案之下。</string>
+
+    <!-- Pre-mortem -->
+    <string name="pm_intro_date">现在是 %s。目标没有成功。为什么？</string>
+    <string name="pm_intro">截止日期已过。目标没有成功。为什么？</string>
+    <string name="pm_intro_hint">把失败当作已经发生的事来讲。然后决定如何预防每一个原因。</string>
+    <string name="pm_reasons">它为什么失败</string>
+    <string name="pm_empty">还没有原因。从最可能的一个开始。</string>
+    <string name="pm_failed">它失败是因为</string>
+    <string name="pm_prevent_short">预防它</string>
+    <string name="pm_add">添加原因</string>
+    <string name="pm_common">常见原因</string>
+    <string name="pm_new">新原因</string>
+    <string name="pm_edit">原因</string>
+    <string name="pm_failed_label">它失败是因为……</string>
+    <string name="pm_failed_hint">哪里出了问题</string>
+    <string name="pm_prevent">如何预防</string>
+    <string name="pm_prevent_hint">你会做什么来避免它发生</string>
+    <string name="pm_p_motivation">我失去了动力</string>
+    <string name="pm_p_time">没时间</string>
+    <string name="pm_p_sick">我生病了</string>
+    <string name="pm_p_perfect">完美主义</string>
+    <string name="pm_p_life">生活琐事挡了路</string>
+    <string name="pm_p_alone">没人支持我</string>
+    <string name="pm_p_big">我一次揽了太多</string>
+    <string name="pm_p_money">钱不够了</string>
+</resources>

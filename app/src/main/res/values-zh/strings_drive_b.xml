@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 4DX, kaizen, pact, reverse plan and milestones. -->
+<resources>
+    <!-- Shared number pieces -->
+    <string name="simple_from">起点</string>
+    <string name="simple_to">目标</string>
+    <string name="simple_unit">单位</string>
+    <string name="simple_deadline">截止</string>
+    <string name="simple_no_deadline">无日期</string>
+    <string name="simple_update">更新</string>
+
+    <!-- 4DX -->
+    <string name="fdx_setup_title">你至关重要的目标</string>
+    <string name="fdx_setup_text">用「从 X 到 Y，何时之前」来说。例如：从 0 到 10 个客户，3 月 1 日前。</string>
+    <string name="fdx_wig">从 %1$s 到 %2$s</string>
+    <string name="fdx_wig_by">从 %1$s 到 %2$s，于 %3$s</string>
+    <string name="fdx_lag">滞后指标：结果</string>
+    <string name="fdx_lag_update">你现在在哪里？</string>
+    <string name="fdx_scoreboard">记分板 · 本周</string>
+    <string name="fdx_leads_empty">领先指标是你能掌控、能推动结果达成的行动。挑一两个，比如「每周 3 次销售电话」。</string>
+    <string name="fdx_add_lead">添加领先指标</string>
+    <string name="fdx_too_many">超过两个领先指标会分散你的专注。4DX 用一两个效果最好。</string>
+    <string name="fdx_winning">本周领先</string>
+    <string name="fdx_behind">还没到</string>
+    <plurals name="fdx_days_left_week">
+        <item quantity="other">本周还剩 %d 天</item>
+    </plurals>
+    <string name="fdx_today_n">今天：%d</string>
+    <string name="fdx_tap_edit">点按编辑</string>
+    <string name="fdx_count_of">%1$d / %2$d</string>
+    <string name="fdx_plus_one">加一</string>
+    <string name="fdx_history">过去 8 周</string>
+    <string name="fdx_this_week">本周</string>
+    <string name="fdx_commit_title">我本周的承诺</string>
+    <string name="fdx_commit_empty">本周你会做哪一件事来推动一个领先指标？点按写下。</string>
+    <string name="fdx_commit_text">对本周的一个具体承诺。下周一开始，先看看你是否守住了。</string>
+    <string name="fdx_commit_hint">例如：周三前约好两场会议</string>
+    <string name="fdx_commit_last">上周：%s</string>
+    <string name="fdx_new_lead">新领先指标</string>
+    <string name="fdx_edit_lead">领先指标</string>
+    <string name="fdx_lead_label">你要做什么</string>
+    <string name="fdx_lead_hint">例如：销售电话</string>
+
+    <!-- Kaizen -->
+    <string name="kz_today">今天的数字</string>
+    <string name="kz_day_rate">第 %1$d 天 · 每天 +%2$s%%</string>
+    <string name="kz_done_today">今天完成：%s</string>
+    <string name="kz_log">我做到了</string>
+    <string name="kz_change">修改今天的结果</string>
+    <string name="kz_log_yesterday">记录昨天</string>
+    <string name="kz_log_title">今天你完成了多少？</string>
+    <string name="kz_log_title_yesterday">昨天你完成了多少？</string>
+    <string name="kz_log_text">目标是 %s。少一点也算数。</string>
+    <plurals name="kz_compound">
+        <item quantity="other">每天 %1$s%%，大约 %2$d 天后就能翻倍。小步也能积少成多。</item>
+    </plurals>
+    <string name="kz_curve">曲线</string>
+    <string name="kz_stats">目前</string>
+    <string name="kz_stat_days">练习天数</string>
+    <string name="kz_stat_best">最佳</string>
+    <string name="kz_stat_streak">连续天数</string>
+    <string name="kz_projection">一个月后你会达到 %s。</string>
+    <string name="kz_projection_far">三个月后：%s。</string>
+    <string name="kz_step">每日步长</string>
+    <string name="kz_rate_chip">+%1$s%%</string>
+    <string name="kz_base">起始数字：%s</string>
+    <string name="kz_base_title">起始数字</string>
+    <string name="kz_base_text">每天的目标都从这个数字开始增长。</string>
+    <string name="kz_setup_title">你从哪里开始？</string>
+    <string name="kz_setup_text">挑一个今天觉得轻松的数字：10 个俯卧撑、5 页、10 分钟。从小处开始正是关键。</string>
+    <string name="kz_setup_base">今天</string>
+    <string name="kz_setup_unit">单位</string>
+    <string name="kz_setup_unit_hint">俯卧撑</string>
+    <string name="kz_setup_go">开始成长</string>
+
+    <!-- Pact -->
+    <string name="pact_eyebrow">约定</string>
+    <string name="pact_sentence">我要 %1$s，坚持 %2$s。</string>
+    <plurals name="pact_days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <string name="pact_starts">从 %s 开始。</string>
+    <string name="pact_day_of">第 %1$d / %2$d 天 · 守住 %3$d 天</string>
+    <plurals name="pact_over_kept">
+        <item quantity="other">已结束。守住了 %1$d / %2$d 天。</item>
+    </plurals>
+    <string name="pact_days_title">一天天</string>
+    <string name="pact_days_hint">点按某一天点亮或熄灭它。</string>
+    <string name="pact_note_today">今天的笔记</string>
+    <string name="pact_note_hint">你注意到了什么？轻松、艰难，还是意外？</string>
+    <string name="pact_notes">一路走来</string>
+    <string name="pact_note_day">第 %1$d 天 · %2$s</string>
+    <string name="pact_edit_title">约定</string>
+    <string name="pact_edit_text">你每天具体要做什么？</string>
+    <string name="pact_action_hint">例如：写 200 字</string>
+    <string name="pact_end_title">实验结束了</string>
+    <plurals name="pact_end_text">
+        <item quantity="other">你在 %2$d 天里守住了 %1$d 天。你学到了什么，接下来呢？</item>
+    </plurals>
+    <string name="pact_persist">继续：再坚持 %s</string>
+    <string name="pact_pause">暂停</string>
+    <string name="pact_pivot">转向</string>
+    <string name="pact_end_hint">奏效就继续；时机不对就暂停；想换个版本试试就转向。</string>
+    <string name="pact_pivot_title">转向这个约定</string>
+    <string name="pact_pivot_text">改变你要做的事。新的周期从今天开始。</string>
+    <plurals name="pact_paused_note">
+        <item quantity="other">约定结束后暂停。守住了 %1$d / %2$d 天。</item>
+    </plurals>
+
+    <!-- Reverse plan -->
+    <string name="ladder_intro">从顶端开始往下走。每一步都是它上面那步之前必须完成的事。</string>
+    <string name="ladder_summit">目标</string>
+    <string name="ladder_set_date">设定日期</string>
+    <string name="ladder_next">下一步</string>
+    <string name="ladder_no_date">无日期</string>
+    <string name="ladder_overdue">原定 %s 到期</string>
+    <string name="ladder_today">今天，%s</string>
+    <string name="ladder_question">在「%s」之前，必须完成什么？</string>
+    <string name="ladder_reached">你已经倒推到这一周。该开始往上爬了。</string>
+    <string name="ladder_add">添加更前面的一步</string>
+    <string name="ladder_new">更前面的一步</string>
+    <string name="ladder_edit">步骤</string>
+    <string name="ladder_step_label">步骤</string>
+    <string name="ladder_step_hint">例如：预订场地</string>
+
+    <!-- Milestones -->
+    <string name="simple_number">你的数字</string>
+    <string name="simple_number_title">用一个数字来衡量</string>
+    <string name="simple_number_text">可选。如果进展可以计数，数字移动时目标就会填满。</string>
+    <string name="simple_add_number">添加一个要追踪的数字</string>
+    <string name="simple_update_title">你现在在哪里？</string>
+    <string name="simple_milestones">里程碑</string>
+    <string name="simple_milestones_empty">把整条路拆成几个检查点。每完成一个就点亮一颗星。</string>
+    <string name="simple_reached">已达成</string>
+    <string name="simple_reached_on">达成于 %s</string>
+    <string name="simple_overdue">原定 %s 到期</string>
+    <string name="simple_habits">习惯</string>
+    <string name="simple_habits_empty">推动你前进的固定行动。它们会出现在「今天」里。</string>
+    <string name="simple_streak">%1$s · 连续 %2$d 天</string>
+    <string name="simple_new_milestone">新里程碑</string>
+    <string name="simple_edit_milestone">里程碑</string>
+    <string name="simple_milestone_label">里程碑</string>
+    <string name="simple_milestone_hint">例如：写完第一章</string>
+    <string name="simple_new_habit">新习惯</string>
+    <string name="simple_edit_habit">习惯</string>
+    <string name="simple_habit_label">习惯</string>
+    <string name="simple_habit_hint">例如：写作 30 分钟</string>
+</resources>

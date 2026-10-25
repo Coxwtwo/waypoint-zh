@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Core strings. Each method screen keeps its own strings_<method>.xml next to this file. -->
+<resources>
+    <!-- Tabs -->
+    <string name="tab_today">今天</string>
+    <string name="tab_goals">目标</string>
+    <string name="tab_compass">指南针</string>
+    <string name="tab_journal">日志</string>
+
+    <!-- Common -->
+    <string name="back">返回</string>
+    <string name="next">下一步</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="edit">编辑</string>
+    <string name="remove">移除</string>
+    <string name="add">添加</string>
+    <string name="done">完成</string>
+    <string name="close">关闭</string>
+    <string name="share">分享</string>
+    <string name="settings">设置</string>
+    <string name="more">更多</string>
+    <string name="skip">跳过</string>
+    <string name="open">打开</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+
+    <string name="greet_morning">早上好</string>
+    <string name="greet_day">下午好</string>
+    <string name="greet_evening">晚上好</string>
+    <string name="greet_night">夜空晴朗，夜猫子</string>
+
+    <string name="sched_every_day">每天</string>
+    <string name="sched_weekdays">工作日</string>
+    <string name="sched_weekends">周末</string>
+    <string name="sched_per_week">每周 %d 次</string>
+    <string name="sched_once">一次</string>
+    <string name="due_today">今天到期</string>
+    <plurals name="days_left">
+        <item quantity="other">剩余 %d 天</item>
+    </plurals>
+    <plurals name="days_overdue">
+        <item quantity="other">逾期 %d 天</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="other">%d 天</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="other">%d 周</item>
+    </plurals>
+    <plurals name="stars">
+        <item quantity="other">%d 颗星</item>
+    </plurals>
+    <plurals name="goals">
+        <item quantity="other">%d 个目标</item>
+    </plurals>
+    <plurals name="steps">
+        <item quantity="other">%d 步</item>
+    </plurals>
+
+    <!-- Step editor -->
+    <string name="node_from">从</string>
+    <string name="node_to">到</string>
+    <string name="node_unit">单位</string>
+    <string name="node_how_often">频率</string>
+    <string name="node_once">一次</string>
+    <string name="node_days">按天</string>
+    <string name="node_weekly">每周次数</string>
+    <string name="node_times_week">每周次数</string>
+    <string name="node_due">日期</string>
+    <string name="node_no_date">无日期</string>
+    <string name="node_every_week">每周</string>
+    <string name="node_week_n">第 %d 周</string>
+    <string name="node_remind">提醒</string>
+    <string name="node_no_remind">关闭</string>
+    <string name="delete_step">删除这一步？</string>
+    <string name="delete_step_text">它的历史记录也会一并删除。</string>
+    <string name="take_today">放到今天</string>
+
+    <!-- Method groups -->
+    <string name="group_choose">选择目标</string>
+    <string name="group_choose_text">当你还不确定想要什么，或想一次要太多的时候。</string>
+    <string name="group_shape">打磨它</string>
+    <string name="group_shape_text">适用于任何目标的视角：清晰的表述、真正的动力、应对障碍的计划。</string>
+    <string name="group_drive">驱动它</string>
+    <string name="group_drive_text">目标的引擎：如何拆解，以及每天做什么。每个目标一个。</string>
+    <string name="group_protect">保护它</string>
+    <string name="group_protect_text">在目标失败之前，先找出它可能如何失败。</string>
+
+    <!-- Areas of life -->
+    <string name="area_health">健康</string>
+    <string name="area_career">事业</string>
+    <string name="area_money">金钱</string>
+    <string name="area_love">爱情</string>
+    <string name="area_family">家人和朋友</string>
+    <string name="area_growth">成长</string>
+    <string name="area_fun">休闲与放松</string>
+    <string name="area_home">家与环境</string>
+    <string name="area_none">无领域</string>
+
+    <!-- Methods: name, short badge, one-line tagline, what it is, steps (one per line), where it comes from -->
+    <string name="m_mandala">曼陀罗 64</string>
+    <string name="m_mandala_short">曼陀罗 64</string>
+    <string name="m_mandala_tag">一个目标、8 根支柱、64 项行动，一张表搞定</string>
+    <string name="m_mandala_about">一张 9×9 的图表。目标在正中央，四周环绕八根支柱，每根支柱配八项具体行动，共 64 项。整条路浓缩在一页纸上，网格推着你跳出显而易见的答案。大谷翔平的图表里，投球速度旁边写着「运气」和「受人喜欢」。</string>
+    <string name="m_mandala_how">在中央写下目标。\n说出八根支柱：要走到那一步，什么必须成立。\n给每根支柱配八项具体行动。\n有些做成习惯，有些当成一次性步骤来完成。\n当一项行动成为你的一部分时，点亮一颗星。</string>
+    <string name="m_mandala_origin">日本教练原田隆史的原田法。因大谷翔平而闻名——他 16 岁时填了这样一张表，目标是被八支球队首轮选中。</string>
+
+    <string name="m_okr">OKR</string>
+    <string name="m_okr_short">OKR</string>
+    <string name="m_okr_tag">一个鼓舞人心的目标，加上证明它的数字</string>
+    <string name="m_okr_about">一个让你兴奋的目标，加上三到五个用数字衡量的关键结果。周期为一个季度，评分从 0 到 1。对于一个雄心勃勃的目标，0.7 已经算成功。</string>
+    <string name="m_okr_how">用文字写下目标，而不是数字。\n添加 3–5 个关键结果，每个都有起点和目标值。\n列出行动举措：你会做什么来推动数字。\n每周检视：更新数字和你的信心。\n季度末打分。</string>
+    <string name="m_okr_origin">1970 年代英特尔公司的安迪·格鲁夫。1999 年约翰·杜尔把它带到谷歌，从此风靡全球。</string>
+
+    <string name="m_weeks12">12 周完成一年工作</string>
+    <string name="m_weeks12_short">12 周</string>
+    <string name="m_weeks12_tag">把一年压缩成 12 周，每周打分</string>
+    <string name="m_weeks12_about" formatted="false">把 12 周当作一整年。截止日期永远近在眼前，所以没时间拖延。每周你给自己打分，看计划的战术完成了多少。85% 就算优秀：你能掌控的是执行，而不是结果。</string>
+    <string name="m_weeks12_how" formatted="false">决定你在 12 周内要达成什么。\n把它拆成每周的战术。\n每天执行并打勾。\n每周打分，目标 85%。\n第 13 周用来回顾和休息。</string>
+    <string name="m_weeks12_origin">出自布莱恩·莫兰和迈克尔·伦宁顿的书《用12周完成12月的工作》。</string>
+
+    <string name="m_fourdx">4DX</string>
+    <string name="m_fourdx_short">4DX</string>
+    <string name="m_fourdx_tag">一个关键目标、驱动它的行动、一块记分板</string>
+    <string name="m_fourdx_about">一个至关重要的目标，带一个滞后指标：从 X 到 Y，在何时之前。加上一到两个领先指标：你完全可控、能推动结果达成的行动。一块简单的记分板每周告诉你是否领先。</string>
+    <string name="m_fourdx_how">选一个至关重要的目标：从 X 到 Y，在某个日期前。\n选 1–2 个领先指标，它们能预测结果且取决于你。\n维护记分板：这周你领先了吗？\n每周：回顾，再对下周做出承诺。</string>
+    <string name="m_fourdx_origin">《高效能人士的执行 4 原则》，作者克里斯·麦克切斯尼、肖恩·柯维、吉姆·胡林，出自富兰克林柯维。</string>
+
+    <string name="m_kaizen" formatted="false">每天 1%</string>
+    <string name="m_kaizen_short">改善</string>
+    <string name="m_kaizen_tag">每天多一点，积少成多</string>
+    <string name="m_kaizen_about">从小处开始，每天增加一点。每天 1% 看似微不足道，却会复利增长：70 天后就翻倍。适用于任何你能计数的事情：俯卧撑、页数、分钟、字数。</string>
+    <string name="m_kaizen_how" formatted="false">选择要培养什么，定一个轻松的起始数字。\n设定每日步长：1% 或你自己的比例。\n每天完成当天的数字并记录。\n看着曲线攀升。</string>
+    <string name="m_kaizen_origin" formatted="false">Kaizen 是日本持续改进的实践。詹姆斯·克利尔在《原子习惯》里让「每天进步 1%」这个理念家喻户晓。</string>
+
+    <string name="m_pact">30 天约定</string>
+    <string name="m_pact_short">约定</string>
+    <string name="m_pact_tag">不是目标，而是一场实验：先试 30 天</string>
+    <string name="m_pact_about">不是目标，而是一场实验：「我要做 X，坚持 30 天。」没有必须达成的结果。你守住约定，静观其变。最后再决定：继续、暂停还是转向。</string>
+    <string name="m_pact_how">写下约定：我要……坚持……天。\n每天守住约定就打个勾。\n记录途中的观察。\n最后决定：继续、暂停还是转向。</string>
+    <string name="m_pact_origin">出自神经科学家安妮-洛尔·勒坎夫的《小实验》。PACT 代表 purposeful（有目的）、actionable（可行动）、continuous（持续）、trackable（可追踪）。</string>
+
+    <string name="m_ladder">倒推计划</string>
+    <string name="m_ladder_short">倒推计划</string>
+    <string name="m_ladder_tag">从终点出发，一步步走回今天</string>
+    <string name="m_ladder_about">从终点出发，倒着走：一个月前必须完成什么？再往前呢？一直走到你能在本周迈出的一步。最终得到一份带日期的计划，正好落在你的目标上。</string>
+    <string name="m_ladder_how">写下目标和日期。\n问：在那之前必须完成什么？\n一直倒推到今天。\n给每一步定一个日期。\n一级一级地往上爬。</string>
+    <string name="m_ladder_origin">倒推法（Backcasting），自 1970 年代起用于战略和长期规划。</string>
+
+    <string name="m_simple">里程碑</string>
+    <string name="m_simple_short">里程碑</string>
+    <string name="m_simple_tag">一个目标、几个检查点和习惯，别无其他</string>
+    <string name="m_simple_about">一个目标配几个里程碑，需要的话再加上习惯。适用于完整方法反而过于繁重的场合。</string>
+    <string name="m_simple_how">说出目标，如果愿意也可以写下一个要达到的数字。\n沿途添加里程碑。\n添加推动你前进的习惯。</string>
+    <string name="m_simple_origin">世上最古老的方法。</string>
+
+    <string name="m_smart">SMART</string>
+    <string name="m_smart_short">SMART</string>
+    <string name="m_smart_tag">把愿望变成一个清晰、可检验的目标</string>
+    <string name="m_smart_about">五个问题，把模糊的愿望变成目标：它是否具体（specific）、可衡量（measurable）、可实现（achievable）、相关（relevant）、有时限（time-bound）？通过全部五条的目标，连一个月后的你自己都很难误解。</string>
+    <string name="m_smart_how">具体：究竟是什么？\n可衡量：你如何知道自己做到了？\n可实现：以你现有的条件现实吗？\n相关：为什么是它，为什么是现在？\n有时限：什么时候之前？</string>
+    <string name="m_smart_origin">乔治·T·多兰，1981 年的一篇管理学文章。</string>
+
+    <string name="m_woop">WOOP</string>
+    <string name="m_woop_short">WOOP</string>
+    <string name="m_woop_tag">愿望、结果、障碍、计划：带着安全网去梦想</string>
+    <string name="m_woop_about">单靠积极想象反而可能降低你的行动力。WOOP 加入了诚实的部分：说出内心的障碍，并为它准备一份「如果—那么」计划。它是经过最多研究验证的坚持到底的技巧之一。</string>
+    <string name="m_woop_how">愿望：你想要什么？\n结果：生动地想象最好的结果。\n障碍：内心的什么可能会挡路？\n计划：如果障碍出现，那么我就……</string>
+    <string name="m_woop_origin">心理学家加布里埃尔·厄廷根，基于二十年的心理对照与执行意图研究。</string>
+
+    <string name="m_grow">GROW</string>
+    <string name="m_grow_short">GROW</string>
+    <string name="m_grow_tag">与自己来一场教练对话</string>
+    <string name="m_grow_about">一场可以独自进行的教练对话。不急着跳到计划，先诚实地看清自己身处何方，列出各种选项，再做出选择。</string>
+    <string name="m_grow_how">目标：你想要什么？\n现状：你现在在哪？试过什么？\n选项：你能做什么？多列几个。\n意愿：你会做什么，什么时候做？</string>
+    <string name="m_grow_origin">教练格雷厄姆·亚历山大与约翰·惠特莫尔，1980 年代。</string>
+
+    <string name="m_whys">五个为什么</string>
+    <string name="m_whys_short">五个为什么</string>
+    <string name="m_whys_tag">挖到那个让你坚持下去的理由</string>
+    <string name="m_whys_about">问自己五次「这件事为什么重要？」。每个答案都更深入一层，最后一个就是你真正的动力。在你想放弃的日子里读它。</string>
+    <string name="m_whys_how">写下这个目标为什么重要。\n问：「那这又为什么重要？」\n重复五次。\n把最深的答案留在身边。</string>
+    <string name="m_whys_origin">丰田的丰田佐吉，用来寻找问题的根本原因。</string>
+
+    <string name="m_premortem">事前验尸</string>
+    <string name="m_premortem_short">事前验尸</string>
+    <string name="m_premortem_tag">想象它已经失败，再确保它不会</string>
+    <string name="m_premortem_about">想象已经到了截止日期，目标失败了。为什么？提前讲述失败的故事，会暴露出乐观情绪掩盖的风险。针对每个风险，写下如何预防。</string>
+    <string name="m_premortem_how">想象截止日期已过，事情没有成功。\n写下每一个原因。\n对每一个原因，决定如何预防。\n把计划放在手边，复盘时对照检查。</string>
+    <string name="m_premortem_origin">心理学家加里·克莱因，《哈佛商业评论》2007 年。</string>
+
+    <string name="m_wheel">生命之轮</string>
+    <string name="m_wheel_short">生命之轮</string>
+    <string name="m_wheel_tag">看清生活哪个领域最需要你</string>
+    <string name="m_wheel_about">给生活的八个领域从 1 到 10 打分。轮子一眼就能看出哪些领域偏弱，在那里定一个目标改变最大。每隔几个月重复一次并对比。</string>
+    <string name="m_wheel_how">诚实地给每个领域从 1 到 10 打分。\n找出轮子上的凹陷处。\n挑一个领域去努力。\n几个月后再检查一次。</string>
+    <string name="m_wheel_origin">通常归功于保罗·J·迈耶，Success Motivation Institute 创始人，1960 年代。</string>
+
+    <string name="m_odyssey">奥德赛计划</string>
+    <string name="m_odyssey_short">奥德赛</string>
+    <string name="m_odyssey_tag">未来五年的三种不同版本</string>
+    <string name="m_odyssey_about">勾勒未来五年的三种不同版本：你正在走的人生；如果这条路消失了的人生；以及如果金钱和他人眼光都不重要的人生。给每个版本打分。目标往往会自己浮现。</string>
+    <string name="m_odyssey_how">人生 1：你已经在走的路。\n人生 2：如果这条路明天消失。\n人生 3：如果金钱和他人眼光都不重要。\n给每个版本打分：资源、喜爱程度、信心、一致性。\n把吸引你的东西变成一个目标。</string>
+    <string name="m_odyssey_origin">比尔·伯内特与戴夫·埃文斯，《斯坦福大学人生设计课》，一门斯坦福课程和同名书籍。</string>
+
+    <string name="m_buffett">5 / 25</string>
+    <string name="m_buffett_short">5/25</string>
+    <string name="m_buffett_tag">写下 25 个目标，保留 5 个，避开另外 20 个</string>
+    <string name="m_buffett_about">写下你想要的 25 件事。选出最重要的五个。另外 20 个不是备选清单，而是「不惜一切代价避开」的清单，因为它们会悄悄偷走那五个的时间。</string>
+    <string name="m_buffett_how">写下 25 个目标。\n选出最重要的五个。\n其余的放进避开清单。\n把那五个变成目标。</string>
+    <string name="m_buffett_origin">经由沃伦·巴菲特的飞行员讲述的一个故事，被归于巴菲特名下。巴菲特说这不是他的，但这个想法依然奏效。</string>
+
+    <string name="m_dreamline">梦想清单</string>
+    <string name="m_dreamline_short">梦想清单</string>
+    <string name="m_dreamline_tag">给梦想标上价格，它们就成了计划</string>
+    <string name="m_dreamline_about">把梦想分成三列列出来：拥有、成为、做到。给每个标上价格：一次性或按月。把它们加总成目标月收入，「有朝一日」就变成了一个可以规划的数字。</string>
+    <string name="m_dreamline_how">列出你想拥有、成为和做到的事。\n给每个梦想标价：一次性，还是按月。\n看看你的目标月收入。\n把最早能实现的梦想变成目标。</string>
+    <string name="m_dreamline_origin">蒂姆·费里斯，《每周工作 4 小时》。</string>
+
+    <!-- Screens -->
+    <string name="goals_title">目标</string>
+    <string name="goals_focus">聚焦 %1$d / %2$d</string>
+    <string name="goal_new">新目标</string>
+    <string name="goal_edit">编辑目标</string>
+    <string name="goals_empty">还没有目标。每一片星座都始于一颗星。</string>
+    <string name="goals_quiz">帮我选个方法</string>
+    <string name="goals_unsure">我还不知道自己想要什么</string>
+    <string name="goals_queue">排队等待</string>
+    <string name="goals_queue_text">聚焦上限防止你摊得太薄。等空出一个位置时，再启动其中一个。</string>
+    <string name="goal_today_steps">今天：%1$d / %2$d</string>
+    <string name="goal_start_now">立即开始</string>
+    <string name="goal_reached">目标已达成</string>
+    <string name="goal_drop">放下它</string>
+    <string name="goal_to_queue">移入队列</string>
+    <string name="goal_make_active">回到进行中</string>
+    <string name="method_about_short">关于 %s</string>
+    <string name="goal_lenses">视角</string>
+    <string name="goal_lenses_text">用另一个方法审视这个目标：打磨措辞、找到真正的「为什么」、为障碍做好准备。</string>
+    <string name="goal_delete">删除这个目标？</string>
+    <string name="goal_delete_text">它的所有步骤、笔记和历史都会消失。想保留记忆的话，改为「放下它」。</string>
+    <string name="goal_progress_of">%1$d / %2$d</string>
+    <string name="goal_why">它为什么重要</string>
+    <string name="goal_full_title">所有星星都点亮了</string>
+    <string name="goal_full_text">按这个方法的衡量标准，目标已经完成。真的吗？</string>
+    <string name="goal_queued_title">在队列中</string>
+    <string name="goal_over_limit">你的聚焦上限是 %d。你仍然可以开始这个目标。</string>
+    <string name="goal_closed_done">达成于 %s</string>
+    <string name="goal_closed_dropped">放下于 %s</string>
+    <string name="close_done_title">你做到了！</string>
+    <string name="close_done_text">什么帮助最大？未来的你会想知道。</string>
+    <string name="close_done_hint">帮助我的是……</string>
+    <string name="close_drop_title">放下这个目标？</string>
+    <string name="close_drop_text">放下也是一种决定。这个目标教会了你什么？</string>
+    <string name="close_drop_hint">现在我明白了……</string>
+    <string name="celebrate_title">一片新星座！</string>
+    <string name="celebrate_ok">太棒了</string>
+    <string name="form_method">方法</string>
+    <string name="form_title">目标</string>
+    <string name="form_title_pact">约定</string>
+    <string name="form_title_pact_hint">每天早晨写 200 字</string>
+    <string name="form_title_kaizen_hint">俯卧撑</string>
+    <string name="form_title_fourdx_hint">50 分钟内跑完 10 公里</string>
+    <string name="form_title_okr_hint">把英语说到能用来工作的程度</string>
+    <string name="form_title_hint">你想达成什么？</string>
+    <string name="form_kaizen">起点与步长</string>
+    <string name="form_metric">数字</string>
+    <string name="form_kaizen_text">一个连状态糟糕的日子都能完成的轻松起点，以及每天增加多少。</string>
+    <string name="form_fourdx_text">滞后指标：你现在在哪里、想到哪里去。</string>
+    <string name="form_metric_text">可选：一个展示进展的数字，比如公斤数或存款。</string>
+    <string name="form_kaizen_base">起点</string>
+    <string name="form_kaizen_rate">每日步长</string>
+    <string name="form_kaizen_target">增长到哪为止（可选）</string>
+    <string name="form_why">它为什么重要</string>
+    <string name="form_why_hint">一句话，写给那些你想放弃的日子</string>
+    <string name="form_area">生活领域</string>
+    <string name="form_dates">日期</string>
+    <string name="form_start">开始</string>
+    <string name="form_end">截止日期</string>
+    <string name="form_end_auto">这个方法通常的时长。点按可修改。</string>
+    <string name="form_focus">聚焦</string>
+    <string name="form_focus_start">立即开始</string>
+    <string name="form_focus_text">你的聚焦上限（%d）已满。否则目标会排在队列里等待。</string>
+    <string name="form_create">创建目标</string>
+    <string name="form_create_queued">加入队列</string>
+    <string name="today_no_goals">你的天空现在还空着。设下第一个目标，它就会变成一片星座。</string>
+    <string name="today_only_queued">你所有的目标都在队列里等待。</string>
+    <string name="today_open_queue">打开队列</string>
+    <string name="today_course">今天的航线</string>
+    <string name="today_free">今天没有安排</string>
+    <string name="today_free_text">自由的一天。或者打开一个目标，为今天迈出一步。</string>
+    <string name="today_sky">今天的天空</string>
+    <string name="today_sky_clear">晴空万里</string>
+    <string name="today_sky_lit">点亮 %1$d / %2$d</string>
+    <string name="today_sky_clear_text">今天没有步骤。</string>
+    <string name="today_sky_all">每颗星都亮着。真美。</string>
+    <string name="today_sky_none">每完成一步就点亮一颗星。</string>
+    <string name="today_sky_some">好的开始。继续下去。</string>
+    <string name="today_how_many">今天完成了多少？</string>
+    <string name="today_backup">备用航线</string>
+    <string name="today_if">如果 %s，</string>
+    <string name="today_then">那么 %s</string>
+    <string name="today_review">该做每周复盘了</string>
+    <string name="today_review_text">用十分钟回顾过去，规划下一周。</string>
+    <string name="today_deadlines">截止日期临近</string>
+    <string name="compass_title">指南针</string>
+    <string name="compass_sub">17 种达成目标的方法</string>
+    <string name="compass_quiz">哪种方法适合我？</string>
+    <string name="compass_quiz_text">五个问题，你就能知道从哪里开始。</string>
+    <string name="method_how">它是如何运作的</string>
+    <string name="method_origin">它从何而来</string>
+    <string name="method_start">用这个方法开始一个目标</string>
+    <string name="method_open_tool">打开</string>
+    <string name="method_use_lens">用于一个目标</string>
+    <string name="method_lens_no_goals">先创建一个目标，再用这个视角看它。</string>
+    <string name="method_pick_goal">哪个目标？</string>
+    <string name="journal_title">日志</string>
+    <string name="journal_sub">回顾看看你走了多远</string>
+    <string name="journal_week_steps">本周步数</string>
+    <string name="journal_last_week">上周</string>
+    <string name="journal_reached">已达成目标</string>
+    <string name="journal_reviews">每周复盘</string>
+    <string name="journal_review_edit">本周复盘</string>
+    <string name="journal_review_new">复盘本周</string>
+    <string name="journal_review_text">什么进展顺利、什么挡了路、要改变什么。</string>
+    <string name="journal_wheel_none">给八个生活领域打分，看看目标在哪最能帮上忙。</string>
+    <string name="journal_wheel_last">上次评估 %1$s · 平均 %2$s</string>
+    <string name="journal_wall">星座</string>
+    <string name="journal_wall_empty">达成的目标会在这里闪耀。</string>
+    <string name="journal_dropped">已放下</string>
+    <string name="review_title">每周复盘</string>
+    <string name="review_week_of">%s 这一周</string>
+    <string name="review_goals">你本周的目标</string>
+    <string name="review_no_goals">没有进行中的目标。</string>
+    <string name="review_mood">这一周感觉如何？</string>
+    <string name="mood_0">点一颗星</string>
+    <string name="mood_1">艰难</string>
+    <string name="mood_2">一般般</string>
+    <string name="mood_3">还行</string>
+    <string name="mood_4">不错</string>
+    <string name="mood_5">很棒</string>
+    <string name="review_went">什么进展顺利？</string>
+    <string name="review_went_hint">小胜利也算数</string>
+    <string name="review_blocked">什么挡了路？</string>
+    <string name="review_blocked_hint">不指责，只讲事实</string>
+    <string name="review_change">下周我要改变什么？</string>
+    <string name="review_change_hint">一个小的改变就够了</string>
+    <string name="review_hint_okr">更新关键结果和你的信心</string>
+    <string name="review_hint_weeks12">检查本周的执行得分</string>
+    <string name="review_hint_fourdx">看看记分板，并对下周做出承诺</string>
+    <string name="review_hint_mandala">有没有一颗可以点亮的星？</string>
+    <string name="review_hint_pact">写下你的观察</string>
+    <string name="perm_title">允许通知</string>
+    <string name="perm_text">用于早晨的航线、晚间检查、每周复盘和你的提醒。</string>
+    <string name="set_name">名字</string>
+    <string name="ob_name_hint">你的名字</string>
+    <string name="set_focus">聚焦上限</string>
+    <string name="set_focus_text">同时最多进行几个目标。目标越少，进展越大。其余的排在队列里等待。</string>
+    <string name="set_focus_off">不设上限</string>
+    <string name="set_notifications">通知</string>
+    <string name="set_morning">今天的航线</string>
+    <string name="set_morning_text">每天早晨 %s</string>
+    <string name="set_evening">晚间检查</string>
+    <string name="set_evening_text">于 %s，若仍有未完成的步骤</string>
+    <string name="set_review">每周复盘</string>
+    <string name="set_review_text">%1$s 于 %2$s</string>
+    <string name="autostart_title">通知延迟或收不到？</string>
+    <string name="autostart_text">在小米、华为等部分手机上，请允许 Waypoint 自启动并取消电池限制。</string>
+    <string name="set_feel">感受</string>
+    <string name="set_haptics">振动</string>
+    <string name="set_haptics_text">星星点亮时的一下轻柔震动</string>
+    <string name="set_appearance">外观</string>
+    <string name="theme_dark">夜晚</string>
+    <string name="theme_light">黎明</string>
+    <string name="theme_system">跟随系统</string>
+    <string name="language">语言</string>
+    <string name="lang_system">跟随系统</string>
+    <string name="backup">备份</string>
+    <string name="backup_text">所有数据只保存在这台手机上。导出一份备份文件，以便妥善保存或迁移到新手机。</string>
+    <string name="backup_export">导出</string>
+    <string name="backup_import">导入</string>
+    <string name="backup_import_title">替换所有数据？</string>
+    <string name="backup_import_text">应用内的一切都将被备份数据替换。</string>
+    <string name="backup_done">备份已保存</string>
+    <string name="backup_restored">备份已恢复</string>
+    <string name="backup_failed">出了点问题</string>
+    <string name="about">关于</string>
+    <string name="about_text">Waypoint 免费、无广告、无账号、不联网。由 Stillcraft 用心打造。</string>
+    <string name="about_version">版本 %s</string>
+    <string name="ob_begin">开始吧</string>
+    <string name="ob_tagline">17 种经过验证的达成目标之法，同一片夜空下</string>
+    <string name="ob_f1_title">每个目标都有合适的方法</string>
+    <string name="ob_f1_text">曼陀罗 64、OKR、12 周年度、WOOP 等 17 种，每一种都附指南。</string>
+    <string name="ob_f2_title">目标变成星座</string>
+    <string name="ob_f2_text">你迈出的每一步都会点亮一颗星。</string>
+    <string name="ob_f3_title">一条今天的航线</string>
+    <string name="ob_f3_text">所有目标的步骤集中在一个屏幕，还有应对糟糕日子的备用计划。</string>
+    <string name="ob_f4_title">每周复盘</string>
+    <string name="ob_f4_text">每周十分钟，回顾并调整航线。</string>
+    <string name="ob_f5_title">免费且私密</string>
+    <string name="ob_f5_text">无账号、无广告、不联网。一切都留在手机上。</string>
+    <string name="ob_name">我该怎么称呼你？</string>
+    <string name="ob_name_text">只用于问候。可以跳过。</string>
+    <string name="ob_focus">同时进行几个目标？</string>
+    <string name="ob_focus_text">目标太多时，哪个都动不了。选择可以同时进行的数量，其余会排队等待。</string>
+    <string name="ob_focus_hint">三个适合大多数人。可以在设置里修改。</string>
+    <string name="ob_first">我们从哪里开始？</string>
+    <string name="ob_first_text">选一个此刻适合你的。</string>
+    <string name="ob_first_goal">我知道自己的目标</string>
+    <string name="ob_first_look">先随便看看</string>
+    <string name="channel_course">航线</string>
+    <string name="channel_course_desc">今天的航线、晚间检查、每周复盘和步骤提醒</string>
+    <string name="notif_review_title">该做每周复盘了</string>
+    <string name="notif_review_text">用十分钟回顾过去，并为下周设定航线。</string>
+    <string name="notif_plan_title">如果 %s</string>
+    <string name="notif_plan_text">那么 %s</string>
+    <string name="widget_name">今天的航线</string>
+    <string name="widget_desc">今天所有目标的步骤</string>
+    <string name="widget_no_goals">打开 Waypoint，设下你的第一个目标。</string>
+    <plurals name="notif_morning_title"><item quantity="other">今天的航线：%d 步</item></plurals>
+    <plurals name="notif_evening_title"><item quantity="other">还有 %d 步未完成</item></plurals>
+    <string name="guide_title">这个方法如何运作</string>
+    <string name="guide_steps">步骤</string>
+</resources>

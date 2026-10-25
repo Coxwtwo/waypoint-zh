@@ -8,6 +8,7 @@ object Language {
     const val SYSTEM = ""
     const val EN = "en"
     const val RU = "ru"
+    const val ZH = "zh"
 
     fun current(): String = AppCompatDelegate.getApplicationLocales().toLanguageTags().substringBefore('-').substringBefore(',')
 

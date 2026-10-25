@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Goal-choosing tools (wheel, Odyssey, 5/25, Dreamline) and the method quiz. -->
+<resources>
+    <string name="tool_about">关于这个方法</string>
+    <string name="tool_is_goal">目标</string>
+    <string name="tool_make_goal">制定一个目标</string>
+
+    <!-- Wheel of life -->
+    <string name="wheel_intro">按今天的实际状态，给生活的每个领域从 1 到 10 打分，而不是按它「应该」的样子。没有错误答案。</string>
+    <string name="wheel_average">平均 %s</string>
+    <string name="wheel_comparing">轮廓：%1$s 的评估，平均 %2$s</string>
+    <string name="wheel_rate">现在怎么样？</string>
+    <string name="wheel_save">保存这次评估</string>
+    <string name="wheel_saved">今天已保存</string>
+    <string name="wheel_lowest">目标最能帮上忙的地方</string>
+    <string name="wheel_lowest_text">得分最低的领域。即使在这里定一个小目标，也能撬动整个轮子。</string>
+    <string name="wheel_score">%d / 10</string>
+    <string name="wheel_goal_here">设定一个目标</string>
+    <string name="wheel_history">过去的评估</string>
+    <string name="wheel_history_hint">点按一次评估，与上方的轮子对比。</string>
+
+    <!-- Odyssey plans -->
+    <string name="ody_intro">想象未来五年的三种不同版本。别找「正确」的那个：每一种都是真实的可能性。</string>
+    <string name="ody_life_n">人生 %d</string>
+    <string name="ody_life1">你正在走的路</string>
+    <string name="ody_life2">如果这条路消失了</string>
+    <string name="ody_life3">如果金钱无关紧要</string>
+    <string name="ody_life1_text">你现在做的事，五年后会通向哪里？细致地想象一下。</string>
+    <string name="ody_life2_text">你现在的路突然被堵死了。你会改做什么？</string>
+    <string name="ody_life3_text">金钱、地位和别人的眼光都不重要。你会怎么生活？</string>
+    <string name="ody_sketch">勾勒这种人生</string>
+    <string name="ody_headline">标题</string>
+    <string name="ody_headline_hint">用六个字概括这种人生</string>
+    <string name="ody_story">五年里会发生什么</string>
+    <string name="ody_story_hint">工作、家庭、人、你学到的东西</string>
+    <string name="ody_resources">资源</string>
+    <string name="ody_like">我喜欢</string>
+    <string name="ody_confidence">信心</string>
+    <string name="ody_coherence">一致性</string>
+    <string name="ody_compare">并排对比</string>
+    <string name="ody_total">平均 %d</string>
+    <string name="ody_compare_hint">人生 %d 得分最高。不过分数不是判决：留意你总是不由自主想起哪一种人生。</string>
+    <string name="ody_delete">删除这种人生？</string>
+    <string name="ody_delete_text">这份勾勒和它的评分都会被删除。</string>
+
+    <!-- 5/25 -->
+    <string name="buf_intro">写下你想要的 25 件事，不论大小。然后挑出最重要的五个。</string>
+    <string name="buf_written">已写下 %1$d / %2$d</string>
+    <string name="buf_chosen">已选中 %1$d / %2$d</string>
+    <string name="buf_add">添加目标</string>
+    <string name="buf_empty">开始列清单吧。任何你想要的都算：工作上的、生活里的、为你自己的。</string>
+    <string name="buf_top">最重要的五个</string>
+    <string name="buf_top_empty">点按目标旁边的星星，把它选入前五。</string>
+    <string name="buf_top_full">前五已满。先移除一颗星。</string>
+    <string name="buf_list">其他一切</string>
+    <string name="buf_list_text">点按星星，把目标选入前五。</string>
+    <string name="buf_avoid">不惜一切代价避开</string>
+    <string name="buf_avoid_text">这些不是备选清单。它们刚好重要到会偷走前五的时间，所以暂时别碰。</string>
+    <string name="buf_new">新目标</string>
+    <string name="buf_edit">编辑目标</string>
+    <string name="buf_hint">你想要什么？</string>
+    <string name="buf_choose">选入前五</string>
+    <string name="buf_unchoose">从前五移除</string>
+    <string name="buf_delete">删除这个目标？</string>
+    <string name="buf_delete_text">它会从清单中移除。</string>
+
+    <!-- Dreamline -->
+    <string name="dream_intro">写下你的梦想，给它标个价。很多梦想其实比看上去更便宜。</string>
+    <string name="dream_having">拥有</string>
+    <string name="dream_being">成为</string>
+    <string name="dream_doing">做到</string>
+    <string name="dream_having_hint">东西：一把吉他、海边的一套公寓、一辆好自行车</string>
+    <string name="dream_being_hint">你想成为的人：西班牙语流利、厨艺高超</string>
+    <string name="dream_doing_hint">体验：看极光、跑一场马拉松</string>
+    <string name="dream_tmi">目标月收入</string>
+    <string name="dream_tmi_text">一次性开销分摊到 %d 个月，加上每月开销，再加 30%% 应对意外。</string>
+    <string name="dream_tdi">每天</string>
+    <string name="dream_tdi_text">同样的金额除以 30：每天需要挣到的钱。</string>
+    <string name="dream_timeline">时间线</string>
+    <string name="dream_months">%d 个月</string>
+    <string name="dream_currency">货币</string>
+    <string name="dream_currency_hint">€、$、¥……</string>
+    <string name="dream_empty">这里还没有梦想。先添加第一个，哪怕它看起来遥不可及。</string>
+    <string name="dream_once_value">%s 一次性</string>
+    <string name="dream_monthly_value">%s 每月</string>
+    <string name="dream_free">不花钱</string>
+    <string name="dream_add">添加梦想</string>
+    <string name="dream_totals">合计</string>
+    <string name="dream_total_once">一次性</string>
+    <string name="dream_total_monthly">每月</string>
+    <string name="dream_new">新梦想</string>
+    <string name="dream_edit">编辑梦想</string>
+    <string name="dream_once">一次性</string>
+    <string name="dream_monthly">每月</string>
+    <string name="dream_delete">删除这个梦想？</string>
+    <string name="dream_delete_text">它会从清单中移除。</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title">哪种方法适合？</string>
+    <string name="quiz_step">第 %1$d / %2$d 题</string>
+    <string name="quiz_q1">你的目标是什么样的？</string>
+    <string name="quiz_q1_dream">一个有很多面向的大梦想</string>
+    <string name="quiz_q1_number">一个我能衡量的结果</string>
+    <string name="quiz_q1_habit">一个新习惯或练习</string>
+    <string name="quiz_q1_project">一个有截止日期的项目</string>
+    <string name="quiz_q1_unsure">我还不确定自己想要什么</string>
+    <string name="quiz_q2">你能用数字衡量它吗？</string>
+    <string name="quiz_q2_yes">能：公斤、金钱、页数、分钟</string>
+    <string name="quiz_q2_no">不太能</string>
+    <string name="quiz_q3">它离现在有多远？</string>
+    <string name="quiz_q3_weeks">几周</string>
+    <string name="quiz_q3_quarter">大约三个月</string>
+    <string name="quiz_q3_year">一年或更久</string>
+    <string name="quiz_q4">通常是什么阻碍了你？</string>
+    <string name="quiz_q4_focus">我会因为别的事分心</string>
+    <string name="quiz_q4_delay">我会拖延</string>
+    <string name="quiz_q4_give_up">遇到困难我就放弃</string>
+    <string name="quiz_q4_overwhelm">一切都让人不堪重负</string>
+    <string name="quiz_q4_start">我不知道从哪里开始</string>
+    <string name="quiz_q5">你喜欢多少结构化的安排？</string>
+    <string name="quiz_q5_lot">很多：计划、数字、检视</string>
+    <string name="quiz_q5_little">一点：越轻越好</string>
+
+    <string name="quiz_result_title">这两种最适合你</string>
+    <string name="quiz_best">最佳匹配</string>
+    <string name="quiz_because">为什么：%s。</string>
+    <string name="quiz_start_with">从 %s 开始</string>
+    <string name="quiz_about">关于它</string>
+    <string name="quiz_again">再做一次测验</string>
+    <string name="quiz_tools_title">先选择目标</string>
+    <string name="quiz_tools_text">当目标本身还不清晰时，方法帮不上忙。这些工具帮你找到你真正想要的。</string>
+    <string name="quiz_or_start">或者立即开始</string>
+    <string name="quiz_lens_title">添加一个视角</string>
+    <string name="quiz_lens_woop">如果你容易放弃或拖延，WOOP 会为那个时刻准备一份「如果—那么」计划。</string>
+    <string name="quiz_lens_smart">清晰的表述先行。SMART 把模糊的愿望变成一个可检验的目标。</string>
+    <string name="quiz_lens_premortem">长路漫漫，处处可能跌倒。事前验尸能提前找到它们。</string>
+    <string name="quiz_lens_whys">在长路上，记得当初为什么出发会有帮助。五个为什么找到真正的理由。</string>
+
+    <string name="quiz_why_dream">当整幅图景浓缩在一页纸上时，一个大目标会更容易</string>
+    <string name="quiz_why_number">你的结果是一个数字，而这个方法正是围绕数字构建的</string>
+    <string name="quiz_why_habit">练习靠每天的小步成长得最好</string>
+    <string name="quiz_why_project">有截止日期的项目最适合从终点倒推规划</string>
+    <string name="quiz_why_unsure">它足够轻巧，可以在目标还在成形时就起步</string>
+    <string name="quiz_why_measurable">你可以衡量它，所以能用数字看到进展</string>
+    <string name="quiz_why_not_measurable">它很适合那些难以用数字衡量的目标</string>
+    <string name="quiz_why_weeks">它适合几周的短周期</string>
+    <string name="quiz_why_quarter">它是为大约三个月设计的</string>
+    <string name="quiz_why_year">它经得起一年或更久的漫漫长路</string>
+    <string name="quiz_why_focus">当注意力游移时，它让你专注于一件事</string>
+    <string name="quiz_why_delay">临近的截止日期让你没空间拖延</string>
+    <string name="quiz_why_give_up">小步难以放弃</string>
+    <string name="quiz_why_overwhelm">它把大目标拆成不让人喘不过气的小块</string>
+    <string name="quiz_why_start">它明确告诉你先做什么</string>
+    <string name="quiz_why_structured">它给你喜欢的结构化安排</string>
+    <string name="quiz_why_light">它保持轻松，正如你喜欢的那样</string>
+</resources>

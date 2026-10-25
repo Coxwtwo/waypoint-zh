@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mandala 64, OKR and the 12-week year. -->
+<resources>
+    <!-- Mandala -->
+    <string name="mandala_map">星空图</string>
+    <string name="mandala_lit_total">已点亮：%d / 64 颗星</string>
+    <string name="mandala_hint_title">你的目标已经在正中央</string>
+    <string name="mandala_hint">点按它周围的格子，说出第一根支柱：要走到那里，什么必须成立。然后给每根支柱配八项行动。</string>
+    <string name="mandala_how">这个方法如何运作</string>
+    <string name="mandala_tap_hint">点按一个块可放大。当一项行动成为你的一部分时，点亮一颗星。</string>
+    <string name="mandala_pillar">支柱</string>
+    <string name="mandala_pillar_n">支柱 %d</string>
+    <string name="mandala_pillar_hint">例如：耐力</string>
+    <string name="mandala_pillar_first">这根支柱还没有名字。先给它起名，再添加它的八项行动。</string>
+    <string name="mandala_name_pillar">给支柱起名</string>
+    <string name="mandala_pillar_lit">已点亮：%d / 8</string>
+    <string name="mandala_rename">重命名支柱</string>
+    <string name="mandala_action">行动</string>
+    <string name="mandala_action_hint">例如：周日一次长跑</string>
+    <string name="mandala_new_action">新行动</string>
+    <string name="mandala_add_action">添加一项行动</string>
+    <string name="mandala_light">点亮这颗星</string>
+    <string name="mandala_dim">熄灭这颗星</string>
+    <string name="mandala_streak">连续 %d 天</string>
+    <string name="mandala_part_of_you">已成为你的一部分</string>
+    <string name="mandala_today">今天</string>
+    <string name="mandala_on_today">在今天清单上</string>
+    <string name="mandala_share">分享这张图</string>
+    <string name="mandala_poster_by">由 Waypoint 制作</string>
+
+    <!-- OKR -->
+    <string name="okr_quarter">季度</string>
+    <string name="okr_range">%1$s – %2$s</string>
+    <string name="okr_no_end">一个 OKR 以一个季度为周期。设定它的结束时间。</string>
+    <string name="okr_set_end">90 天后结束</string>
+    <string name="okr_score">得分</string>
+    <string name="okr_score_none">添加关键结果后，得分会显示在这里。</string>
+    <string name="okr_score_good">0.7 及以上对一个雄心勃勃的目标来说就是胜利。</string>
+    <string name="okr_score_mid">正在推进。坚持每周检视。</string>
+    <string name="okr_score_low">还在起步阶段，或者该重新考虑行动举措了。</string>
+    <string name="okr_confidence">信心</string>
+    <string name="okr_confidence_text">你有多相信自己能达成这些关键结果？</string>
+    <string name="okr_krs">关键结果</string>
+    <string name="okr_kr">关键结果</string>
+    <string name="okr_new_kr">新关键结果</string>
+    <string name="okr_kr_hint">例如：读完 12 本书</string>
+    <string name="okr_add_kr">添加关键结果</string>
+    <string name="okr_empty">添加三到五个关键结果：用数字证明目标已经达成。</string>
+    <string name="okr_too_many">超过五个关键结果会分散你的专注。三到五个效果最好。</string>
+    <string name="okr_numbers">%1$s → %2$s（共 %3$s）</string>
+    <string name="okr_check_in">检视</string>
+    <string name="okr_check_in_title">现在进展到哪了？</string>
+    <string name="okr_now">当前</string>
+    <string name="okr_target_is">目标：%s</string>
+    <string name="okr_last_check">更新于 %s</string>
+    <string name="okr_initiatives">行动举措</string>
+    <string name="okr_initiative">行动举措</string>
+    <string name="okr_new_initiative">新行动举措</string>
+    <string name="okr_initiative_hint">例如：睡前读 20 页</string>
+    <string name="okr_add_initiative">添加行动举措</string>
+    <string name="okr_review_hint">每周更新一次数字。每周复盘是个好时机。</string>
+
+    <!-- 12-week year -->
+    <string name="w12_week_of">第 %d 周 / 共 12 周</string>
+    <string name="w12_review_week">复盘周</string>
+    <string name="w12_starts">开始于 %s</string>
+    <string name="w12_ends">结束于 %s</string>
+    <string name="w12_goal85" formatted="false">虚线代表 85%：优秀的一周。</string>
+    <string name="w12_average">平均 %s</string>
+    <string name="w12_this_week">本周</string>
+    <string name="w12_dates">%1$s – %2$s</string>
+    <string name="w12_score_none">本周还没有安排。</string>
+    <string name="w12_score_good">执行出色。</string>
+    <string name="w12_score_mid">不错。再加把劲就是优秀。</string>
+    <string name="w12_score_low">完成胜过完美。挑一项战术，今天就做。</string>
+    <string name="w12_tactic">战术</string>
+    <string name="w12_new_tactic">新战术</string>
+    <string name="w12_tactic_hint">例如：投递两份求职申请</string>
+    <string name="w12_add_tactic">添加战术</string>
+    <string name="w12_empty">把 12 周拆成战术：每周可以打勾的小行动。</string>
+    <string name="w12_no_tactics">本周还没有战术。</string>
+    <string name="w12_vision">愿景</string>
+    <string name="w12_vision_text">几年后你想成为什么样？这 12 周是朝它迈出的一步。</string>
+    <string name="w12_vision_hint">到那时，生活会是什么样子？</string>
+    <string name="w12_over_title">12 周结束了</string>
+    <string name="w12_over_text">第 13 周用来回顾和休息。看看什么奏效，然后带着学到的经验开始下一个 12 周。</string>
+    <string name="w12_review">每周复盘</string>
+    <string name="w12_new_year">新的 12 周年度</string>
+    <string name="w12_new_year_text">新的 12 周年度从今天开始，沿用相同的战术。这一个会以「已完成」的状态移入日志。</string>
+    <string name="w12_new_year_go">开始</string>
+</resources>
