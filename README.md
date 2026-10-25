@@ -12,10 +12,10 @@
 [![Release](https://img.shields.io/github/v/release/bigdevwhale/waypoint?color=E8CD82&label=download&logo=android)](https://github.com/bigdevwhale/waypoint/releases/latest)
 ![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-1B2766?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?logo=kotlin&logoColor=white)
-![Languages](https://img.shields.io/badge/lang-EN%20%7C%20RU-E8CD82)
+![Languages](https://img.shields.io/badge/lang-EN%20%7C%20RU%20%7C%20ZH-E8CD82)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0B1130)](LICENSE)
 
-**English** · [Русский](README.ru.md) · [Website](https://bigdevwhale.github.io/stillcraft/apps/waypoint/) · [Changelog](CHANGELOG.md)
+**English** · [Русский](README.ru.md) · [中文](README.zh.md) · [Website](https://bigdevwhale.github.io/stillcraft/apps/waypoint/) · [Changelog](CHANGELOG.md)
 
 <img src="docs/screenshots/overview.png" alt="Waypoint on a phone: today's course, a goal drawn as a constellation, the Mandala 64 star map and an OKR goal" width="100%" />
 
@@ -69,9 +69,9 @@ Each method comes with what it is, its steps and where it comes from, right wher
   </tr>
 </table>
 
-## English & Русский
+## English, Русский & 中文
 
-Every screen and every method guide is written natively in both languages. Switch in **Settings → Language**; on Android 13+ the app also appears in the system's per-app language settings.
+Every screen and every method guide is written natively in English, Russian and Simplified Chinese. Switch in **Settings → Language**; on Android 13+ the app also appears in the system's per-app language settings.
 
 ## Download
 

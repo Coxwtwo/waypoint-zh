@@ -12,10 +12,10 @@
 [![Release](https://img.shields.io/github/v/release/bigdevwhale/waypoint?color=E8CD82&label=скачать&logo=android)](https://github.com/bigdevwhale/waypoint/releases/latest)
 ![Android 8.0+](https://img.shields.io/badge/Android-8.0%2B-1B2766?logo=android&logoColor=white)
 ![Kotlin](https://img.shields.io/badge/Kotlin-Jetpack%20Compose-7F52FF?logo=kotlin&logoColor=white)
-![Языки](https://img.shields.io/badge/lang-EN%20%7C%20RU-E8CD82)
+![Языки](https://img.shields.io/badge/lang-EN%20%7C%20RU%20%7C%20ZH-E8CD82)
 [![License: MIT](https://img.shields.io/badge/license-MIT-0B1130)](LICENSE)
 
-[English](README.md) · **Русский** · [Сайт](https://bigdevwhale.github.io/stillcraft/apps/waypoint/) · [История изменений](CHANGELOG.md)
+[English](README.md) · **Русский** · [中文](README.zh.md) · [Сайт](https://bigdevwhale.github.io/stillcraft/apps/waypoint/) · [История изменений](CHANGELOG.md)
 
 <img src="docs/screenshots/overview.ru.png" alt="Waypoint на телефоне: курс на сегодня, цель в виде созвездия, звёздная карта Мандалы 64 и цель по OKR" width="100%" />
 
@@ -69,9 +69,9 @@ Waypoint собирает лучшие из них в одном месте, о�
   </tr>
 </table>
 
-## English и Русский
+## English, Русский и 中文
 
-Каждый экран и каждое описание метода написаны на обоих языках, без машинного перевода. Язык меняется в **Настройки → Язык**; на Android 13+ приложение также есть в системных настройках языка для приложений.
+Каждый экран и каждое описание метода написаны на английском, русском и упрощённом китайском, без машинного перевода. Язык меняется в **Настройки → Язык**; на Android 13+ приложение также есть в системных настройках языка для приложений.
 
 ## Скачать
 
